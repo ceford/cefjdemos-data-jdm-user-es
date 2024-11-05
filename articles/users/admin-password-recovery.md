@@ -1,167 +1,108 @@
-<!-- Filename: How_do_you_recover_or_reset_your_admin_password%3F / Display title: Recuperación de contraseña de administrador -->
+<!-- Filename: How_do_you_recover_or_reset_your_admin_password%3F / Display title: Recuperación de Contraseña de Administrador  -->
 
 ## Introducción
 
-Normalmente, puede añadir, editar y borrar usuarios y contraseñas desde
-el gestor de usuarios del back-end. Para hacer esto, debe haber iniciado
-sesión como miembro del grupo de super administradores.
+Normalmente, un Superusuario puede añadir, editar y eliminar usuarios y contraseñas de la lista de Usuarios. En algunas situaciones esto puede no ser posible. Por ejemplo, la persona que conocía la contraseña de un Superusuario ya no está disponible. O tal vez el Superusuario ha olvidado la contraseña que se usó.
 
-En algunas situaciones, puede que esto no sea posible. Por ejemplo, su
-sitio puede haber sido "hackeado" y las contraseñas o usuarios haber
-sido cambiados. O quizás la persona que conocía las contraseñas ya no
-está disponible. O puede que haya olvidado la contraseña que se usaba.
+En tales casos, hay dos métodos disponibles que permiten a un Administrador del sitio iniciar sesión como Superusuario.
 
-En estos casos, aún es posible alterar la base de datos de Joomla! para
-que pueda volver a iniciar sesión como super administrador. Estos son
-los métodos disponicles para los administradores Joomla.
+## Método 1: Editar el archivo configuration.php
 
-## Método 1: Archivo configuration.php
+Si tienes acceso al archivo `configuration.php` de la instalación de Joomla en tu servidor, entonces puedes restablecer una contraseña de Super Usuario o crear un nuevo Super Usuario si puedes iniciar sesión como Gerente o Administrador.
 
-Si tiene acceso a su archivo `configuration.php` para la instalación
-Joomla en su servidor, entonces puede recuperar la contraseña usando el
-siguiente método:
+Necesitas abrir el archivo `configuration.php` en un editor de texto. Primero cambia los permisos del archivo a 644. Tus herramientas de gestión del sitio, como cPanel o Plesk (hay otras), generalmente te permiten hacer esto en línea. Si no, es posible que necesites usar FTP para descargar el archivo, cambiarlo localmente y subirlo de nuevo.
 
-1. Usando un programa de FTP para conectarse a su sitio. Localice el
-fichero configuration.php y compruebe sus permisos. Si los permisos son
-444 o algún otro valor, a continuación, cambie los permisos del fichero
-configuration.php a 644. Esto le evitará problemas al subir los cambios
-que haga en el fichero configuration.php más adelante en este proceso.
-2. Descargue el archivo de configuración.
-3. Abra el archivo configuration.php que ha descargado en un editor de
-   texto como notepad++ y añada esta línea
-
+Añade esta línea al final del archivo, pero antes de la llave de cierre:
+```
     public $root_user='myname';
+```
+donde **myname** es un nombre de usuario con acceso al grupo de *Gerente* o *Administrador* para el que conoces la contraseña. Un nombre de usuario que esté en los grupos de *Autor*, *Editor* o *Publicador* no funcionará porque esos grupos no tienen acceso al backend.
 
-   al final de la lista donde myname es un nombre de usuario con acceso de
-   administrador del que conoce la contraseña. Un nombre de usuario que
-   posea acceso a la vistas del Grupo Autor o nivel superior también puede
-   ser utilizado en lugar de un nombre de usuario con acceso de
-   administrador.
+Este usuario será ahora un Super Usuario temporal.
 
-   Guarde el fichero configuration.php y súbalo de nuevo al sitio. Puede
-   dejar los permisos en el fichero configuration.php en 644
+Inicia sesión en el backend y cambia la contraseña del Super Usuario para el que no tienes la contraseña o crea una nueva cuenta de Super Usuario. Si creas un nuevo usuario, puedes querer bloquear o eliminar al usuario antiguo dependiendo de tus circunstancias.
 
-   Este usuario será ahora un super administrador temporal.
-5. Iniciar la sesión del lado servidor y cambiar la contraseña del
-usuario administrador que no tiene la contraseña o crear un nuevo
-usuario super admin. Si usted crea el nuevo usuario puede bloquear o
-eliminar el antiguo usuario dependiendo de sus circunstancias.
-6. Cuando haya terminado, asegúrese de utilizar el botón "Haga clic
-aquí para tratar de hacerlo de forma automática" en el link que aparece
-en el cuadro de alerta para quitar la línea que agregó al archivo
-configuration.php. Si utilizando el enlace no tuvo éxito, a
-continuación, volver atrás y borrar la línea agregada al archivo
-configuration.php con un editor de texto. Subir el archivo
-configuration.phpde vuelta a la página.
-7. Mediante su programa de FTP compruebe los permisos del archivo
-configuration.php, que debe ser 444. Si usted quita manualmente la línea
-agregada, a continuación, cambiar los permisos del archivo
-configuration.php a 444.
+Cuando termines, asegúrate de usar el enlace *Seleccionar aquí para intentar hacerlo automáticamente* que aparece en el cuadro de alerta para eliminar la línea que fue añadida al archivo configuration.php. Si usar el enlace no fue exitoso, vuelve y elimina la línea añadida de tu archivo configuration.php usando un editor de texto.
 
-Si no tiene ningún usuario del que conocen su contraseña y no se puede
-utilizar lado cliente del registro, puede necesitar hacer un cambio en
-su base de datos como se describe a continuación en este documento.
+Si no tienes usuarios que conozcan sus contraseñas, es posible que necesites hacer un cambio en tu base de datos.
 
-## Método 2: Edición directa de la base de datos
+## Método 2: Editar la Base de Datos
 
-Si el método anterior no funcionó, tiene otras dos opciones, requiriendo
-ambas que se trabaje directamente con la base de datos MyQSL.
+Si los métodos anteriores no funcionaron, tienes dos opciones más, ambas
+requieren trabajar directamente con la base de datos MySQL.
 
-### Cambiar la Contraseña en la Base de datos
+### Cambiar una Contraseña en la Base de Datos
 
-Si el usuario admin esta todavía definido, la opción más sencilla es
-cambiar la contraseña en la base de datos a un valor conocido. Esto
-requiere que usted tenga acceso a la base de datos MySQL con phpMyAdmin
-u otro cliente.
+La opción más sencilla es cambiar la contraseña del Super Usuario en la base
+de datos a un valor conocido. Esto requiere que tengas acceso a la base de
+datos MySQL usando phpMyAdmin u otro cliente. Estas instrucciones muestran cómo
+cambiar una contraseña a la palabra **secret**.
 
-Asegúrese de que cambia su contraseña una vez recupere el acceso
+Este método solo funcionará si el usuario seleccionado está en los grupos
+de *Manager* o *Administrator*.
 
-Estas instrucciones muestran cómo cambiar manualmente una contraseña a
-la palabra - "secret"
+**¡Asegúrate de cambiar la contraseña del Super Usuario una vez que recuperes el acceso!**
 
-1.  Vaya a phpMyAdmin y seleccione la base de datos de Joomla! del sitio
-    en el lado izquierdo del cuadro de la lista desplegable. Esto
-    mostrará las tablas de base de datos en el lado izquierdo de la
-    pantalla.
-2.  Busque y haga clic en la tabla con "\_users" agregado en la lista de
-    tablas (nota: usted puede tener un prefijo que no es como jos\_,
-    simplemente vaya a la tabla que termina en \_users para su prefijo).
-3.  Haga clic en el botón "Examinar" en la parte superior de la barra de
-    herramientas. Esto le mostrará a todos los usuarios de este sitio.
-4.  Localice el usuario cuya contraseña desea cambiar y pulse el icono
-    Editar para esta fila.
-5.  Se mostrará un formulario que le permitirá editar el campo de
-    contraseña. Copie el valor
+1. Abre phpMyAdmin y selecciona la base de datos del sitio Joomla!. Esto
+   mostrará las tablas de la base de datos en el lado izquierdo de la pantalla.
+2. Encuentra y selecciona la tabla *#__users* donde *#_* es el prefijo de la
+   tabla para tu sitio.
+3. En la vista *Browse*, busca el usuario cuya contraseña deseas cambiar y
+   selecciona el icono de Editar para esta fila.
+   - si la lista es larga, selecciona el botón SQL en la parte superior y usa esta consulta:<br>
+   `SELECT * FROM `xxxxx_users` WHERE `username` = 'username'`<br>
+   donde usas tu prefijo de base de datos para reemplazar `xxxxx` y el nombre de usuario
+   que necesitas encontrar en lugar de `username`.
+4. En el formulario de edición cambia la contraseña a<br>
+   `d2064d358136996bd22421584a7cb33e:trd7TvKHx6dMeoMmBVxYmg0vuXEA4199`<br>
+   y selecciona el botón *Go* al final del formulario. phpMyAdmin debería
+   mostrar el mensaje *Affected rows: 1*. En este punto, la contraseña debería
+   ser **secret**.
+5. Inicia sesión con este usuario y contraseña y cambia la contraseña de este
+   usuario por un valor seguro. Revisa todos los usuarios para asegurarte de que
+   son legítimos. Si has sido hackeado, es posible que quieras cambiar todas las
+   contraseñas del sitio.
 
-        d2064d358136996bd22421584a7cb33e:trd7TvKHx6dMeoMmBVxYmg0vuXEA4199
+### Añadir un Nuevo Super Usuario
 
-    en el campo contraseña y pulse el botón "Ir". phpMyAdmin debe
-    mostrar el mensaje "Filas afectadas: 1". En este punto, la
-    contraseña fue cambiada a que ***secret***.
-6.  Inicie la sesión con este usuario y contraseña y cambiar la
-    contraseña de este usuario a un valor seguro. Compruebe que todos
-    los usuarios mediante el Administrador de usuarios para asegurarse
-    de que son legítimos. Si usted ha sido hackeado, es posible que
-    desee cambiar todas las contraseñas en el sitio.
+Si cambiar la contraseña no funciona o no estás seguro de qué usuario es
+miembro del grupo Super Usuario, puedes usar este método para crear un nuevo
+Super Usuario.
+1. Abre phpMyAdmin y selecciona la base de datos del sitio Joomla!.
+2. Selecciona el botón *SQL* en la barra de herramientas para ejecutar una
+   consulta SQL en la base de datos seleccionada. Esto mostrará un campo llamado
+   "Ejecutar consulta/consultas SQL en la base de datos xxxxx".
+3. Elimina cualquier texto en este campo y copia y pega la siguiente consulta.
+   Recuerda reemplazar `xxxxx` con tu propio prefijo de base de datos.
+   ```
+   INSERT INTO `xxxxx_users`
+      (`name`, `username`, `password`, `params`, `registerDate`, `lastvisitDate`, `lastResetTime`)
+   VALUES ('Administrator2', 'admin2',
+       'd2064d358136996bd22421584a7cb33e:trd7TvKHx6dMeoMmBVxYmg0vuXEA4199', '', NOW(), NOW(), NOW());
+   INSERT INTO `xxxxx_user_usergroup_map` (`user_id`,`group_id`)
+   VALUES (LAST_INSERT_ID(),'8');
+   ```
+   Selecciona el botón *Go* para ejecutar la consulta y añadir el nuevo Super Usuario a
+   la tabla.
 
-### Agregar un Nuevo Usuario Super Administrador
+En este punto, deberías poder iniciar sesión en el backend de Joomla!
+con el nombre de usuario *admin2* y la contraseña *secret*.
 
-Si el cambio de la contraseña no funciona, o no está seguro de que el
-usuario es un miembro del grupo Super Administrador, puede utilizar este
-método para crear un nuevo usuario.
+Después de iniciar sesión, ve a la lista de Usuarios y cambia la contraseña a un nuevo valor seguro
+y añade una dirección de correo electrónico válida a la cuenta.
 
-1.  Vaya a phpMyAdmin y seleccione la base de datos de Joomla! del sitio
-    en el lado izquierdo del cuadro de la lista desplegable. Esto
-    mostrará las tablas de base de datos en el lado izquierdo de la
-    pantalla.
-2.  Pulse el botón "SQL"en la barra de herramientas para ejecutar una
-    consulta SQL en la base de datos seleccionada. Esto mostrará un
-    campo llamado *Ejecutar consulta SQL/consultas en la base de datos*.
-3.  Eliminar cualquier texto en este campo, y copiar y pegar la
-    siguiente consulta a continuación y pulse el botón "Ir" para
-    ejecutar la consulta y agregar el nuevo usuario Administrador a la
-    tabla.
-4.  Use la consulta SQL de abajo para agregar otra cuenta de
-    administrador.
+Si existe la posibilidad de que hayas sido *hackeado*, asegúrate de comprobar que todos los usuarios
+son legítimos, especialmente cualquier miembro del grupo Super Usuario.
 
-¡Asegúrese de que coincida con el prefijo de tabla de su base de datos!
+## Contraseñas Temporales Alternativas
 
-El código siguiente utiliza jos31\_ como prefijo del nombre de la tabla
-que es sólo un ejemplo de prefijo de la tabla. El prefijo cuando se
-instala por primera vez Joomla es **ALEATORIO**, o lo que se establece
-específicamente. Usted tendrá que cambiar todas las apariciones de
-**jos31\_** (su prefijo de la instalación) que se encuentran en el
-código de abajo por el prefijo de la instalación que se está usando.
+**Advertencia:** Los valores de contraseña que se muestran en esta página son de conocimiento público y son solo para recuperación. Para evitar ser hackeado, asegúrate de cambiar una contraseña temporal por un valor seguro después de iniciar sesión.
 
-### Código SQL para usar con Joomla
-
-    INSERT INTO `jos31_users`
-       (`name`, `username`, `password`, `params`, `registerDate`, `lastvisitDate`, `lastResetTime`)
-    VALUES ('Administrator2', 'admin2',
-        'd2064d358136996bd22421584a7cb33e:trd7TvKHx6dMeoMmBVxYmg0vuXEA4199', '', NOW(), NOW(), NOW());
-    INSERT INTO `jos31_user_usergroup_map` (`user_id`,`group_id`)
-    VALUES (LAST_INSERT_ID(),'8');
-
-En este punto, usted debería ser capaz de iniciar sesión en ellado
-servidor de Joomla! con el nombre de "admin2" y la contraseña de
-"secret". Después de iniciar sesión, vaya al Administrador de usuarios y
-cambie la contraseña a un nuevo valor seguro y agreguer una dirección de
-correo electrónico válida a la cuenta. Si hay una posibilidad de que
-usted ha sido "hackeado", asegúrese de comprobar que todos los usuarios
-son legítimos, especialmente a los miembros del grupo Super
-Administrador.
-
-**Advertencia:** La los valores de contraseña que se muestran en esta página
-son de conocimiento público y son sólo para la recuperación. Su sitio
-puede ser hackeado si no cambiar la contraseña a un valor seguro después
-de iniciar la sesión. Asegúrese de cambiar la contraseña a un valor
-seguro después de iniciar la sesión.
-
-Los ejemplos anteriores cambiarán la contraseña a `secret`. Otros dos
-posibles valores se muestran a continuación:
-
-    - password = "this is the MD5 and salted hashed password"
+    password = "esta es la contraseña con hash MD5 y salada"
     ------------------------------------------------------
-    - admin  = 433903e0a9d6a712e00251e44d29bf87:UJ0b9J5fufL3FKfCc0TLsYJBh2PFULvT
-    - secret = d2064d358136996bd22421584a7cb33e:trd7TvKHx6dMeoMmBVxYmg0vuXEA4199
-    - OU812  = 5e3128b27a2c1f8eb53689f511c4ca9e:J584KAEv9d8VKwRGhb8ve7GdKoG7isMm
+    admin  = 433903e0a9d6a712e00251e44d29bf87:UJ0b9J5fufL3FKfCc0TLsYJBh2PFULvT
+    secret = d2064d358136996bd22421584a7cb33e:trd7TvKHx6dMeoMmBVxYmg0vuXEA4199
+    OU812  = 5e3128b27a2c1f8eb53689f511c4ca9e:J584KAEv9d8VKwRGhb8ve7GdKoG7isMm
+
+*Traducido por openai.com*
+

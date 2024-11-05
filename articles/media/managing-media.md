@@ -1,164 +1,96 @@
-<!-- Filename: J4.x:Managing_Media / Display title: Managing Media -->
+<!-- Filename: J4.x:Managing_Media / Display title: Gestión de Medios -->
 
-## Introduction
+## Introducción
 
-In Joomla, media are images and files that appear as illustrations or
-links in articles, modules, templates and so on. An important feature of
-media is that they are delivered directly by the web server without
-being processed by Joomla code. This is fast and efficient. Also, be
-aware that media are usually stored in the **images** folder of your
-Joomla web site. Do not confuse this with the **media** folder, which
-contains javascript and style sheet files.
+En Joomla, los medios son imágenes y archivos que aparecen como ilustraciones o enlaces en artículos, módulos, plantillas, etc. Una característica importante de los medios es que son entregados directamente por el servidor web sin ser procesados por el código de Joomla. Esto es rápido y eficiente. Además, ten en cuenta que los medios generalmente se almacenan en la carpeta **images** de tu sitio web Joomla. No la confundas con la carpeta **media**, que contiene archivos javascript y hojas de estilo.
 
-Image and file media are managed with the Media component of Joomla. It
-allows you to organise media content in a folder tree, upload individual
-items, perform some elementary image editing functions, and place images
-and links directly into articles.
+Los medios de imágenes y archivos se gestionan con el componente de Medios de Joomla. Este permite organizar el contenido multimedia en un árbol de carpetas, cargar elementos individuales, realizar algunas funciones elementales de edición de imágenes y colocar imágenes y enlaces directamente en los artículos.
 
-## How to Access
+## Cómo Acceder
 
-From the Joomla Administrator interface there are several routes to open
-the Media component:
+Desde la interfaz de administrador de Joomla hay varias formas de abrir el componente de Medios:
 
-- Select **Content **→** Media** from the Administrator menu.
-- Select **Site panel **→** Media** from the Home Dashboard.
-- Select **CMS Content **→** Media** from an article edit screen.
+- Selecciona **Contenido → Medios** desde el menú del Administrador.
+- Selecciona **Panel del sitio → Medios** desde el Panel de inicio.
+- Selecciona **Contenido del CMS → Medios** desde una pantalla de edición de artículos.
 
-In the first two cases the Media component appears in a normal component
-screen. In the last it appears in a modal dialog.
+En los dos primeros casos, el componente de Medios aparece en una pantalla de componente normal. En el último, aparece en un cuadro de diálogo modal.
 
-## Screenshot
+## Captura de pantalla
 
-The following image shows the Media page just after Joomla installation
-but with the cassiopeia/sampledata folder selected:
+La siguiente imagen muestra la página de Medios justo después de la instalación de Joomla, pero con la carpeta cassiopeia/sampledata seleccionada. Se agregó una carpeta *archivos* para almacenar archivos que no son imágenes y se añadió una carpeta extra llamada *basura* para ilustrar la eliminación de carpetas:
 
-<img
-src="https://docs.joomla.org/images/0/0a/J4.x-media-cassiopeia-sampledata-en.jpg"
-decoding="async" data-file-width="800" data-file-height="406"
-width="800" height="406"
-alt="J4.x-media-cassiopeia-sampledata-en.jpg" />
+![Página de Medios mostrando datos de muestra cassiopeia](../../../en/images/media/media-sample-data-cassiopeia.png)
 
-## Managing Folders
+## Gestión de Carpetas
 
-The sub-folder names in your images folder tree become part of the image
-url so it is important for linking and search engine optimisation
-purposes that the names conform to a convention:
+Los nombres de las subcarpetas en tu árbol de carpetas de imágenes se convierten en parte de la URL de la imagen, por lo que es importante para fines de enlace y optimización para motores de búsqueda que los nombres sigan una convención:
 
-- all lower case
-- no spaces or punctuation
-- if necessary, use a minus sign to create human readable words, for
-  example deciduous-trees rather than deciduous_trees.
+- todo en minúsculas
+- sin espacios ni puntuación
+- si es necesario, utiliza un guion para crear palabras legibles por humanos, por ejemplo, árboles-de-hoja-caduca en lugar de arboles_de_hoja_caduca.
 
-Before creating much content for your site it may pay to think ahead to
-how you might categorise your content and perhaps create an images
-folder tree that is similar to your category tree. Otherwise you may end
-up with a very large number of images and files in the root of your
-images tree and that will become difficult to manage. If you decide to
-move images into a better structure later you will have to find the
-links to those images in your articles and change them. That could be a
-time-consuming, daunting task!
+Antes de crear mucho contenido para tu sitio, puede ser útil pensar con anticipación en cómo podrías categorizar tu contenido y tal vez crear un árbol de carpetas de imágenes que sea similar a tu árbol de categorías. De lo contrario, podrías terminar con un gran número de imágenes y archivos en la raíz de tu árbol de imágenes y eso se volverá difícil de gestionar. Si decides mover imágenes a una mejor estructura más adelante, tendrás que encontrar los enlaces a esas imágenes en tus artículos y cambiarlos. ¡Eso podría ser una tarea que consume mucho tiempo y abrumadora!
 
-### Folder Navigation
+### Navegación de Carpetas
 
-Use the folder tree in the **Local** column to select a folder. In the
-case illustrated above the cassiopeia folder was first selected. That
-revealed the sampledata folder which was then select to show its
-content.
+Utiliza el árbol de carpetas en la columna **Local** para seleccionar una carpeta. En el caso ilustrado arriba, se seleccionó primero la carpeta cassiopeia. Eso reveló la carpeta *sampledata*, que luego se seleccionó para mostrar su contenido.
 
-The current location is also indicated in the breadcrumbs above the
-images. In this case **images **→** cassiopeia **→** sampledata**.
+La ubicación actual también se indica en las migas de pan (breadcrumbs) sobre las imágenes. En este caso **imágenes → cassiopeia → sampledata**.
 
-If you select a different folder the previous folder at the same level
-closes.
+Si seleccionas una carpeta diferente, la carpeta anterior al mismo nivel se cerrará.
 
-### Creating a folder
+### Creación de una carpeta
 
-- Select the parent folder under which the new folder should be created.
-- Select the **Create New Folder** button.
-- In the *Create New Folder* popup window, enter a name for the folder
-  in the **Folder Name** field.
-- Click the **Create** button.
-- The new folder will appear in in the selected parent folder along with
-  a green Success system message.
+- Selecciona la carpeta principal bajo la cual se debe crear la nueva carpeta.
+- Selecciona el botón **Crear Nueva Carpeta**.
+- En la ventana emergente *Crear Nueva Carpeta*, ingresa un nombre para la carpeta en el campo **Nombre de Carpeta**.
+- Haz clic en el botón **Crear**.
+- La nueva carpeta aparecerá en la carpeta principal seleccionada junto con un mensaje de sistema de éxito en verde.
 
-### Deleting a folder
+### Borrado de una carpeta
 
-***Warning: deleting a folder will also delete all contents of the
-folder!***
+**Advertencia: borrar una carpeta también eliminará todo el contenido de la carpeta!**
 
-- Select the parent of the folder to be deleted using the directory tree
-  shown under **Local**. That will show all of the folders and files in
-  the parent.
-- Move the cursor over the folder to be deleted in the media area. It
-  will turn grey and a white button will appear near the top left.
-- Select the white button. A green tick will appear to indicate it is
-  selected.
-- Select the **Delete** button from the Toolbar.
-- In the **Confirm Delete** popup dialog select the **Delete** button.
-  The folder will be deleted along with all of it files, subfolders and
-  their files.
+- Selecciona la carpeta principal de la carpeta que se va a eliminar utilizando el árbol de directorios mostrado en **Local**. Eso mostrará todas las carpetas y archivos en el principal.
+- Mueve el cursor sobre la carpeta que se va a eliminar en el área de medios. Se volverá gris y aparecerá un botón cerca de la parte superior izquierda.
+- Selecciona el botón. Aparecerá una marca para indicar que está seleccionada.
+- Selecciona el botón **Eliminar** de la barra de herramientas.
+- En el diálogo emergente **Confirmar Eliminación**, selecciona el botón **Eliminar**. La carpeta será eliminada junto con todos sus archivos, subcarpetas y sus archivos.
 
-The folder selected for deletion is illustrated below:
+La carpeta seleccionada para eliminación se ilustra a continuación:
 
-<img
-src="https://docs.joomla.org/images/4/40/J4.x-media-delete-folder-en.jpg"
-decoding="async" data-file-width="800" data-file-height="201"
-width="800" height="201" alt="J4.x-media-delete-folder-en.jpg" />
+![Página de medios mostrando la carpeta de basura](../../../en/images/media/media-sample-data-garbage-select.png)
 
-## Media Area Toolbar
+## Barra de Herramientas del Área de Medios
 
-This is the bar above the list of images, files and folders that has
-buttons for a variety of tasks.
+Esta es la barra encima de la lista de imágenes, archivos y carpetas que contiene botones para una variedad de tareas.
 
-### Select box
+### Caja de selección
 
-A check box that allows you to select all of the items in the folder
-displayed in the media area. You might want to use it to delete all of
-the current items without deleting the folder.
+Una casilla de verificación que te permite seleccionar todos los elementos en la carpeta mostrada en el área de medios. Puedes querer usarla para eliminar todos los elementos actuales sin borrar la carpeta.
 
-### Breadcrumbs
+### Ruta de navegación
 
-Use the folder names above the media area to go backwards in the folder
-hierarchy.
+Usa los nombres de las carpetas sobre el área de medios para retroceder en la jerarquía de carpetas.
 
-Double click a folder name in the media area to open that folder.
+Haz doble clic en el nombre de una carpeta en el área de medios para abrir esa carpeta.
 
-### Search
+### Búsqueda
 
-If you have a long list of images and files you can search for items
-containing any group of characters. The search is progressive: as you
-add characters to the search term the list is reduced to just those
-containing that character string.
+Si tienes una lista larga de imágenes y archivos, puedes buscar elementos que contengan cualquier grupo de caracteres. La búsqueda es progresiva: a medida que añades caracteres al término de búsqueda, la lista se reduce hasta contener solo aquellos que tienen esa cadena de caracteres.
 
-### Magnify
+### Aumentar
 
-Use the magnify buttons to enlarge or reduce the thumbnail size.
-Depending on the size of your screen you may see 2, 4, 6 or 8 thumbnail
-images side by side.
+Usa los botones de aumentar para agrandar o reducir el tamaño de la miniatura. Dependiendo del tamaño de tu pantalla, puedes ver 2, 4, 6 u 8 imágenes en miniatura una al lado de la otra.
 
-### List or Thumbnail Views
+### Vistas de Lista o Miniaturas
 
-In thumbnail view, select the list symbol to switch to list view. In
-list view, select the thumbnail symbol to switch to thumbnail view. In
-list view you will see information on image size and dimensions, amongst
-other data.
+En la vista de miniaturas, selecciona el símbolo de lista para cambiar a la vista de lista. En la vista de lista, selecciona el símbolo de miniatura para cambiar a la vista de miniaturas. En la vista de lista verás información sobre el tamaño y las dimensiones de la imagen, entre otros datos.
 
-### Information
+### Icono de Información
 
-Select the Information icon to open a side panel showing information
-about whatever is selected.
+Selecciona el icono de Información para abrir un panel lateral que muestra información sobre lo que esté seleccionado.
 
-## Further Information
+*Traducido por openai.com*
 
-In this series of tutorials:
-
--  Managing
-  Media
--  Media: Upload Delete
-  Rename
--  Media: Image Crop Resize
-  Rotate
--  Media:
-  Options
--  Media: Uploading SVG
-  files

@@ -1,0 +1,3 @@
+<!-- Filename: What_are_web_standards%3F / Display title: ¿Qué son los estándares web? -->
+
+Los estándares web son documentos o compilaciones de documentos que contienen definiciones de tecnologías o directrices para definir tecnologías relacionadas con la World Wide Web. Estos documentos aseguran la compatibilidad y accesibilidad entre las tecnologías competidoras creadas por múltiples proveedores y garantizan que cualquiera que esté dispuesto a construir o usar una tecnología conforme a los estándares no se vea obligado a seleccionar una plataforma propietaria. El emisor más destacado de los estándares web es el Consorcio World Wide Web.

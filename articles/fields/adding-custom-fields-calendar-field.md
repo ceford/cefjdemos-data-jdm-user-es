@@ -1,127 +1,38 @@
-<!-- Filename: J3.x:Adding_custom_fields/Calendar_Field / Display title: Agregar campos personalizados - Campo de calendario -->
+<!-- Filename: J3.x:Adding_custom_fields/Calendar_Field / Display title: Campo de Calendario -->
 
-## Campo de calendario
+## Propósito
 
-**Artículos en esta serie**
+El campo de Calendario proporciona un cuadro de texto para ingresar una fecha. Un ícono al lado del cuadro de texto invoca un selector de calendario emergente, que se puede usar para seleccionar una fecha de un calendario gráfico.
 
-1.  Introducción
-2.   Parámetros para todos los campos
-    personalizados
-3.   Campo de
-    calendario
-4.   Campo de chequeo
-    (checkbox)
-5.   Campo de
-    color
-6.   Campo
-    editor
-7.   Campo de
-    galería
-8.   Campo de lista de
-    imágenes
-9.   Campo de
-    media
-10.  Campo
-    radio
-11.  Campo
-    Sql
-12.  Campo
-    repetible
-13.  Campo de
-    texto
-14.  Campo de área de texto
-    (textarea)
-15.  Campo de
-    url
-16.  Campo de
-    usuario
-17.  Campo de grupo de
-    usuario
-18.  ¿Cómo puedo agrupar campos
-    personalizados?
-19.  ¿Qué componentes soportan campos
-    personalizados?
-20. Ejemplo
-21.  Implementación en tu
-    componente
-22.  Utilizar campos personalizados en tus
-    sustituciones
+## Creación de Campos
 
-## Campo de calendario
+Los parámetros comunes de campo se describen en un artículo separado.
 
-Ofrece una caja de texto para ingresar una fecha. Un ícono al lado de la
-caja de texto provee un enlace a un calendario "pop-up", que puede ser
-usado también para ingresar el valor de la fecha.
+* **Título** Puedes tener varios campos de fecha en un artículo, por lo que se debe tener cuidado al establecer el título para evitar ambigüedades en el resultado.
+* **Etiqueta** Esto es lo que se muestra en el resultado. Si se deja vacío, se establece a partir del contenido del campo de Título, pero se puede cambiar.
+* **Mostrar Hora** Si se establece en *Sí*, se añade la hora al campo de fecha, al selector de fecha y a la fecha de salida. **Precaución**: Incluso si no especificas la hora en la fecha predeterminada, la hora se muestra cuando la opción *Mostrar hora* está activa.
+* **Espacio Reservado** Se puede establecer en un formato de fecha como *AAAA-MM-DD* para recordar a los usuarios el formato requerido y/o un recordatorio del propósito de la fecha, como *Fecha de llegada*.
 
-#### Opciones
+## Entrada de datos
 
-Si usa la fecha predeterminadaː, el valor puede ser un formato ISO 8601
-(AAAA-MM-DD HH:MM:SS) o NOW, que muestra la fecha real. **Precaución**:
-incluso si no especifica la hora en la fecha predeterminada, la hora se
-muestra cuando la opción *Mostrar hora* está activa.
-Las opciones especiales en este campo son:
+El uso del campo de Calendario es sencillo. Puedes escribir la fecha en el formato requerido o seleccionar una fecha usando el selector de fechas. Se necesita cuidado al escribir las fechas. Un error en la fecha se corrige al guardar con una nueva fecha. Por ejemplo, una fecha de 2024-14-02 se corrige a 2025-02-02.
 
-- Mostrar hora
-  Si está activado, el campo de calendario permitirá seleccionar la hora
-  también. Los formatos para cada idioma o país son determinados con las
-  cadenas de lenguaje habituales.
+La siguiente captura de pantalla muestra una fecha de adquisición:
 
-#### Información relacionada
+![entrada de fecha de adquisición](../../../en/images/fields/fields-date-entry.png "Fecha de adquisición")
 
-Ver:
+Los campos solo aparecen en un artículo si se han completado en el formulario de ingreso de datos del artículo.
 
--  Campo de formulario - Tipo
-  calendario
-- <a href="http://php.net/manual/en/datetime.formats.date.php"
-  class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">Formatos de fecha</a>
 
-#### Capturas de pantalla
+## Visualización de Datos
 
-##### Crear el campo
+La siguiente captura de pantalla del sitio muestra el campo mostrado en un artículo. La opción *Visualización automática* es responsable de la posición del campo y tu plantilla es responsable del diseño del campo.
 
-Supongamos que creas un campo con las opciones mostradas en la siguiente
-imagen.
+Busca el elemento **Fecha de Adquisición**.
 
-<img
-src="https://docs.joomla.org/images/thumb/5/55/Calendar_field_create-en.png/670px-Calendar_field_create-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/5/55/Calendar_field_create-en.png/1005px-Calendar_field_create-en.png 1.5x, https://docs.joomla.org/images/5/55/Calendar_field_create-en.png 2x"
-data-file-width="1291" data-file-height="663" width="670" height="344"
-alt="Calendar field create-en.png" />
+![Visualización de todos los campos](../../../en/images/fields/fields-display.png "Visualización de campos")
 
-##### Usar el campo en el administrador
+Los formatos de fecha están localizados utilizando cadenas de idioma.
 
-Cuando creas un artículo o contacto en el administrador, puedes ver el
-campo como en la siguiente imagen:
+*Traducido por openai.com*
 
-<img
-src="https://docs.joomla.org/images/thumb/f/f9/Calendar-en.png/670px-Calendar-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/f/f9/Calendar-en.png/1005px-Calendar-en.png 1.5x, https://docs.joomla.org/images/f/f9/Calendar-en.png 2x"
-data-file-width="1291" data-file-height="663" width="670" height="344"
-alt="Calendar-en.png" />
-
-##### Usar el campo en el sitio web
-
-En el sitio web (frontend), puedes ver el campo tal y como se muestra en
-la siguiente imagen. La opción "Visualización automática" es responsable
-de la posición del campo y tu plantilla es responsable por el diseño del
-campo.
-Los campos solo se muestran en el sitio web si tienen algún valor en
-dicho artículo.
-
-<img
-src="https://docs.joomla.org/images/thumb/f/fb/Calendar_field_frontend-en.png/670px-Calendar_field_frontend-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/f/fb/Calendar_field_frontend-en.png/1005px-Calendar_field_frontend-en.png 1.5x, https://docs.joomla.org/images/f/fb/Calendar_field_frontend-en.png 2x"
-data-file-width="1291" data-file-height="663" width="670" height="344"
-alt="Calendar field frontend-en.png" />
-
-<a
-href="https://docs.joomla.org/J3.x:Adding_custom_fields/Parameters_for_all_Custom_Fields"
-id="content-button" class="button expand success">Anterior: Parámetros
-para todos los campos personalizados</a> <a
-href="https://docs.joomla.org/J3.x:Adding_custom_fields/Checkboxes_Field"
-id="content-button" class="button expand">Siguiente: Campos de
-checkbox</a>

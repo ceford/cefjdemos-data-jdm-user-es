@@ -1,176 +1,77 @@
-<!-- Filename: Using_A_Sitemap / Display title: Usar un Sitemap -->
+<!-- Filename: Using_A_Sitemap / Display title: Usando un Mapa del Sitio -->
 
-## Usar un Sitemap (mapa del sitio)
+## Uso de un Mapa del Sitio
 
-Ya que los motores de búsqueda generalmente pueden encontrar las páginas
-por la forma en que están enlazadas desde otros lugares en internet, es
-una buena práctica crear un mapa del sitio que de a los 'bots' del motor
-de búsqueda una lista de las páginas de tu sitio web - piensa en ello
-como un mapa para encontrar todo el contenido en tu sitio.  
+Aunque los motores de búsqueda generalmente pueden encontrar tus páginas según cómo están vinculadas desde otros lugares en internet, es una buena práctica crear un mapa del sitio que proporcione a los 'bots' de los motores de búsqueda una lista de las páginas en tu sitio web; piensa en ello como un mapa para encontrar todo el contenido en tu sitio. Los mapas del sitio no solo son importantes para los motores de búsqueda, también son muy útiles para personas con discapacidades que pueden necesitar una interfaz sencilla para ver la estructura de tu sitio y navegar sin utilizar tus estructuras de menú. <a href="https://www.w3.org/TR/WCAG20-TECHS/G63.html"
+rel="nofollow noreferrer noopener">Nota del Grupo de Trabajo de W3C sobre
+Mapas del Sitio</a>
 
-Los mapas del sitio son importantes no sólo para los motores de
-búsqueda, ya son también muy útiles para las personas con discapacidad
-que necesitan de una interfaz sencilla para ver la estructura del sitio
-y navegar por el sitio sin necesidad de utilizar menú estructurados.
-<a href="http://www.w3.org/TR/WCAG20-TECHS/G63.html"
-class="external text" target="_blank"
-rel="nofollow noreferrer noopener">Grupo de Trabajo del W3C Nota sobre
-mapas del sitio</a>
+Un mapa del sitio cumple varios propósitos:
 
-Un mapa del sitio sirve para varios propósitos:
+- Proporciona una lista estructurada que muestra una visión general de todo el contenido de tu sitio web
+- Permite que un visitante obtenga rápidamente una visión general de la estructura de tu sitio
+- Ofrece una forma alternativa de navegar por tu sitio web, sin necesidad de estructuras de menú complejas
+- Proporciona a los motores de búsqueda un medio para encontrar contenido que podría no estar disponible a través de tus estructuras de menú (por ejemplo, páginas de aterrizaje)
 
-- Proporciona una lista estructurada para mostrar una visión general de
-  todo el contenido de tu sitio web
-- Permite a un visitante obtener rápidamente una visión general de la
-  estructura de tu sitio
-- Proporciona una manera alternativa de navegación por tu sitio web, sin
-  necesidad de complejas estructuras de menú
-- Proporciona a los motores de búsqueda un medio de búsqueda de
-  contenido que puede no estar disponibles a través de las estructuras
-  de tu menú (por ejemplo, páginas de inicio)
+### Tipos de Mapa del Sitio
 
-### Tipos de mapas del sitio
-
-Es posible proporcionar mapas del sitio para tipos específicos de
-información, incluyendo:
+Es posible proporcionar mapas del sitio para tipos específicos de información, incluyendo:
 
 - Video <a href="https://support.google.com/webmasters/answer/80471"
-  class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">Ayuda de Google para mapas del sitio
-  de vídeos</a>
+  rel="nofollow noreferrer noopener">Ayuda de Google sobre mapas del sitio de videos</a>
 - Imágenes <a
   href="https://support.google.com/webmasters/answer/answer.py?answer=178636"
-  class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">Ayuda de Google para mapas del sitio
-  de imágenes</a>
-- Noticias
-  <a href="https://support.google.com/news/publisher/answer/75717"
-  class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">Ayuda de Google sobre mapas del sitio
-  de Noticias</a>
+  rel="nofollow noreferrer noopener">Ayuda de Google sobre mapas del sitio de imágenes</a>
+- Noticias <a href="https://support.google.com/news/publisher/answer/75717"
+  rel="nofollow noreferrer noopener">Ayuda de Google sobre mapas del sitio de noticias</a>
 - Internacional <a
   href="https://support.google.com/webmasters/answer/2620865?hl=en&amp;ref_topic=2370587"
-  class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">Ayuda de Google para mapas del sitio
-  internacionales</a>
+  rel="nofollow noreferrer noopener">Ayuda de Google sobre mapas del sitio internacionales</a>
 
-Estos mapas del sitio específicos permiten proporcionar información
-relacionada con un tipo de medio en particular - por ejemplo, con un
-mapa del sitio de vídeo puedes proporcionar información sobre el tiempo
-de ejecución, categoría y control familiar; con el mapa del sitio para
-imágenes puedes especificar el tema de la imagen, su licencia de uso y
-el tipo de imagen.
+Estos mapas del sitio especializados te permiten proporcionar información relacionada con el tipo específico de medio; por ejemplo, con un mapa del sitio de video puedes proporcionar información sobre el tiempo de ejecución, categoría y estado de apto para familias; con mapas del sitio de imágenes puedes especificar el sujeto de la imagen, su licencia de uso y tipo de imagen.
 
-### Crear un mapa del sitio
+### Creando un mapa del sitio
 
-En un sitio estático, la creación de un mapa del sitio es simplemente
-generar manualmente un archivo XML con los estándares apropiados y
-guardarlo como un archivo XML. En un sitio dinámico, donde los cambios
-de contenido se producen regularmente, esto no es una opción apropiada
--se tendría que actualizar manualmente el archivo del mapa del sitio
-cada vez que se agrega un nuevo contenido!
+En un sitio estático, crear un mapa del sitio es simplemente el caso de crear manualmente un archivo XML usando los estándares apropiados, y guardarlo como un archivo XML. En un sitio dinámico, donde el contenido cambia regularmente, esto no es realmente una opción: ¡tendrías que actualizar manualmente el archivo del mapa del sitio cada vez que agregues contenido nuevo!
 
-Por esta razón, hay varias extensiones para mapa del sitio disponibles
-en el Directorio de Extensiones de Joomla! (<a
-href="http://extensions.joomla.org/category/structure-a-navigation/site-map"
-class="external text" target="_blank"
-rel="noreferrer noopener">Categoría mapa del sitio en el Directorio de
-Extensiones de Joomla!</a>) que permiten generar dinámicamente un mapa
-del sitio que cumpla con los estándares esperados por los motores de
-búsqueda para un archivo de mapa del sitio.
-<a href="http://www.sitemaps.org/es" class="external text"
-target="_blank" rel="nofollow noreferrer noopener">Protocolo de mapas
-del sitio</a>
+Por esta razón, hay varias extensiones de mapas del sitio disponibles en el Directorio de Extensiones de Joomla (<a href="https://extensions.joomla.org/category/structure-a-navigation/site-map"
+rel="noreferrer noopener">Categoría de Mapa del Sitio en el Directorio de Extensiones de Joomla</a>) que te permiten crear dinámicamente un mapa del sitio que cumpla con los estándares de mapas del sitio esperados por los motores de búsqueda. <a href="https://www.sitemaps.org/"
+rel="nofollow noreferrer noopener">Protocolo de Sitemaps</a>
 
-La mayoría de estas extensiones trabajan por la elección de los
-elementos del menú que deseas incluir en un mapa del sitio y especifican
-con qué frecuencia cambian (ver Frecuencia de Actualización). También es
-posible incluir sub-páginas de aquellos elementos del menú (por ejemplo,
-un elemento de menú puede conducir a una página de categoría del blog,
-pero tu deseas mostrar todos los artículos que se muestran en esa página
-como elementos individuales -otro ejemplo podría ser un elemento del
-menú que apunta a una página de categoría de una tienda y en el mapa del
-sitio que tu deseas es la lista de la categoría y, a continuación, cada
-producto dentro de él como un enlace separado).
+La mayoría de estas extensiones funcionan eligiendo elementos de menú que deseas incluir en un mapa del sitio, y especificando con qué frecuencia cambian (ver Frecuencia de Actualización). También es posible incluir subpáginas de esos elementos de menú (por ejemplo, un elemento de menú podría llevar a una página de blog de categoría, pero deseas mostrar todos los artículos que se muestran en esta página como elementos individuales; otro ejemplo podría ser un elemento de menú que apunte a una página de categoría de tienda, y en el mapa del sitio deseas listar la categoría, y luego cada producto dentro de ella como un enlace separado).
 
-### Frecuencia de actualización
+### Frecuencia de Actualización
 
-Ya que puedes especificar manualmente en tu mapa del sitio con qué
-frecuencia las arañas de motor de búsqueda deben visitar tu sitio web,
-la mayoría de los motores de búsqueda han incorporado sistemas que se
-ajustan automáticamente la frecuencia de visitas que se basas en la
-frecuencia con que cambia la página en cuestión.
+Aunque puedes especificar manualmente en tu mapa del sitio con qué frecuencia los motores de búsqueda deberían visitar tu sitio web, la mayoría de los motores de búsqueda tienen sistemas internos que ajustan automáticamente la frecuencia de las visitas de retorno basadas en la frecuencia con la que ha cambiado la página en cuestión.
 
-Así, por ejemplo, si le dices a los bots de los buscadores que visiten
-tu página de forma diaria, pero cuando visitas la página no ha cambiado
-nada durante una semana, se puede ajustar la frecuencia de revisita en
-consecuencia y no volver tan a menudo como has dicho. Puedes solicitar,
-a través de los distintos portales de webmasters, para revisar la tasa a
-modificar si es necesario.
+Entonces, por ejemplo, si indicas a los bots de los motores de búsqueda que visiten tu página diariamente, pero cuando visitan la página nada ha cambiado durante una semana, pueden ajustar la frecuencia de las revisitas en consecuencia y no regresar tan a menudo como les dijiste. Puedes solicitar, a través de los diversos portales para webmasters, que la tasa de revisita se modifique si es necesario.
 
-Esto sugeriría que, por lo tanto, si cambias con regularidad el
-contenido de tu sitio web será 'visitado' con más frecuencia -lo que
-conduce a que el contenido se indexe más rápido que los sitios web que
-no cambian a menudo.
+Esto sugeriría, por lo tanto, que si tienes contenido que cambia regularmente, tu sitio será 'explorado' con más frecuencia, lo que lleva a que el contenido sea indexado más rápido que en los sitios web que no cambian a menudo.
 
-Es generalmente sensible especificar las páginas estáticas para ser
-rastreadas con menos frecuencia que las que cambian regularmente. Por
-ejemplo, un artículo con texto estático se puede establecer con una
-frecuencia de actualización de una vez al mes, mientras que tu blog o
-página de noticias se puede establecer con una frecuencia de
-actualización de una vez al día o una vez a la semana, dependiendo de la
-frecuencia con que se añada nuevo contenido.
+Generalmente es sensato especificar que las páginas que son estáticas sean rastreadas con menos frecuencia que aquellas que cambian regularmente. Por ejemplo, un artículo de texto estático podría configurarse con una frecuencia de actualización de una vez al mes, mientras que tu página de blog o de noticias podría configurarse con una frecuencia de actualización de una vez al día o una vez a la semana, dependiendo de con qué frecuencia agregues nuevo contenido.
 
-### Mapa del sitio HTML
+### Mapas del Sitio HTML
 
-Un mapa del sitio HTML es esencialmente una tabla de contenido para tu
-sitio que puedes poner a disposición de los visitantes de tu sitio web.
-Esto sirve a dos propósitos:
+Un mapa del sitio HTML es esencialmente una tabla de contenidos para tu sitio que puedes hacer disponible para los visitantes de tu sitio web. Esto cumple dos propósitos:
 
-1.  Proporciona un lugar donde los visitantes pueden conseguir
-    fácilmente cualquier contenido de tu sitio, incluso si esto no es
-    necesariamente de fácil acceso con otras ayudas a la navegación en
-    el sitio
-2.  Proporciona un almacén centralizado de enlaces a los contenidos en
-    tu sitio web que puede ser fácilmente indexado por los motores de
-    búsqueda
-3.  Permite a los usuarios con discapacidad ser capaces de navegar
-    rápidamente por tu sitio web con una simple lista de enlaces, en
-    lugar de complejos menús
+1.  Proporciona un lugar donde los visitantes pueden ir para acceder fácilmente a cualquier contenido en tu sitio, incluso si no es necesariamente fácil de acceder mediante otras ayudas de navegación en el sitio
+2.  Proporciona un almacén centralizado de enlaces al contenido en tu sitio que puede ser fácilmente indexado por los motores de búsqueda
+3.  Permite que los usuarios con discapacidades puedan navegar rápidamente por tu sitio web con una lista simple de enlaces, en lugar de a través de menús complejos
 
-Por lo menos, un mapa del sitio debe enlazar a las secciones y páginas
-principales dentro de tu sitio, pero si es más detallada puede que sea
-mejor.
+Al menos, un mapa del sitio debería enlazar con las principales secciones y páginas dentro de tu sitio, pero cuanto más detallado lo puedas hacer, mejor.
 
-Hay extensiones disponibles, como se mencionó anteriormente, que crean
-mapas del sitio de forma automática basándose en el contenido de
-Joomla!.
+Existen extensiones disponibles previamente mencionadas que crean mapas del sitio automáticamente basados en contenido de Joomla.
 
-### Mapa del sitio XML
+### Mapas del Sitio XML
 
-Los mapa del sitio XML son una manera fácil de los webmasters para
-informar a los motores de búsqueda de las páginas existentes en sus
-sitios web y que están disponibles para el rastreo. En su forma más
-simple, un mapa del sitio es un archivo XML que enumera las Url de un
-sitio junto con metadatos adicionales acerca de cada URL (cuando se
-realizó la última actualización, la frecuencia con que generalmente
-cambian y lo más importante la relación a otras direcciones Url en el
-sitio), de modo que los motores de búsqueda hagan un rastreo más
-inteligente del sitio.
+Los mapas del sitio XML son una manera fácil para que los webmasters informen a los motores de búsqueda sobre nuevas y existentes páginas en sus sitios que están disponibles para rastrear. En su forma más simple, un mapa del sitio es un archivo XML que lista URLs para un sitio junto con metadatos adicionales sobre cada URL (cuándo fue actualizada por última vez, con qué frecuencia suele cambiar, y cuán importante es, en relación con otras URLs en el sitio) para que los motores de búsqueda puedan rastrear el sitio de manera más inteligente.
 
-Utilizar el protocolo de mapa del sitio no garantiza que las páginas web
-sean incluidas en los motores de búsqueda, pero proporciona sugerencias
-para los rastreadores web para hacer un mejor trabajo de rastreo de tu
-sitio.
+El uso del protocolo de mapas del sitio no garantiza que las páginas web se incluyan en los motores de búsqueda, pero proporciona indicios para que los rastreadores web hagan un mejor trabajo al rastrear tu sitio.
 
-1.  Un mapa del sitio XML proporciona una lista de enlaces a los
-    contenidos en tu sitio web que puede ser fácilmente indexado por los
-    motores de búsqueda
-2.  Es posible crear mapas del sitio XML específicos para Noticias,
-    Móviles, URLs, Imágenes, y Vídeo
+1.  Un mapa del sitio XML proporciona una lista de enlaces al contenido en tu sitio que puede ser fácilmente indexado por los motores de búsqueda
+2.  Es posible crear mapas del sitio XML específicos para Noticias, URLs móviles, Imágenes, y Video
 
-Hay extensiones disponibles que crear mapa del sitio XML de forma
-automática basándose en el contenido de Joomla!.
-<a href="http://sitemaps.org/protocol.php" class="external text"
-target="_blank" rel="nofollow noreferrer noopener">Más información sobre
-el protocolo de mapas del sitio</a>
+Existen extensiones disponibles que crean mapas del sitio XML automáticamente basados en contenido de Joomla.
+
+*Traducido por openai.com*
+

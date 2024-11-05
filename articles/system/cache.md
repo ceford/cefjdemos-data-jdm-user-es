@@ -1,348 +1,215 @@
-<!-- Filename: Cache / Display title: Caché -->
+<!-- Filename: Cache / Display title: Caché  -->
 
-Joomla! tiene diferentes formas de almacenar "cosas" en caché. He aquí
-un resumen para los administradores y desarrolladores de qué, dónde y
-cuándo.
+## Para Administradores
 
-# Para Administradores
+Como administrador, Joomla te ofrece la capacidad de almacenar en caché partes de tu sitio. Puedes elegir almacenar en caché páginas web enteras o solo partes de esas páginas. Esta guía explica cómo hacerlo.
 
-Un administrador de Joomla puede utilizar estos almacenamientos en caché
-y opciones:
+En una página web de un sitio Joomla, hay 3 cosas que pueden ser almacenadas en caché:
 
-As an administrator, Joomla provides you with the ability to cache parts
-of your site. You can choose to cache whole web pages or just parts of
-those pages. This guide explains how.
+1. La página completa en sí misma – la cache de Página
+2. La salida del componente Joomla para esa página web – conocida como la cache de Vista
+3. La salida de los módulos mostrados en esa página – conocida como la cache de Módulo
 
-On a Joomla site web page there are 3 things which may be cached:
+Tienes varias configuraciones de caché que te permiten controlar qué se almacena en caché:
 
-1.  The whole page itself – the Page cache
-2.  The output from the Joomla component for that web page – known as
-    the View cache
-3.  The output from the modules shown on that page – known as the Module
-    cache
+1. El plugin del sistema "Sistema – Cache de Página"
+2. La Configuración Global, pestaña Sistema, Configuración de Cache. Aquí la opción de Cache del Sistema se puede configurar en:
+   - OFF – Caché desactivado
+   - ON – Caché conservadora
+   - ON – Caché progresiva
+3. Muchos módulos dentro de sus opciones tienen una pestaña Avanzada en la que el cache puede configurarse para *Usar global* o *Sin caché*
 
-You have a number of cache settings which allow you to control what gets
-cached:
+Como se describe a continuación, también existen reglas para el almacenamiento en caché que están implementadas dentro del código de Joomla, y sobre las cuales no tienes control.
 
-1.  The system plugin "System – Page Cache"
-2.  The Global Configuration, System tab, Cache Settings. Here the
-    System Cache option may be set to
-    - OFF – Caching disabled
-    - ON – Conservative caching
-    - ON – Progressive caching
-3.  Many modules within their options have an Advanced tab in which the
-    Caching can be set to *Use global* or *No caching*
+Puedes limpiar el caché mediante la selección del menú Administrador → Sistema → Limpiar Caché. En general, puedes considerar que Joomla tiene 3 niveles de caché, aumentando en agresividad:
 
-As described below, there are also rules for caching which are
-implemented within the Joomla code, and over which you have no control.
+1. Caché conservadora
+2. Caché progresiva
+3. Caché de página
 
-You can clear the cache through the Administrator → System → Clear Cache
-menu selection.
+Además, los desarrolladores de Joomla pueden utilizar las capacidades de caché para almacenar el resultado de las consultas a la base de datos, por ejemplo, para aumentar la capacidad de respuesta del sitio, pero esto está fuera del alcance de las capacidades del Administrador.
 
-In general, you can think of Joomla having 3 levels of cache, increasing
-in aggressiveness
+## Almacenamiento en caché de páginas
 
-1.  Conservative caching
-2.  Progressive caching
-3.  Page caching
+Para activar esto, vaya a Administrador → Extensiones → Plugins. Luego, busque el plugin Sistema - Caché de Página y actívelo. Esto significa que las páginas del sitio ahora se almacenarán en caché y, cada vez que se soliciten de nuevo, se servirá la página almacenada en caché en lugar de ser generada por Joomla a partir de la información en la base de datos. La página en caché seguirá sirviéndose hasta que venza, según lo definido por el parámetro *Tiempo de Caché* en el panel Administrador → Configuración Global → Pestaña Sistema → Configuración de Caché.
 
-We'll look at these three in detail below.
+Si está leyendo esta página como un tutorial y desea probar el almacenamiento en caché de páginas, es mejor configurar los ajustes de caché en Configuración Global de la siguiente manera:
 
-In addition, Joomla developers can use caching facilities to store the
-result of database queries, for example, to increase the responsiveness
-of the site, but this is outside the scope of Administrator
-capabilities.
+- Controlador de Caché – Archivo
+- Ruta a la Carpeta de Caché – dejar en blanco
+- Tiempo de Caché – 15 (el valor predeterminado de 15 minutos)
+- Caché Específica para Plataforma - No
+- Caché del Sistema – DESACTIVADO – Caché deshabilitada
 
-## Page Caching
+Para verificar que el almacenamiento en caché de páginas está funcionando, vaya a una página del sitio web que muestre un artículo. Después de mostrar esa página, debería encontrar en el sistema de archivos un directorio `cache/page` con un archivo dentro que tenga un nombre como `xxx-cache-page-yyy.php`, donde xxx y yyy son largas cadenas hash. Joomla tiene que almacenar páginas de caché separadas para URL separadas, por lo que la segunda cadena de dígitos hexadecimales es un hash de la URL de la página web del sitio, para hacer que el nombre del archivo sea único para esa página.
 
-To switch this on, go to Administrator → Extensions → Plugins. Then find
-the System – Page Cache plugin, and enable it. This means that site
-pages will now be cached and whenever they're requested again, the
-cached page will be served, rather than it being generated by Joomla
-from the information in the database. The cached page will continue to
-be served until it's expired – as defined by the *Cache Time* parameter
-in the Administrator → Global Configuration → System tab → Cache
-Settings.
+Luego, utilice la funcionalidad del Administrador para cambiar el texto de ese artículo y vuelva a mostrar la página web del sitio. Debería encontrar la versión en caché, no su texto modificado.
 
-If you're reading this page as a tutorial and want to test the page
-caching, it's best to set the Global Configuration cache settings to:
+Cambiar un artículo (u otro elemento de Joomla) no borra la caché de la página para la(s) página(s) web donde se muestra ese artículo. Para borrar la caché de la página, vaya a Administrador → Sistema → Limpiar Caché. Haga clic en la casilla de verificación junto al *Grupo de Caché* llamado "página" y presione el botón Eliminar. Cuando vuelva a mostrar su página web, ahora debería mostrar su texto enmendado.
 
-- Cache Handler – File
-- Path to Cache Folder – leave blank
-- Cache Time – 15 (the default of 15 minutes)
-- Platform Specific Caching - No
-- System Cache – OFF – Caching disabled
+Si su sitio tiene una función como un carrito de compras, aplicar el almacenamiento en caché de páginas causará problemas, ya que las páginas deben mostrar lo que el cliente ya ha seleccionado, en lugar de mostrar una página en caché que es común para todos. Sin embargo, puede configurar el plugin Sistema - Caché de Página para excluir del almacenamiento en caché elementos de menú específicos o URL y rangos de URL especificados (en la pestaña Avanzado), de modo que solo se almacenen en caché las páginas verdaderamente estáticas.
 
-To verify that page caching is working, go to a website page that
-displays an article. After you display that page you should find in the
-file system a `cache/page` directory with a file in it which has a
-filename like `-cache-page-.php`. (Joomla has to store separate cache
-pages for separate URLs so the second string of hex digits is a hash of
-the URL of the site web page, to make the filename unique to that page).
+## Caché Conservador
 
-Then use the Administrator functionality to change the text of that
-article, and redisplay the site web page. You should find the cached
-version, not your modified text.
+Con el Caché Conservador, puedes almacenar en caché la salida de Vista de componentes y la salida de aquellos Módulos que permiten el caché. Pero ten en cuenta que esto funcionará solo en las páginas que no están en caché usando el Caché de Página. Para esas páginas, toda la página web está en caché, y el Caché Conservador ni siquiera se considera.
 
-Changing an article (or other Joomla item) does not clear the page cache
-for the web page(s) where that article is displayed. To clear the page
-cache go to Administrator → System → Clear Cache. Click on the checkbox
-next to the *Cache Group* called "page", and press the Delete button.
-When you redisplay your web page it should now show your amended text.
+Para activar el Caché Conservador:
 
-If your site has a function like a shopping basket, applying page
-caching will cause problems, as pages have to show what the customer has
-already selected, rather than displaying a cached page which is common
-to everyone. However, you can configure the System - Page Cache plugin
-to exclude caching specified Menu Items or specified URLs and URL ranges
-(in the Advanced tab), so that only truly static pages are cached.
+1. Ve a Administrador → Sistema → Configuración Global → pestaña Sistema y dentro de Configuración de Caché, establece Caché del Sistema en ACTIVADO – caché conservador.
+2. Ve a Administrador → Extensiones → Módulos y selecciona los módulos que te gustaría que se almacenen en caché. Si ese módulo permite caché, bajo la pestaña Avanzada deberías poder establecer la opción de Caché a
 
-## Conservative Caching
+   - Usar Global – este módulo será almacenado en caché (con la opción Global ahora configurada a caché conservador)
+   - Sin caché – este módulo no será almacenado en caché.
 
-With Conservative Caching you can cache the View output from components
-and the output from those Modules which allow caching. But note that
-this will work only on pages which are not cached using the Page Cache.
-For those pages the whole web page is cached, and Conservative Caching
-isn't even considered.
+(Ten en cuenta que el Tiempo de Caché en la Configuración Global está en minutos, pero el Tiempo de Caché en la configuración del Módulo está en segundos.)
 
-To switch on Conservative Caching:
+Para comprobar que está funcionando, visita tu sitio, **asegúrate de estar desconectado**, y navega a una página web que muestre un artículo. Revisa tu sistema de archivos y deberías encontrar una carpeta `cache/com_content` que contiene un archivo de caché.
 
-1.  Go to Administrator → System → Global Configuration → System tab and
-    within Cache Settings, set System Cache to ON – Conservative caching
-2.  Go to Administrator → Extensions → Modules and select the modules
-    which you'd like to be cached. If that module permits caching then
-    under the Advanced tab you should be able to set Caching to
+También encontrarás otros directorios como `cache/com_languages` (ya que mostrar la página implica cargar el idioma actual, y esto también se almacenará en caché), y también directorios relacionados con el caché de módulos, por ejemplo, `cache/com_modules`. Estos son el resultado del uso de caché que los desarrolladores han codificado dentro de la aplicación Joomla.
 
-- Use Global – this module will be cached (with the Global option now
-  having been set to Conservative caching)
-- No caching – this module will not be cached.
+Si editas y guardas ese artículo y luego actualizas la página del sitio, encontrarás que el sitio muestra el texto actualizado esta vez. Esto se debe a que cada vez que se guarda la edición, Joomla borra el caché para ese artículo.
 
-(Note that the Cache Time in the Global Configuration is in minutes but
-the Cache Time in the Module settings is in seconds.)
+Sin embargo, puedes demostrar que el caché está funcionando si editas el archivo de caché en el directorio `cache/com_content` usando un editor de texto básico. Usando el editor, cambia una letra dentro del texto del artículo en el archivo de caché y guarda el archivo. Luego, cuando actualices la página web, deberías ver el cambio que hiciste en el archivo de caché.
 
-To check it's working, go to your site, **ensure that you are logged
-out**, and navigate to a web page which displays an article. Check your
-file system and you should find a folder `cache/com_content` containing
-a cache file.
+¿Cómo puedes seleccionar qué vistas de componentes se almacenan en caché y bajo qué circunstancias? Lamentablemente, no puedes hacer esto. Esto está determinado por los desarrolladores del componente central de Joomla y codificado en el código PHP del componente. Los criterios son diferentes para cada componente. Sin embargo, puedes descubrir fácilmente qué criterios se utilizan porque para cada uno de los componentes del sitio están codificados en el archivo `DisplayController.php` del sitio. Por ejemplo, en el momento de esta revisión (versión 5 de Joomla) para el componente de Contactos encontramos en `components/com_contact/src/Controller/DisplayController.php`
 
-You'll also find other directories such as `cache/com_languages` (as
-displaying the page involves loading the current language, and this will
-be cached as well) and also directories relating to module cache, e.g.
-`cache/com_modules`. These result from the use of cache which developers
-have coded within the Joomla application.
+```php
+    public function display($cachable = false, $urlparams = [])
+    {
+        if ($this->app->getUserState('com_contact.contact.data') === null) {
+            $cachable = true;
+        }
+```
 
-If you edit and save that article then refresh the site page, you will
-find that the site displays the updated text this time. This is because
-whenever the edit is saved, Joomla clears the cache for that article.
+Esto significa que las vistas asociadas con contactos serán almacenables en caché a menos que haya datos de sesión clave por com_contact.contact.data – lo cual será el caso si en la sesión del usuario el usuario ha mostrado un formulario de contacto (por ejemplo, en una página señalada por un elemento de menú de tipo Contactos → Contacto Único).
 
-However, you can demonstrate that the cache is working if you edit the
-cache file in the `cache/com_content` directory using a basic text
-editor. Using the editor, change one letter within the article text in
-the cache file and save the file. Then when you refresh the web page you
-should see the change that you made to the cache file.
+El archivo equivalente para artículos `components/com_content/src/Controller/DisplayController.php` contiene:
 
-How can you select which component views get cached, and under what
-circumstances? Alas, you can't do this. This is determined by the Joomla
-core component developers and coded in the component PHP code. The
-criteria are different for each component. However, you can easily
-discover what criteria are used because for each of the site components
-they are coded in the site `controller.php` file. For example, at the
-time of this writing (Joomla version 3.9.2) for the Contacts component
-we find in `components/com_contact/controller.php`
-
-    if (JFactory::getApplication()->getUserState('com_contact.contact.data') === null)
+```php
+    public function display($cachable = false, $urlparams = false)
     {
         $cachable = true;
-    }
 
-This means that the views associated with contacts will be cachable
-unless there is session data keyed by com_contact.contact.data – which
-will be the case if in the user session the user has displayed a contact
-form (e.g. on a page pointed to by a menu item of type Contacts → Single
-Contact).
+        /**
+         * Establecer el nombre de vista predeterminado y el formato desde la Solicitud.
+         * Nota que estamos usando a_id para evitar colisiones con el enrutador y la página de retorno.
+         * El frontend es un poco más desordenado que el backend.
+         */
+        $id    = $this->input->getInt('a_id');
+        $vName = $this->input->getCmd('view', 'categories');
+        $this->input->set('view', $vName);
 
-The equivalent file for articles `components/com_content/controller.php`
-contains:
+        $user = $this->app->getIdentity();
 
-    $cachable = true;
-    if ($user->get('id') || ($this->input->getMethod() === 'POST' && (($vName === 'category' && $this->input->get('layout') !== 'blog') || $vName === 'archive' )))
-    {
-        $cachable = false;
-    }
+        if (
+            $user->get('id')
+            || ($this->input->getMethod() === 'POST'
+            && (($vName === 'category' && $this->input->get('layout') !== 'blog') || $vName === 'archive'))
+        ) {
+            $cachable = false;
+        }
+```
 
-The expression `$user->get('id')` is true if this is a logged-in user.
-This means that articles are never cached for logged-in users. The
-subsequent expressions relate to other conditions when the caching is
-not performed, even if the user is not logged in.
+La expresión `$user->get('id')` es verdadera si se trata de un usuario que ha iniciado sesión. Esto significa que los artículos nunca se almacenan en caché para los usuarios que han iniciado sesión. Las expresiones subsiguientes se relacionan con otras condiciones cuando el almacenamiento en caché no se realiza, incluso si el usuario no ha iniciado sesión.
 
-So in this way you can discover the circumstances under which caching is
-performed, but changing these is not advisable.
+De esta manera, puedes descubrir las circunstancias bajo las cuales se realiza el almacenamiento en caché, pero no es recomendable cambiar esto. También puedes demostrar que los módulos están siendo almacenados en caché al usar el módulo Breadcrumbs de Joomla, asegurándote de que se muestre en alguna posición del módulo en la página web, configurando su opción de Caché y editando manualmente el archivo almacenado en caché en cache/mod_breadcrumbs.
 
-You can also demonstrate that modules are being cached by using the
-Joomla Breadcrumbs module, ensuring it's displayed in some module
-position on the web page, setting its Caching option and manually
-editing the cached file in cache/mod_breadcrumbs.
+## Caché Progresivo
 
-## Progressive Caching
+Al igual que el Caché Conservador, el Caché Progresivo también almacena en caché la salida de las vistas de componentes y de los módulos. La diferencia funcional entre los dos es que con el Caché Progresivo **para usuarios desconectados todos los módulos siempre se almacenan en caché**. En este caso, configurar la opción *Sin Caché* para un módulo no tiene efecto. Si la opción de almacenamiento en caché está configurada como *Archivo*, puedes encontrar el archivo de caché de los módulos (la salida de todos los módulos se almacena dentro del mismo archivo) dentro del directorio `cache/com_modules`.
 
-Like Conservative Caching, Progressive Caching also caches the output
-from component views and from modules. The functional difference between
-the two is that with Progressive Caching **for logged-off users all
-modules are always cached**. In this case, setting the *No Caching*
-option for a module has no effect. If the caching storage option is to
-*File*, you can find the modules cache file (the output from all modules
-is stored within the same file) within the `cache/com_modules`
-directory.
+Para activar el Caché Progresivo, ve a Administrador → Sistema → Configuración Global → pestaña Sistema y dentro de *Configuración del caché* establece *Caché del sistema* en *ACTIVADO – Caché progresivo*.
 
-To switch on Progressive Caching, go to Administrator → System → Global
-Configuration → System tab and within *Cache Settings* set *System
-Cache* to *ON – Progressive caching*.
+En cuanto a las condiciones para el almacenamiento en caché de las vistas del componente principal de Joomla, **no hay diferencia entre el caché conservador y el cache progresivo**. A pesar de lo que puedas leer en algunos sitios web y respuestas a preguntas en Stack Overflow, no es cierto que el Caché Conservador se relacione con cuando el usuario no está conectado y el Caché Progresivo con cuando el usuario está conectado.
 
-As regards the conditions for caching of Joomla core component views,
-**there is no difference between conservative and progressive caching**.
-Despite what you may read on some websites and responses to Stack
-Overflow questions, it is not the case that Conservative Caching relates
-to when the user is not logged on and Progressive Caching to when the
-user is logged on.
+## Resumen
 
-## Summary
+A continuación se ofrece un resumen de los tipos de caché.
 
-A summary of the caching types is below.
+### Caché de página completa
 
-### Page Caching
+- **Configuración**: Plugin incorporado (Administrador → Extensiones → 
+  Administrador de Plugins → Sistema - Caché de Página)
+- **Caché**: cada página completa de tu sitio
+- **Basado en**: URL
+- **Más información**:
+  - Caché opcional del navegador: También se almacena en caché en el navegador/computadora de tus visitantes
+  - Solo guarda en caché las páginas para visitantes no registrados (no para visitantes registrados). 
+    Ten cuidado al usar este plugin si tienes un sitio interactivo donde 
+    deseas servir contenido basado en la información de sesión/cookies 
+    en lugar de solo en la URL simple. Funciones como un carrito de compras 
+    no funcionarán.
 
-- **Configuration**: Built-in Plugin (Administrator → Extensions →
-  Plugin Manager → System - Page Cache)
-- **Caches**: each whole page of your site
-- **Based on**: URL
-- **More info**:
-  - Optional browser caching: Also caches on your visitors'
-    browser/computer
-  - Only caches pages for guest visitors (not for logged in visitors).
-    Be careful using this plugin if you have an interactive site where
-    you want to server content based on session/cookie information
-    rather than on the plain URL only. Features like a shopping cart
-    will not work.
+### Caché de vistas
 
-## Ver almacenamiento en caché
-
-- **Configuración**: Configuración Global  **→**  Caché
-- **Almacenar en Caché**: cada vista de un componente
+- **Configuración**: Configuración Global → Caché
+- **Caché**: cada vista de un componente
 - **Basado en**: URL, vista, parámetros, ...
-- **Más información**: Los desarrolladores de componentes tienen que
-  incluirlo en su código para que funcione. La mayoría no lo hace. El
-  componente del contenido principal de Joomla! lo utiliza, pero sólo
-  para los visitantes de tu sitio, aunque esto no es obligatorio para
-  cada componente.
+- **Más información**: Los desarrolladores de componentes deben incluir esto en su 
+  código para que funcione. La mayoría de las veces esto no se hace. 
+  El componente principal de contenido de Joomla lo utiliza, pero solo 
+  para visitantes no registrados en tu sitio, aunque no es obligatorio 
+  para cada componente.
 
-## Almacenar en Caché de un Módulo
+### Caché de módulos
 
-- **Configuración**: Configuración Global  **→**  Caché
-- **Almacenamiento en Caché**: cada módulo (personalizado
-  individualmente a través de cada uno de los Parámetros Avanzados de
-  los módulos)
-- **Basado en**: ?
-- **Más info**: debe desactivarse en algunos módulos para evitar
-  problemas
-- **Configuration**: Global Config -\> Cache
-- **Caches**: each module (individually customized via each module's
-  Advanced Parameters)
-- **Based on**: the module id, the user's view levels and the *Itemid*
-  parameter in the HTTP request
-- **More info**: You must disable it on some modules to avoid problems
+- **Configuración**: Configuración Global → Caché
+- **Caché**: cada módulo (personalizado individualmente a través de los parámetros 
+  avanzados de cada módulo)
+- **Basado en**: el id del módulo, los niveles de vista del usuario y el 
+  parámetro *Itemid* en la solicitud HTTP
+- **Más información**: Debes deshabilitarlo en algunos módulos para evitar problemas
 
-## Más Almacenamiento en Caché
+### Cachés adicionales
 
-Si quieres echa un vistazo a otros sistemas de caché y sus
-posibilidades, puede ser que desees comprobar las extensiones de
-terceras partes sobre el almacenamiento en caché.
+Si deseas explorar otros sistemas de caché y posibilidades, 
+puedes echar un vistazo a las extensiones de terceros relacionadas con la caché.
 
-If you want to check out other cache systems and possibilities, you
-might want to check out the third-party extensions around caching.
+### Motores o almacenamientos de caché
 
-## Almacenamiento en caché motores o almacenamientos
+- **Configuración**: Configuración Global → Caché
 
-- **Configuración**: Configuración Global  **→**  Caché
-
-Aquí puedes elegir el sistema que quieres que use tu sitio para el
-almacenamiento en caché. Las opciones actuales son: APC, Eaccelorator,
-Archivo, Memcache, Redis, XCache.
-
-- **Configuration**: Global Config -\> Cache
-
-Here you can choose which system you want your site to use for all
-caching. Some options are: APC, Eaccelorator, File, Memcache, Redis,
+Aquí puedes elegir qué sistema deseas que use tu sitio para todos 
+los cachés. Algunas opciones son: APC, Eaccelorator, Archivo, Memcache, Redis, 
 XCache.
 
-APC, por ejemplo, también almacena en caché el código PHP.
+APC, por ejemplo, también almacena en caché tu opcode de PHP.
 
-# Para Desarrolladores
+## Para Desarrolladores
 
-La clase **JCache** permite diferentes tipos y niveles de almacenamiento
-en caché. Las siguientes sub-clases están hechas específicamente, pero
-puedes agregar las tuyas propias o usar la principal de muchas maneras
-diferentes.
+<div class="alert alert-warning">
+Esta sección necesita revisión para Joomla! 4/5.
+</div>
 
-The class **JCache** allows a lot of different sorts and levels of
-caching. The following subclasses are made specifically, but you can add
-your own, or use the main one in many different ways.
+La clase **JCache** permite una gran variedad de tipos y niveles de almacenamiento en caché. Las siguientes subclases están hechas específicamente, pero puedes añadir las tuyas o usar la principal de muchas maneras diferentes.
 
-No olvides que el primer nivel de caché encontrado, sobrescribe el
-último almacenamiento en caché. Supongo que muchos niveles también es
-contraproducente (*debe ser verificado siempre*).
+No olvides que el primer nivel de caché que se encuentra, anulará cualquier almacenamiento en caché más profundo. Supongo que demasiados niveles también son contraproducentes (*sin embargo, hay que verificarlo*).
 
-- **JCacheView** almacena en caché y devuelve el resultado de una
-  determinada vista (en MVC). Un caché de id se genera automáticamente a
-  partir de la URI, de una vista específica y su método específico o
-  puede dar el suyo propio.
+- **JCacheView** almacena en caché y devuelve la salida de una vista específica (en MVC). Un id de caché se genera automáticamente a partir del URI, la vista específica y su método específico, o puedes proporcionar el tuyo propio.
 
-Esto, automáticamente, puede ser realizado a través del controlador de
-base de la función de visualización. Por ejemplo, en el controlador de
-su componente:
+Esto puede hacerse automáticamente a través de la función de visualización del controlador base. Por ejemplo, en el controlador de tu componente:
 
-    class DeliciousController extends JController {
-        function display() {
-            parent::display(true); //true asks for caching.
-        }
+```php
+class DeliciousController extends JController {
+    function display() {
+        parent::display(true); // true solicita almacenamiento en caché.
     }
+}
+```
 
-También hay algunos *urlparams* a tener en cuenta. Mira esta <a
-href="http://joomla.stackexchange.com/questions/5781/how-can-i-use-joomlas-cache-with-my-components-view/7000#7000"
-class="external text" target="_blank"
-rel="nofollow noreferrer noopener">"lista de Joomla!"</a>
+También hay algunos urlparams a considerar. Revisa este
+[Joomla StackExchange](http://joomla.stackexchange.com/questions/5781/how-can-i-use-joomlas-cache-with-my-components-view/7000#7000 "")
 
-Además, debes ser consciente que cualquier actualización (tales como
-accesos o contar visita) NO será actualizado (a menos que se agregue
-esto fuera de este método y por lo tanto una parte más profunda del
-MVC.)
+Además, ten en cuenta que cualquier actualización (como conteos de visitas o impactos) NO se actualizará (a menos que añadas esto fuera de este método y, por lo tanto, cualquier parte más profunda del MVC).
 
 - **JCachePage** almacena en caché y devuelve el cuerpo de la página.
-- **JCacheCallback** almacena en caché, devolviendo el resultado y los
-  resultados de las funciones o métodos.
+- **JCacheCallback** almacena en caché y devuelve la salida y resultados de funciones o métodos.
 
-Si deseas almacenar en caché las consultas, esta es una buena clase
-para, como se ilustra aquí: [Utilizar el almacenamiento en caché para
-acelerar tu
-código](https://docs.joomla.org/Using_caching_to_speed_up_your_code "Special:MyLanguage/Using caching to speed up your code")
+Si deseas almacenar en caché consultas, esta es una buena clase para ello, como se ilustra aquí: Usando el almacenamiento en caché para acelerar tu código
 
-- **JCacheOutput** almacena en caché y devuelve el resultado.
+- **JCacheOutput** almacena en caché y devuelve la salida.
 
-Este es el lugar destinado para el almacenamiento en caché de una parte
-específica de código php. Actúa como un buffer de salida, pero en caché.
+Esto está destinado más bien a almacenar en caché una parte específica del código PHP. Actúa como un buffer de salida, pero en caché.
 
-## Referencias
+*Traducido por openai.com*
 
-- <a
-  href="http://forum.joomla.org/viewtopic.php?f=428&amp;t=326990&amp;start=0"
-  class="external text" target="_blank" rel="noreferrer noopener">Mejor
-  rendimiento con el plugin del Sistema Joomla! de Caché (Foro de
-  Joomla!)</a>
-- <a href="https://api.joomla.org/cms-3/classes/JCache.html"
-  class="external text" target="_blank"
-  rel="noreferrer noopener">JCache</a>
-- <a
-  href="http://joomla.stackexchange.com/questions/5781/how-can-i-use-joomlas-cache-with-my-components-view/7000#7000"
-  class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">¿Cómo puedo utilizar la Caché de
-  Joomla! con las vistas de mis componentes? (joomla stackexchange
-  beta)</a>

@@ -1,117 +1,34 @@
-<!-- Filename: J3.x:Adding_custom_fields/Integer_Field / Display title: Agregar campos personalizados / Campo de Entero -->
+<!-- Filename: J3.x:Adding_custom_fields/Integer_Field / Display title: Campo Entero -->
 
-## Campo Entero
+---
+## Propósito
 
-**Artículos en esta serie**
+El campo de enteros proporciona una lista desplegable de números enteros entre los valores mínimo y máximo especificados.
 
-1.  Introducción
-2.   Parámetros para todos los campos
-    personalizados
-3.   Campo de
-    calendario
-4.   Campo de chequeo
-    (checkbox)
-5.   Campo de
-    color
-6.   Campo
-    editor
-7.   Campo de
-    galería
-8.   Campo de lista de
-    imágenes
-9.   Campo de
-    media
-10.  Campo
-    radio
-11.  Campo
-    Sql
-12.  Campo
-    repetible
-13.  Campo de
-    texto
-14.  Campo de área de texto
-    (textarea)
-15.  Campo de
-    url
-16.  Campo de
-    usuario
-17.  Campo de grupo de
-    usuario
-18.  ¿Cómo puedo agrupar campos
-    personalizados?
-19.  ¿Qué componentes soportan campos
-    personalizados?
-20. Ejemplo
-21.  Implementación en tu
-    componente
-22.  Utilizar campos personalizados en tus
-    sustituciones
+## Creación de Campo
 
-### Entero
+Opciones especiales para este campo:
 
-Proporciona una lista desplegable de enteros entre un valor mínimo (el
-primer valor) y máximo (el último valor).
+- **Múltiple** Permitir que se seleccionen múltiples valores.
+- **Primero** El más bajo en la lista.
+- **Último** El más alto en la lista.
+- **Paso** El incremento para cada paso en la lista.
+- **Clase del Campo** Establecer en *w-auto* para que la lista sea lo suficientemente ancha para su lista de enteros.
 
-#### Opciones
 
-Las opciones especiales dentro de este campo son:
+## Entrada de Datos
 
-- Múltiple
-  Permite que se seleccionen varios valores.
-- Primero
-  Este valor es el más bajo de la lista.
-- Último
-  Este valor es el más alto de la lista.
-- Paso
-  Cada opción será la opción anterior incrementada por este entero,
-  comenzando con el primer valor hasta que se alcance el último valor.
+Selecciona el número entero requerido de la lista, o más de uno de una lista de selección múltiple. Ten en cuenta que sin `w-auto`, el campo de selección de enteros ocupa todo el ancho del formulario.
 
-#### Información relacionada
+![Selección de Entero](../../../en/images/fields/fields-integer-entry.png "Selección de Entero")
 
-Ver  Campo de formulario - Tipo
-Entero
+## Visualización de Datos
 
-#### Capturas de pantalla
+La siguiente captura de pantalla del sitio muestra el campo exhibido en un artículo. La opción *Visualización automática* es responsable de la posición del campo y tu plantilla es responsable del diseño del campo.
 
-##### Crear el campo
+Busca el elemento **Resistencia RHS**.
 
-Supongamos que creas un campo con las opciones mostradas en la siguiente
-imagen.
+![Visualización de todos los campos](../../../en/images/fields/fields-display.png "Visualización de campos")
 
-<img
-src="https://docs.joomla.org/images/thumb/7/75/Integer_field_create-en.png/800px-Integer_field_create-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/7/75/Integer_field_create-en.png/1200px-Integer_field_create-en.png 1.5x, https://docs.joomla.org/images/7/75/Integer_field_create-en.png 2x"
-data-file-width="1291" data-file-height="663" width="800" height="411"
-alt="Integer field create-en.png" />
+*Traducido por openai.com*
 
-##### Usar el campo en el administrador
-
-Cuando creas un artículo o contacto en el administrador, puedes ver el
-campo como en la siguiente imagen:
-
-<img
-src="https://docs.joomla.org/images/thumb/7/7f/Integer-en.png/800px-Integer-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/7/7f/Integer-en.png/1200px-Integer-en.png 1.5x, https://docs.joomla.org/images/7/7f/Integer-en.png 2x"
-data-file-width="1291" data-file-height="663" width="800" height="411"
-alt="Integer-en.png" />
-
-##### Usar el campo en el sitio web
-
-En el sitio web, puede ver el campo como se ve en la siguiente imagen.
-La opción *Visualización automática* es responsable de la posición del
-campo y su plantilla es responsable del diseño del campo.
-
-<img
-src="https://docs.joomla.org/images/thumb/7/72/Integer_field_frontend-en.png/800px-Integer_field_frontend-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/7/72/Integer_field_frontend-en.png/1200px-Integer_field_frontend-en.png 1.5x, https://docs.joomla.org/images/7/72/Integer_field_frontend-en.png 2x"
-data-file-width="1291" data-file-height="663" width="800" height="411"
-alt="Integer field frontend-en.png" />
-
-<a href="https://docs.joomla.org/J3.x:Adding_custom_fields/Editor_Field"
-id="content-button" class="button expand success">Anterior: Campo
-Editor</a>
-<a href="https://docs.joomla.org/J3.x:Adding_custom_fields/List_Field"
-id="content-button" class="button expand">Siguiente: Campo lista</a>

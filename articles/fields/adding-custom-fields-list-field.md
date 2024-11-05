@@ -1,118 +1,32 @@
-<!-- Filename: J3.x:Adding_custom_fields/List_Field / Display title: Agregar campos personalizados/Campo de Lista -->
+<!-- Filename: J3.x:Adding_custom_fields/List_Field / Display title: Lista de Campo -->
 
-## Campo de lista
+## Propósito
 
-**Artículos en esta serie**
+El tipo de campo de lista proporciona un menú desplegable o un cuadro de lista con entradas definidas por el usuario. Si el campo tiene un valor guardado, este se selecciona cuando se carga la página por primera vez. Si no, se selecciona el valor predeterminado (si existe).
 
-1.  Introducción
-2.   Parámetros para todos los campos
-    personalizados
-3.   Campo de
-    calendario
-4.   Campo de chequeo
-    (checkbox)
-5.   Campo de
-    color
-6.   Campo
-    editor
-7.   Campo de
-    galería
-8.   Campo de lista de
-    imágenes
-9.   Campo de
-    media
-10.  Campo
-    radio
-11.  Campo
-    Sql
-12.  Campo
-    repetible
-13.  Campo de
-    texto
-14.  Campo de área de texto
-    (textarea)
-15.  Campo de
-    url
-16.  Campo de
-    usuario
-17.  Campo de grupo de
-    usuario
-18.  ¿Cómo puedo agrupar campos
-    personalizados?
-19.  ¿Qué componentes soportan campos
-    personalizados?
-20. Ejemplo
-21.  Implementación en tu
-    componente
-22.  Utilizar campos personalizados en tus
-    sustituciones
-
-### Lista
-
-El tipo de campo de formulario tipo lista proporciona una lista
-desplegable o una lista de entradas definidas personalizadamente. Si el
-campo tiene un valor guardado, se selecciona la primera vez que se carga
-la página. De lo contrario, se selecciona el valor predeterminado (si
-existe).
-
-#### Opciones
+## Creación de Campo
 
 Las opciones especiales dentro de este campo son:
 
-- Múltiple
-  Permite que se seleccionen múltiples valores - si está activado.
-- Valores de lista
-  Los valores de la lista.
+- **Múltiple** Permitir seleccionar múltiples valores. Si se configura en *No*, se muestra un solo ítem en la lista. Si se configura en *Sí*, se muestran tres ítems. La lista se desplaza para permitir la selección de uno o más ítems.
+- **Valores de la lista** Agregar ítems según sea necesario y usar el ícono de arrastre para cambiar su orden. Comienza la lista con Texto configurado en *- Seleccionar -* y Valor vacío. Esto proporciona un valor predeterminado vacío, lo que resulta en que esta lista esté ausente del Artículo.
+- **Clase de Campo** Configurar en *w-auto* para hacer que la lista tenga solo el ancho necesario para sus etiquetas.
 
-#### Información relacionada
+![Creación de campo de lista](../../../en/images/fields/fields-list.png "Creación de Campo de Lista")
 
-Ver  Campo de formulario - Tipo
-Lista
+## Ingreso de Datos
 
-#### Capturas de pantalla
+Sencillo: solo selecciona un elemento de la lista o más elementos si *Múltiple* es *Sí*.
 
-##### Crear el campo
+## Visualización de Datos
 
-Supongamos que creas un campo con las opciones mostradas en la siguiente
-imagen. <img
-src="https://docs.joomla.org/images/thumb/1/1d/List_field_create-en.png/800px-List_field_create-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/1/1d/List_field_create-en.png/1200px-List_field_create-en.png 1.5x, https://docs.joomla.org/images/1/1d/List_field_create-en.png 2x"
-data-file-width="1291" data-file-height="663" width="800" height="411"
-alt="List field create-en.png" />
+La siguiente captura de pantalla del sitio muestra el campo que se visualiza en un artículo. La opción *Visualización automática* es responsable de la posición del campo y tu plantilla es responsable del diseño del campo.
 
-##### Usar el campo en el administrador
+La salida es un solo elemento o una lista separada por comas.
 
-Cuando creas un artículo o contacto en el administrador, puedes ver el
-campo como en la siguiente imagen:
+Busca el elemento **Origen**.
 
-<img
-src="https://docs.joomla.org/images/thumb/7/7a/List-en.png/800px-List-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/7/7a/List-en.png/1200px-List-en.png 1.5x, https://docs.joomla.org/images/7/7a/List-en.png 2x"
-data-file-width="1291" data-file-height="663" width="800" height="411"
-alt="List-en.png" />
+![Visualización de todos los campos](../../../en/images/fields/fields-display.png "Visualización de campos")
 
-##### Usar el campo en el sitio web
+*Traducido por openai.com*
 
-En el sitio web, puede ver el campo como se ve en la siguiente imagen.
-
-<img
-src="https://docs.joomla.org/images/thumb/a/a2/List_field_frontend-en.png/800px-List_field_frontend-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/a/a2/List_field_frontend-en.png/1200px-List_field_frontend-en.png 1.5x, https://docs.joomla.org/images/a/a2/List_field_frontend-en.png 2x"
-data-file-width="1291" data-file-height="663" width="800" height="411"
-alt="List field frontend-en.png" />
-
-La opción *Visualización automática* es responsable de la posición del
-campo y su plantilla es responsable del diseño del campo.
-Los campos solo se muestran en el sitio web si los ha llenado con datos
-en el artículo. Si no es un campo obligatorio, ¿puedes olvidarlo?
-
-<a
-href="https://docs.joomla.org/J3.x:Adding_custom_fields/Integer_Field"
-id="content-button" class="button expand success">Anterior: Campo de
-Entero</a> <a
-href="https://docs.joomla.org/J3.x:Adding_custom_fields/List_of_Images_Field"
-id="content-button" class="button expand">Siguiente: Campo Lista de
-Imágenes</a>
