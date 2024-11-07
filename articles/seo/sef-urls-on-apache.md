@@ -38,4 +38,3 @@ Estas son instrucciones paso a paso. Por favor, síguelas en el orden en que se 
     - Si *mod_rewrite* no puede ser habilitado, deja esta opción desactivada. No importa si dejas el archivo `.htaccess` renombrado.
 5. *Si crees que esto es necesario*, activa **Agregar sufijo a las URLs** y *Guarda*. Esta opción añade `.html` al final de las URLs. Hay diferentes opiniones sobre si esto es necesario o incluso útil. Los motores de búsqueda no parecen preocuparse si tus URLs terminan en `.html` o no.
 6. Abre el Administrador de Plugins y activa el plugin **Sistema - SEF**. Este plugin añade soporte SEF a los enlaces en tus artículos de Joomla. Opera directamente sobre el HTML y no requiere una etiqueta especial.
-

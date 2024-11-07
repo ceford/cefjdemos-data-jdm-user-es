@@ -38,7 +38,7 @@ Aunque los detalles específicos están fuera del alcance de este artículo, en 
 
     php /var/www/myjoomla/cli/joomla.php finder:index -- purge
 
-Y posiblemente la ruta completa al archivo php, como /usr/local/opt/php@8.2/bin/php.
+Y posiblemente la ruta completa al archivo php, como `/usr/local/opt/php@8.2/bin/php`.
 
 ## Problemas de Falta de Memoria
 
