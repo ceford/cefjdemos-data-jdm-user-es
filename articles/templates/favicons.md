@@ -98,7 +98,7 @@ Visita el sitio de Real Favicon Generator. Hay otros sitios disponibles, pero es
 4.  Hay subformularios con fondos azul claro para varios tipos de ícono - llena cada uno verificando que la vista previa te convenga.
 5.  Es mejor quedarse con las opciones predeterminadas de Opciones del Generador de Favicon a menos que sepas algo mejor. Excepto:
 6.  Ruta, selecciona la opción No puedo ... y escribe:
-    *media/templates/cassiopeia-green/images*
+    *media/templates/site/cassiopeia-green/images*
 7.  Selecciona el botón *Genera tus Favicons y Código HTML*
 8.  Después de un breve retraso, hay un nuevo formulario, selecciona el botón Descargar tu paquete: *Paquete de Favicon*
 9.  Guarda la descarga ...
@@ -120,14 +120,14 @@ Para usar el conjunto estándar de favicons de Joomla necesitas renombrar y move
 El bloque de enlace copiado previamente contiene:
 
 ```html
-<link rel="apple-touch-icon" sizes="180x180" href="media/templates/cassiopeia-green/images/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="media/templates/cassiopeia-green/images/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="media/templates/cassiopeia-green/images/favicon-16x16.png">
-<link rel="manifest" href="media/templates/cassiopeia-green/images/site.webmanifest">
-<link rel="mask-icon" href="media/templates/cassiopeia-green/images/safari-pinned-tab.svg" color="#5bbad5">
-<link rel="shortcut icon" href="media/templates/cassiopeia-green/images/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="media/templates/site/cassiopeia-green/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="media/templates/site/cassiopeia-green/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="media/templates/site/cassiopeia-green/images/favicon-16x16.png">
+<link rel="manifest" href="media/templates/site/cassiopeia-green/images/site.webmanifest">
+<link rel="mask-icon" href="media/templates/site/cassiopeia-green/images/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="media/templates/site/cassiopeia-green/images/favicon.ico">
 <meta name="msapplication-TileColor" content="#ffc40d">
-<meta name="msapplication-config" content="media/templates/cassiopeia-green/images/browserconfig.xml">
+<meta name="msapplication-config" content="media/templates/site/cassiopeia-green/images/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
 ```
 
