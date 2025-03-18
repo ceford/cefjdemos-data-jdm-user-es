@@ -8,12 +8,12 @@ Ten en cuenta que no se espera que crees un usuario y una contraseña de base de
 
 Si el error ocurre después de mover tu sitio a otro host, revisa los siguientes elementos de tu archivo *configuration.php*. Las configuraciones normales de la base de datos son las siguientes:
 
-	public $dbtype = 'mysqli';
-	public $host = 'localhost';
-	public $user = 'yourdbuser';
-	public $password = 'yourdbpassword';
-	public $db = 'yourdbname';
-	public $dbprefix = 't6q6i_';
+    public $dbtype = 'mysqli';
+    public $host = 'localhost';
+    public $user = 'yourdbuser';
+    public $password = 'yourdbpassword';
+    public $db = 'yourdbname';
+    public $dbprefix = 't6q6i_';
 
 Si el error ocurre en un sitio que ha estado funcionando, hay varias posibles razones, a veces temporales y a veces accidentales.
 
@@ -24,4 +24,3 @@ Si el error ocurre en un sitio que ha estado funcionando, hay varias posibles ra
 3. Tu nombre de usuario o contraseña de la base de datos ha cambiado.
 
 *Traducido por openai.com*
-

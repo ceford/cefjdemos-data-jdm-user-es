@@ -17,24 +17,24 @@ Los módulos se asignan a una posición en una página definida por la plantilla
 Y la siguiente lista muestra las posiciones de módulo disponibles por nombre:
 
 ```xml
-	<positions>
-		<position>barrasuperior</position>
-		<position>debajo-superior</position>
-		<position>menú</position>
-		<position>búsqueda</position>
-		<position>banner</position>
-		<position>superior-a</position>
-		<position>superior-b</position>
-		<position>principal-superior</position>
-		<position>principal-inferior</position>
-		<position>migas-de-pan</position>
-		<position>barra-lateral-izquierda</position>
-		<position>barra-lateral-derecha</position>
-		<position>inferior-a</position>
-		<position>inferior-b</position>
-		<position>pie</position>
-		<position>depuración</position>
-	</positions>
+    <positions>
+        <position>barrasuperior</position>
+        <position>debajo-superior</position>
+        <position>menú</position>
+        <position>búsqueda</position>
+        <position>banner</position>
+        <position>superior-a</position>
+        <position>superior-b</position>
+        <position>principal-superior</position>
+        <position>principal-inferior</position>
+        <position>migas-de-pan</position>
+        <position>barra-lateral-izquierda</position>
+        <position>barra-lateral-derecha</position>
+        <position>inferior-a</position>
+        <position>inferior-b</position>
+        <position>pie</position>
+        <position>depuración</position>
+    </positions>
 ```
 
 ## Añadir un Módulo Núcleo
@@ -105,4 +105,3 @@ Verifica la apariencia del sitio. En este caso, podría ser una buena idea centr
 - **Etiquetas - Similares** El Módulo de Etiquetas Similares muestra enlaces a otros elementos con etiquetas similares. Se puede especificar la cercanía de la coincidencia.
 - **Quién está en Línea** El Módulo de Quién está en Línea muestra el número de Usuarios Anónimos (Invitados) y Usuarios Registrados (usuarios registrados) que actualmente están accediendo al sitio web.
 - **Contenedor** Este módulo muestra una ventana de iframe a una ubicación especificada.
-

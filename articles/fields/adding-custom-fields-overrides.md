@@ -128,7 +128,7 @@ use Joomla\Component\Fields\Administrator\Helper\FieldsHelper;
 Luego, donde desees colocar los campos en tu plantilla, utiliza el siguiente código:
 ```php
 <?php foreach ($this->item->jcfields as $field) : ?>
-	<?php echo FieldsHelper::render($field->context, 'field.render', array('field' => $field)); ?><br>
+    <?php echo FieldsHelper::render($field->context, 'field.render', array('field' => $field)); ?><br>
 <?php endforeach ?>
 ```
 
@@ -136,7 +136,7 @@ O para una sobreescritura sin formato, que no traduce la etiqueta:
 
 ```php
 <?php foreach ($this->item->jcfields as $field) : ?>
-	<?php echo $field->label . ':' . $field->value; ?><br>
+    <?php echo $field->label . ':' . $field->value; ?><br>
 <?php endforeach ?>
 ```
 
@@ -167,4 +167,3 @@ Para añadir el **valor** del campo a tu sobreescritura, inserta el código sigu
 ```
 
 Puedes añadir este código a cualquier parte de tu sobreescritura. Ejemplos: El contenido de un div, el src en una etiqueta `img`, dentro de un atributo de clase CSS, etc.
-

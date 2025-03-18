@@ -17,11 +17,10 @@ Options -Indexes
 
 ## Sin listados de directorios
 <IfModule mod_autoindex.c>
-	IndexIgnore *
+    IndexIgnore *
 </IfModule>
 ```
 
 ## Prueba tu sitio
 
 Una forma de probar tu sitio es ingresar la URL de tu carpeta de imágenes en la barra de URL del navegador: `https://tudominio.com/images/`. Como la carpeta de imágenes normalmente no contiene un archivo index.html o index.php, deberías ver una página completamente vacía. Si ves una lista de todos los archivos y carpetas, entonces no estás impidiendo el escaneo de directorios para ninguna parte de tu sitio. ¡Arréglalo!
-

@@ -92,7 +92,7 @@ Si tu base de datos no está actualizada, verás una pantalla que enumera los pr
 
 En este caso, selecciona el *Nombre* de la extensión con problema y luego el botón de Actualizar Estructura en la Barra de Herramientas. Joomla actualizará tu base de datos para corregir los problemas enumerados y luego volverá a mostrar la pantalla. Si la corrección fue exitosa, la pantalla indicará que la base de datos está actualizada.
 
-**Nota:** Si aún existen errores, asegúrate de que todas las tablas de la base de datos estén seleccionadas.  
+**Nota:** Si aún existen errores, asegúrate de que todas las tablas de la base de datos estén seleccionadas.
 
 ## Descubrir Sistema
 
@@ -129,20 +129,19 @@ ver los pasos registrados en el log. Mostrará los pasos principales (descargar 
 instalar, ejecutar sentencias SQL, limpiar), algo así:
 
 ```
-2024-04-17T09:13:16+00:00	INFO 127.0.0.1	update	Actualización iniciada por el usuario Jimmy (139). La versión antigua es 5.0.3.
-2024-04-17T09:13:18+00:00	INFO 127.0.0.1	update	Descargando el archivo de actualización desde...
-2024-04-17T09:13:28+00:00	INFO 127.0.0.1	update	Archivo Joomla_5.1.0-Stable-Update_Package.zip descargado.
-2024-04-17T09:13:28+00:00	INFO 127.0.0.1	update	Comenzando la instalación de la nueva versión.
-2024-04-17T09:13:40+00:00	INFO 127.0.0.1	update	Finalizando instalación.
-2024-04-17T09:13:40+00:00	INFO 127.0.0.1	update	Inicio de actualizaciones SQL.
-2024-04-17T09:13:40+00:00	INFO 127.0.0.1	update	La versión actual de la base de datos (esquema) es 5.0.0-2023-09-11.
+2024-04-17T09:13:16+00:00    INFO 127.0.0.1    update    Actualización iniciada por el usuario Jimmy (139). La versión antigua es 5.0.3.
+2024-04-17T09:13:18+00:00    INFO 127.0.0.1    update    Descargando el archivo de actualización desde...
+2024-04-17T09:13:28+00:00    INFO 127.0.0.1    update    Archivo Joomla_5.1.0-Stable-Update_Package.zip descargado.
+2024-04-17T09:13:28+00:00    INFO 127.0.0.1    update    Comenzando la instalación de la nueva versión.
+2024-04-17T09:13:40+00:00    INFO 127.0.0.1    update    Finalizando instalación.
+2024-04-17T09:13:40+00:00    INFO 127.0.0.1    update    Inicio de actualizaciones SQL.
+2024-04-17T09:13:40+00:00    INFO 127.0.0.1    update    La versión actual de la base de datos (esquema) es 5.0.0-2023-09-11.
 ... Muchas consultas SQL individuales
-2024-04-17T09:13:41+00:00	INFO 127.0.0.1	update	Fin de las actualizaciones SQL.
-2024-04-17T09:13:41+00:00	INFO 127.0.0.1	update	Desinstalando extensiones
-2024-04-17T09:13:41+00:00	INFO 127.0.0.1	update	Eliminando archivos y carpetas eliminados.
-2024-04-17T09:13:44+00:00	INFO 127.0.0.1	update	Limpiando después de la instalación.
-2024-04-17T09:13:44+00:00	INFO 127.0.0.1	update	Actualización a la versión 5.1.0 completada.
+2024-04-17T09:13:41+00:00    INFO 127.0.0.1    update    Fin de las actualizaciones SQL.
+2024-04-17T09:13:41+00:00    INFO 127.0.0.1    update    Desinstalando extensiones
+2024-04-17T09:13:41+00:00    INFO 127.0.0.1    update    Eliminando archivos y carpetas eliminados.
+2024-04-17T09:13:44+00:00    INFO 127.0.0.1    update    Limpiando después de la instalación.
+2024-04-17T09:13:44+00:00    INFO 127.0.0.1    update    Actualización a la versión 5.1.0 completada.
 ```
 
 *Traducido por openai.com*
-
