@@ -62,7 +62,11 @@ Los elementos de este panel están bien explicados por la ayuda en línea. Sin e
 
 ### Panel de correo
 
-Un sitio de Joomla debería poder enviar correos electrónicos salientes. Entre otras cosas, enviará mensajes automáticos al propietario del sitio cuando haya actualizaciones disponibles. Sin embargo, algunos servicios de alojamiento restringen los métodos por los cuales se pueden enviar correos salientes. Usando tu propia dirección de correo electrónico en el campo Correo de:
+Un sitio Joomla debería poder enviar correos electrónicos salientes. Entre otras cosas, enviará mensajes automáticos al propietario del sitio cuando haya actualizaciones disponibles. Sin embargo, algunos servicios de alojamiento restringen los métodos mediante los cuales se pueden enviar correos salientes.
+
+#### Enviar correo de prueba
+
+Antes de Joomla 5.3, el botón **Enviar correo de prueba** enviaba un mensaje a la dirección configurada en el campo **Correo del remitente**. Desde la versión 5.3, el correo de prueba se envía directamente a la dirección de correo electrónico del administrador que ha iniciado sesión.
 
 - Primero, prueba con PHP Mail y selecciona el botón *Enviar correo de prueba*. Si el correo electrónico llega, todo está bien. De lo contrario:
 - Prueba la opción Sendmail. Si eso no funciona:
