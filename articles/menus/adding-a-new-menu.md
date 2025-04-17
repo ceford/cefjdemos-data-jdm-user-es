@@ -12,7 +12,7 @@ Hay tres pasos en la creación de un menú utilizable:
 
 Esta captura de pantalla muestra los menús disponibles en un sitio multilingüe. En una instalación inicial de Joomla, hay un solo *Menú Principal*.
 
-![Lista de menús](../../../en/images/menus/menus-manage.png "Lista de menús")
+![Lista de menús](../../../en/images/menus/menus-manage.png)
 
 La lista le permite seleccionar cualquiera de los botones verdes o rojos para ir directamente a la lista de elementos del menú en ese menú y estado.
 
@@ -29,7 +29,7 @@ Utilice cualquiera de los siguientes pasos para crear un nuevo menú:
   - **Título**: Un título adecuado para el menú. Esto se utiliza para identificar el menú en el Administrador de Menús.
   - **Nombre Único**: Este debe ser un nombre de identificación único utilizado por Joomla! para identificar este menú. No se permiten espacios, pero puede usar el carácter '-' como en recursos-menu.
   - **Descripción**: Aunque no es obligatorio, a menudo es útil en un sitio con muchos menús. Aparece debajo del *Título* en la lista de menús como se ilustra arriba.<br>
-    ![Nuevo Menú](../../../en/images/menus/menus-new.png "Nuevo Menú")
+    ![Nuevo Menú](../../../en/images/menus/menus-new.png)
 - **Guardar y Cerrar**
 
 En la lista de Menús, el menú recién creado tiene un botón etiquetado **Agregar un módulo para este menú**, que es la siguiente etapa en la creación del menú. Podría comenzar a agregar elementos del menú y regresar para crear el módulo de menú más adelante.
@@ -38,7 +38,7 @@ En la lista de Menús, el menú recién creado tiene un botón etiquetado **Agre
 
 En la lista de Menús, la columna de *Módulos Vinculados* permite seleccionar cualquier módulo de menú existente para fines de edición. Puedes echar un vistazo y luego *Cerrar* sin hacer ningún cambio. Para tu nuevo menú, selecciona el botón **Agregar un módulo para este menú** para abrir un marco modal que contiene el formulario de ingreso de datos del módulo del Menú.
 
-![Formulario de ingreso de datos del módulo del Menú](../../../en/images/menus/menus-module.png "Formulario de ingreso de datos del módulo del Menú")
+![Formulario de ingreso de datos del módulo del Menú](../../../en/images/menus/menus-module.png)
 
 Campos a completar:
 
@@ -71,11 +71,11 @@ En la lista de **Menús**, desde la columna de **Elementos del Menú** seleccion
 - El campo **Estado** debería estar configurado en **Publicado**.
 - Selecciona **Guardar y Cerrar**.
 
-![Formulario de entrada de datos del elemento del menú](../../../en/images/menus/menus-single-article.png "Formulario de entrada de datos del elemento del menú")
+![Formulario de entrada de datos del elemento del menú](../../../en/images/menus/menus-single-article.png)
 
 Añade más Elementos del Menú al nuevo Menú según sea necesario.
 
 Una vez que se hayan añadido los elementos al Menú, verifica que el Menú se muestre en el sitio web en la posición correcta.
 
-![Visualización del menú](../../../en/images/menus/menus-display.png "Visualización del menú")
+![Visualización del menú](../../../en/images/menus/menus-display.png)
 

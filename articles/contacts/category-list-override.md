@@ -36,7 +36,7 @@ La lista de viñetas de campos personalizados se puede mejorar eliminando las vi
   padding-left: 0;
 }
 ```
-![comité empresarial estilizado](../../../en/images/contacts/contact-business-committee-styled.png "Comité Empresarial Estilizado")
+![comité empresarial estilizado](../../../en/images/contacts/contact-business-committee-styled.png)
 
 Eso es todo lo que se puede hacer con el estilo. Mejor, pero aún no lo suficiente. Para agregar más elementos y cambiar el diseño se requerirá una anulación de diseño.  
 
@@ -150,7 +150,7 @@ a:has(.contact-thumbnail) {
 
 ### Resultado
 
-![comité de negocios en cuadrícula](../../../en/images/contacts/contact-business-committee-grid.png "Comité de Negocios en Cuadrícula")
+![comité de negocios en cuadrícula](../../../en/images/contacts/contact-business-committee-grid.png)
 
 *Traducido por openai.com*
 

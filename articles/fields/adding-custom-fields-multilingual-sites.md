@@ -10,7 +10,7 @@ Si tienes un sitio multilingüe, puedes mostrar las etiquetas y descripciones de
 
 En el siguiente ejemplo, se crean un grupo de campos de Contacto y un campo para las preferencias personales de un contacto. El grupo de campos se llama Favoritos y el campo de ejemplo se llama Coche. Evidentemente, se pueden añadir más campos para otras cosas favoritas, como comida o películas.
 
-Para seguir este ejemplo se asume que has configurado un sitio multilingüe según lo descrito en el tutorial [Sitios Multilingües](jdocmanual?article=user/languages/setup-a-multilingual-site "Sitios Multilingües").
+Para seguir este ejemplo se asume que has configurado un sitio multilingüe según lo descrito en el tutorial [Sitios Multilingües](jdocmanual?article=user/languages/setup-a-multilingual-site).
 
 ## Constantes de Idioma
 
@@ -49,7 +49,7 @@ Desde el menú del Administrador:
 
 La siguiente captura de pantalla muestra un ejemplo de la creación de sobrescritura para una constante de idioma alemán.
 
-![Creación de sobrescritura en alemán](../../../en/images/fields/fields-overrides-creation-de.png "Creación de sobrescritura en alemán")
+![Creación de sobrescritura en alemán](../../../en/images/fields/fields-overrides-creation-de.png)
 
 ## Definiendo el Grupo de Campos
 
@@ -79,11 +79,11 @@ Desde el menú del Administrador:
 
 Con el inglés seleccionado antes de iniciar sesión como Administrador, el formulario de ingreso de datos del contacto debe contener una pestaña con el nombre en inglés de tu grupo de campos y los campos de ese grupo también con valores en inglés.
 
-![Entrada de datos en inglés](../../../en/images/fields/fields-overrides-entry.png "Entrada de datos en inglés")
+![Entrada de datos en inglés](../../../en/images/fields/fields-overrides-entry.png)
 
 Con el alemán seleccionado antes de iniciar sesión como Administrador, deberías ver las traducciones al alemán de tus constantes de idioma:
 
-![Entrada de datos en alemán](../../../en/images/fields/fields-overrides-entry-de.png "Entrada de datos en alemán")
+![Entrada de datos en alemán](../../../en/images/fields/fields-overrides-entry-de.png)
 
 Advertencia: ¡traducción por translate.google.co.uk!
 
@@ -91,11 +91,11 @@ Advertencia: ¡traducción por translate.google.co.uk!
 
 En inglés:
 
-![Visualización de datos en inglés](../../../en/images/fields/fields-overrides-display.png "Visualización de datos en inglés")
+![Visualización de datos en inglés](../../../en/images/fields/fields-overrides-display.png)
 
 Y en alemán:
 
-![Visualización de datos en alemán](../../../en/images/fields/fields-overrides-display-de.png "Visualización de datos en alemán")
+![Visualización de datos en alemán](../../../en/images/fields/fields-overrides-display-de.png)
 
 *Traducido por openai.com*
 

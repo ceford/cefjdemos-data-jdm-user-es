@@ -16,7 +16,7 @@ Una instalación de Joomla! consiste en los archivos utilizados para gestionar y
 
 Esta plantilla tiene todo lo que necesitas para comenzar con tu propio sitio web. Puede personalizarse con configuraciones de plantilla y características especificadas por el usuario, como imágenes y colores.
 
-![La Plantilla Cassiopeia](../../../en/images/getting-started/introduction-to-joomla-cassiopeia.png "La Plantilla Cassiopeia")
+![La Plantilla Cassiopeia](../../../en/images/getting-started/introduction-to-joomla-cassiopeia.png)
 
 Si Cassiopeia no es completamente adecuada para tu sitio, hay cientos de otras plantillas disponibles de proveedores externos, tanto gratuitas como comerciales.
 
@@ -30,7 +30,7 @@ Si Cassiopeia no es completamente adecuada para tu sitio, hay cientos de otras p
 
 Esta plantilla no es vista por el público, por lo que raramente es necesario buscar una alternativa.
 
-![La Plantilla Atum](../../../en/images/getting-started/introduction-to-joomla-atum.png "La Plantilla Atum")
+![La Plantilla Atum](../../../en/images/getting-started/introduction-to-joomla-atum.png)
 
 Puedes configurar lo que aparece en varios paneles de control, pero es mejor dejarlo hasta que la experiencia justifique un cambio.
 

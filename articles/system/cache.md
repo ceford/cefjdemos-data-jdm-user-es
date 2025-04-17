@@ -198,7 +198,7 @@ class DeliciousController extends JController {
 ```
 
 También hay algunos urlparams a considerar. Revisa este
-[Joomla StackExchange](http://joomla.stackexchange.com/questions/5781/how-can-i-use-joomlas-cache-with-my-components-view/7000#7000 "")
+[Joomla StackExchange](http://joomla.stackexchange.com/questions/5781/how-can-i-use-joomlas-cache-with-my-components-view/7000#7000)
 
 Además, ten en cuenta que cualquier actualización (como conteos de visitas o impactos) NO se actualizará (a menos que añadas esto fuera de este método y, por lo tanto, cualquier parte más profunda del MVC).
 

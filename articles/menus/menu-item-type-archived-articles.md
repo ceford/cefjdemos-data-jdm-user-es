@@ -1,4 +1,4 @@
-<!-- Filename: J4.x:How_to_Create_a_Menu_Item_to_View_Archived_Articles / Display title: Artículos Archivados  -->
+<!-- Filename: J4.x:How_to_Create_a_Menu_Item_to_View_Archived_Articles / Display title: Menú de Artículos Archivados  -->
 
 ## Introducción
 
@@ -15,9 +15,9 @@ Pero, ¿qué pasa si los artículos más antiguos deben estar disponibles para l
 5. Cambie cualquiera de los otros parámetros para adaptarlos a sus requisitos. Por ejemplo, puede eliminar **Todas las Categorías** y elegir una o más categorías de la lista desplegable.
 6. Seleccione **Guardar y Cerrar** para crear el nuevo elemento de menú.
 
-![Formulario de Menú de Artículos Archivados](../../../en/images/menus/menus-articles-archived.png "Formulario de Menú de Artículos Archivados")
+![Formulario de Menú de Artículos Archivados](../../../en/images/menus/menus-articles-archived.png)
 
-Hay varios parámetros que puede cambiar; puede encontrar información más detallada en la pantalla de [Ayuda](jdocmanual?article=help/menu-items/menu-item-article-archived "Elemento de Menú: Artículo Archivado"). 
+Hay varios parámetros que puede cambiar; puede encontrar información más detallada en la pantalla de [Ayuda](jdocmanual?article=help/menu-items/menu-item-article-archived). 
 
 Después de guardar, el nuevo elemento de menú aparecerá en el menú del sitio en el orden agregado o ajustado mediante arrastrar y soltar o en este formulario de edición de menú.
 
@@ -25,7 +25,7 @@ Después de guardar, el nuevo elemento de menú aparecerá en el menú del sitio
 
 El enlace *Artículos Archivados* lleva a una página que muestra una lista de artículos archivados:
 
-![Formulario del Menú de Artículos Archivados](../../../en/images/menus/menus-articles-archived-display.png "Formulario del Menú de Artículos Archivados")
+![Formulario del Menú de Artículos Archivados](../../../en/images/menus/menus-articles-archived-display.png)
 
 Este ejemplo es la salida predeterminada. Puedes elegir modificar esto de modo que, por ejemplo, solo se muestre el título enlazado y la categoría – Joomla te permite modificarlo fácilmente. Puedes decidir que solo quieres mostrar el título, pero merece la pena experimentar para configurarlo como desees.
 

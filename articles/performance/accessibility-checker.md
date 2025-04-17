@@ -4,17 +4,17 @@
 
 Este es un plugin central que se puede utilizar para verificar la accesibilidad mientras se crea el contenido del artículo. La siguiente captura de pantalla muestra algunas configuraciones del plugin:
 
-![Configuración del formulario del plugin](../../../en/images/performance/performance-jooa11y-plugin-form.png "Configuración del Plugin")
+![Configuración del formulario del plugin](../../../en/images/performance/performance-jooa11y-plugin-form.png)
 
 Con la opción **Mostrar Siempre** configurada en *Encendido*, el icono de informe aparece en cada página del sitio. Eso es útil para el desarrollo, pero nunca debería dejarse activado en un sitio en vivo. ¡Configúrelo en **Apagado**!
 
 Con la opción *Mostrar Siempre* configurada en *Encendido*, cada página del sitio tiene un icono en la parte inferior derecha con un contador del número de problemas. La siguiente captura de pantalla muestra el icono seleccionado para mostrar un panel de información. Incluye un Esquema de la Página, comentarios sobre Legibilidad y Advertencias, que pueden seleccionarse uno por uno. El primer problema ha sido seleccionado.
 
-![Verificación de accesibilidad del sitio](../../../en/images/performance/performance-jooa11y-site-display.png "Verificación de accesibilidad del sitio")
+![Verificación de accesibilidad del sitio](../../../en/images/performance/performance-jooa11y-site-display.png)
 
 El formulario *Artículos: Editar* tiene un botón **Verificación de Accesibilidad** en la barra de herramientas. Muestra la verificación de un artículo individual en una ventana emergente:
 
-![Verificación de accesibilidad del editor](../../../en/images/performance/performance-jooa11y-admin-display.png "Verificación de accesibilidad del editor")
+![Verificación de accesibilidad del editor](../../../en/images/performance/performance-jooa11y-admin-display.png)
 
 ## Solucionando Problemas
 

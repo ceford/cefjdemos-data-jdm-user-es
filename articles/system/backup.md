@@ -93,7 +93,7 @@ Consejos comunes del Foro de Joomla:
 ## Inicio Rápido de Akeeba
 
 Si has usado Akeeba Backup, entonces utiliza Akeeba Quickstart para restaurar tu respaldo.
-* Consulta el [Tutorial en Video](http://akee.ba/abrestoreanywhere "").
+* Consulta el [Tutorial en Video](http://akee.ba/abrestoreanywhere).
 * Descarga Akeeba Quickstart (PDF 94Kb) gratuitamente.
 * Verifica que el sitio restaurado funcione correctamente.
 

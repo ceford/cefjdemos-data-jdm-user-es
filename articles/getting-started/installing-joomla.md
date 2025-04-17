@@ -21,7 +21,7 @@ Es posible trabajar con valores más bajos de upload_max_filesize y post_max_siz
 
 ### Configuración de la Base de Datos
 
-Si aún no has configurado una base de datos, hazlo ahora. Está cubierto para un servicio de alojamiento con cPanel en el tutorial [Alojamiento con cPanel](jdocmanual?article=user/hosting/cpanel-hosting "Alojamiento con cPanel"). También hay un tutorial *Creando una Base de Datos para Joomla!* que cubre los métodos localhost y phpMyAdmin.
+Si aún no has configurado una base de datos, hazlo ahora. Está cubierto para un servicio de alojamiento con cPanel en el tutorial [Alojamiento con cPanel](jdocmanual?article=user/hosting/cpanel-hosting). También hay un tutorial *Creando una Base de Datos para Joomla!* que cubre los métodos localhost y phpMyAdmin.
 
 Necesitarás tener en cuenta la información básica de la base de datos necesaria cuando comience la instalación real de Joomla.
 

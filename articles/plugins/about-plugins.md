@@ -4,7 +4,7 @@
 
 Los plugins son extensiones de Joomla! que hacen algo *tras bambalinas* en respuesta a un disparador. Hay alrededor de 160 plugins principales en más de 20 grupos. Los desarrolladores de terceros proporcionan muchos más. La siguiente imagen muestra el inicio de la lista de plugins con la longitud de la lista configurada en 5 para la conveniencia de la captura de pantalla.
 
-![Lista de plugins](../../../en/images/plugins/plugins-list.png "Lista de plugins")
+![Lista de plugins](../../../en/images/plugins/plugins-list.png)
 
 ## Tipos de Plugins
 

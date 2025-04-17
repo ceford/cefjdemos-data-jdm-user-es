@@ -58,7 +58,7 @@ Dependiendo del tamaño de tu sitio, la indexación puede llevar desde unos poco
 
 La página de Contenido Indexado muestra todo el contenido indexado. Si prefieres que ciertos elementos no se muestren en los resultados de búsqueda, puedes despublicarlos de la base de datos de Búsqueda Inteligente seleccionando la casilla de verificación junto al título del elemento y luego presionando el botón Despublicar.
 
-**NOTA IMPORTANTE**: Si tu sitio tiene una gran cantidad de contenido, o elementos de contenido particularmente grandes, o tiene espacio en disco restringido, deberías leer sobre [Búsqueda Inteligente en sitios grandes](jdocmanual?article=user/smart-search/smart-search-on-large-sites "Smart Search on large sites").
+**NOTA IMPORTANTE**: Si tu sitio tiene una gran cantidad de contenido, o elementos de contenido particularmente grandes, o tiene espacio en disco restringido, deberías leer sobre [Búsqueda Inteligente en sitios grandes](jdocmanual?article=user/smart-search/smart-search-on-large-sites).
 
 ## Exponiendo la Búsqueda Inteligente a los Usuarios del Sitio
 

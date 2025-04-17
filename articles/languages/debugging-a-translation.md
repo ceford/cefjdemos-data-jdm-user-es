@@ -52,7 +52,7 @@ Este plugin del sistema controla lo que se muestra cuando se activa la depuraci�
 
 En la pestaña **Idioma**:
 
-![plugin del sistema de depuración](../../../en/images/languages/languages-debug-plugin.png "Sistema - Depuración del Idioma")
+![plugin del sistema de depuración](../../../en/images/languages/languages-debug-plugin.png)
 
 * **Errores al Analizar Archivos de Idioma** Muestra un error si un archivo de idioma no se carga.
 

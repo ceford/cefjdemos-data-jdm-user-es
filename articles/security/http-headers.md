@@ -57,7 +57,7 @@ Puedes ver las cabeceras HTTP y cómo se relacionan con objetos HTML individuale
 
 Puedes ver en la imagen a continuación que la imagen resaltada está devolviendo un estatus HTTP de 200, por lo que el navegador la encontró. También hay una serie de otra información vinculada a ese elemento, como el tamaño del archivo y las fechas de edición.
 
-![Cabeceras HTTP de Joomla 1](../../../en/images/security/http-headers-dev-tools-headers.png "")
+![Cabeceras HTTP de Joomla 1](../../../en/images/security/http-headers-dev-tools-headers.png)
 
 Si uno de tus elementos HTML no se ha mostrado, también puedes obtener una pista sobre la razón en las cabeceras HTTP. En este ejemplo, la segunda imagen no se ha mostrado y puedes ver en la información mostrada en el panel derecho que no hay información de cabecera HTTP.
 
@@ -69,11 +69,11 @@ Excepto el mensaje críptico:
 
 Por lo tanto, cuando la imagen se llama desde el documento HTML, el navegador la rechaza y no se carga.
 
-![Cabeceras HTTP de Joomla 2](../../../en/images/security/http-headers-dev-tools-headers-reject.png "")
+![Cabeceras HTTP de Joomla 2](../../../en/images/security/http-headers-dev-tools-headers-reject.png)
 
 Esto difiere de no encontrarse y devolver un mensaje de error HTTP 404 no encontrado. En esta situación, la imagen todavía está siendo buscada en el servidor que la aloja, pero el navegador no la ha encontrado.
 
-![Cabeceras HTTP de Joomla 3](../../../en/images/security/http-headers-dev-tools-headers-not-found.png "")
+![Cabeceras HTTP de Joomla 3](../../../en/images/security/http-headers-dev-tools-headers-not-found.png)
 
 ## Lo que hace el plugin Joomla HTTP Headers
 
@@ -121,7 +121,7 @@ Esto ayudaría a detener la ejecución de código JavaScript malicioso en tu sit
 
 Puedes encontrar el plugin de HTTP Headers de Joomla junto con todos los demás plugins de Joomla, y se accede de la misma manera a la que estás acostumbrado.
 
-![Joomla http headers 4](../../../en/images/security/http-headers-plugins.png "")
+![Joomla http headers 4](../../../en/images/security/http-headers-plugins.png)
 
 ## Usando el Plugin de Encabezados HTTP
 
@@ -140,7 +140,7 @@ Al final de este artículo, hay una lista de sitios web útiles con información
 
 **La pestaña de Política de Seguridad de Transporte Estricto está desactivada por defecto.**
 
-![Joomla http headers 12](../../../en/images/security/http-headers-plugins-headers-strict-transport-security.png "")
+![Joomla http headers 12](../../../en/images/security/http-headers-plugins-headers-strict-transport-security.png)
 
 Me encanta investigar, porque a veces te encuentras con momentos de asombro auténtico. Este es uno de esos momentos.
 
@@ -168,7 +168,7 @@ Según w3techs.com, alrededor del 20% de todos los sitios web todavía están co
 
 Esto es un problema porque cualquier dato siendo enviado desde y recibido por el navegador de un usuario está en riesgo de ser interceptado. Lo conocemos como un **ataque de intermediario en el medio (man-in-the-middle)**. Ahora, esto puede no parecer una consideración importante si su sitio web es solo sobre imágenes de lindos gatitos.
 
-![instantánea de lindos gatitos](../../../en/images/security/http-headers-plugins-headers-kittens.jpg "")
+![instantánea de lindos gatitos](../../../en/images/security/http-headers-plugins-headers-kittens.jpg)
 
 Pero incluso sitios web simples pueden convertirse en víctimas de hackers y atacantes que implementarán **click-jacking** y otros ataques de origen cruzado que dañarán a sus usuarios.
 
@@ -178,7 +178,7 @@ Un sitio web que no intercambia datos de usuario o información de inicio de ses
 
 Como ya sabes, el objetivo de HTTPS es introducir una conexión segura entre el navegador del usuario y tu servidor. Una conexión en la que cualquier intercambio de datos ocurre en un entorno seguro que no puede ser interceptado y copiado por un tercero. Un hombre en el medio.
 
-![ataque de hombre en el medio](../../../en/images/security/http-headers-plugins-headers-man-in-middle.png "")
+![ataque de hombre en el medio](../../../en/images/security/http-headers-plugins-headers-man-in-middle.png)
 
 Pero, ¿sabías que a menos que tu **Certificado SSL de HTTPS** use **TLS**, tu conexión 'segura' no es tan segura como esperarías? Las conexiones HTTPS sin TLS siguen siendo **vulnerables a ataques de intermediario en el medio**.
 
@@ -188,7 +188,7 @@ Los navegadores han adoptado ampliamente TLS.
 
 Y, TLS 1.3 no es directamente compatible con versiones anteriores a menos que se esté ejecutando en modo de compatibilidad. Lo que podría plantear un problema para algunos.
 
-![información del certificado TLS](../../../en/images/security/http-headers-plugins-headers-tls.png "")
+![información del certificado TLS](../../../en/images/security/http-headers-plugins-headers-tls.png)
 
 Usar el Plugin de Cabeceras HTTP de Joomla para manejar Strict-Transport-Security (HSTS) ayuda a mitigar ataques de intermediario en el medio al imponer el uso de TLS en el navegador web de tus visitantes. TLS asegura que toda la comunicación web se realice en el lado del cliente usando una capa de transporte segura.
 
@@ -208,7 +208,7 @@ Lo que agregará la etiqueta 'Preload' al encabezado de respuesta.
 
 En la configuración, también hay una lista de precarga de enlaces**. Esta es una lista que está codificada en muchos navegadores modernos. La lista informa al navegador que la conexión a example.com solo debe hacerse a través de HTTPS. Eliminando así la necesidad de incluso hacer la conexión inicial vía HTTP.
 
-![precarga HSTS](../../../en/images/security/http-headers-plugins-headers-enter-domain.png "")
+![precarga HSTS](../../../en/images/security/http-headers-plugins-headers-enter-domain.png)
 
 Una vez que HSTS está configurado en el plugin de cabeceras HTTP de Joomla, se añaden todas las etiquetas necesarias al encabezado de respuesta HTTP. Esto le permite a cualquier navegador de usuario que esté tratando de conectarse a tu servidor que todas las conexiones **deben hacerse con HTTPS**, ya sea especificado en tu HTML o no.
 
