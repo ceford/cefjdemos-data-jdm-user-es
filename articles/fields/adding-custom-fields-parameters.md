@@ -131,7 +131,16 @@ elemento de contenido. Esto podría provocar una divulgación de información in
 
 ### Pestaña de Permisos
 
+Los permisos para cada grupo de usuarios son autoexplicativos para las acciones *Eliminar*, *Editar* y *Editar estado*. Los permisos muestran quién puede hacer qué con el campo en su totalidad, como eliminarlo, modificarlo o despublicarlo.
+
 ![Parámetros de campo pestaña general](../../../en/images/fields/fields-parameters-permissions-tab.png)
+
+La opción *Editar valor del campo personalizado* puede resultar confusa. Indica quién puede cambiar el contenido del campo. De forma predeterminada, está configurada como **No permitido (heredado)** para todos los grupos, excepto los Superusuarios. Dos ejemplos:
+
+* **Datos personalizados de registro de usuario**
+  Supongamos que crea un campo de usuario para *Género* que se añadirá a un formulario de registro de usuario. Esto podría ser una lista o un botón de opción que permita al usuario seleccionar *Masculino* o *Femenino*. En este caso, el permiso para el grupo Público debe establecerse en *Permitido*. De lo contrario, un usuario invitado no podrá seleccionar un género. Como todos los demás grupos heredan del grupo Público, un usuario registrado podrá cambiar su género en el perfil después de iniciar sesión.
+* **Comentario de artículo**
+  Supongamos que desea permitir que un autor agregue un comentario a un artículo. Esto podría ser un campo de texto de longitud limitada. En este caso, el permiso para el grupo Autor debe establecerse en *Permitido*. Los grupos Editor y Publicador heredarán esta configuración cuando se guarde el formulario. Los grupos Gerente y Administrador tienen permiso para editar artículos, pero no para editar valores de campos personalizados, a menos que el valor para el grupo Gerente también se establezca como *Permitido*.
 
 *Traducido por openai.com*
 
