@@ -33,3 +33,4 @@ Supongamos que has instalado Joomla en la siguiente carpeta: public_html/tryjoom
 6. Si tienes la caché habilitada, inicia sesión en el backend del administrador (que ahora estará en `http://www.example.com/administrator` y no en `http://www.example.com/tryjoomla/administrator`). Ve a Sistema / Caché y elimina todos los archivos de caché.
 
 *Traducido por openai.com*
+
