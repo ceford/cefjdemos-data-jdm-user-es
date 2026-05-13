@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Media:_Options / Display title: Medios: Opciones -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Media:_Options",
+  "title": "Medios: Opciones ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -8,7 +15,7 @@ Para acceder al formulario de *Medios: Opciones*, selecciona el botón **Opcione
 
 ## Captura de pantalla
 
-![El formulario de Opciones de medios](../../../en/images/media/media-options.png)
+![El formulario de Opciones de medios](../../../en/images/media/media-options/01-media-options.png)
 
 ## Ruta a Archivos y Carpetas
 
@@ -23,7 +30,7 @@ En el formulario de Opciones, ingresa el nombre de la carpeta en el campo **Ruta
 
 Cuando esté configurado, podrás elegir entre las carpetas de imágenes y archivos en la parte Local de la vista de Medios.
 
-![La página de los medios](../../../en/images/media/media-sample-data-cassiopeia.png)
+![La página de los medios](../../../en/images/media/media-options/02-media-sample-data-cassiopeia.png)
 
 ## Tipos de Imágenes o Documentos Adicionales
 

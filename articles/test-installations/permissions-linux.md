@@ -1,4 +1,11 @@
-<!-- Filename: Verifying_permissions / Display title: Permisos de Archivos: Linux -->
+<!--
+{
+  "source": "https://docs.joomla.org/Verifying_permissions",
+  "title": "Permisos de Archivos: Linux ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -22,11 +29,11 @@ Existen varios métodos disponibles para ver y cambiar los permisos de los archi
 
 Dependiendo de lo que estés usando, deberías ver algo parecido a esta imagen de parte del sistema de archivos raíz de Joomla tal como se ve en cPanel:
 
-![verificando permisos en cpanel](../../../en/images/test-installations/verifying-permissions-cpanel.png)
+![verificando permisos en cpanel](../../../en/images/test-installations/permissions-linux/01-verifying-permissions-cpanel.png)
 
 Los permisos están a la derecha y precedidos por un cero para indicar que son números octales. Debería haber un formulario para cambiar los permisos de uno o más elementos seleccionados:
 
-![cambiando permisos en cpanel](../../../en/images/test-installations/verifying-permissions-cpanel-change.png)
+![cambiando permisos en cpanel](../../../en/images/test-installations/permissions-linux/02-verifying-permissions-cpanel-change.png)
 
 En una ventana de terminal, los permisos de archivos y carpetas se muestran como grupos de letras en lugar de números (la `d` inicial indica que el elemento es un directorio):
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Adding_a_menu_link_in_an_article / Display title: Artículo: Guardar en el Menú  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Adding_a_menu_link_in_an_article",
+  "title": "Artículo: Guardar en el Menú  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 

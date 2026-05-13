@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Sql_Field / Display title: Campo SQL -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Campo SQL ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Propósito
 
@@ -25,7 +32,7 @@ FROM `#__countrybase_countries`
 WHERE `state` = 1
 ORDER BY `title` ASC
 ```
-![Creación de Campo SQL](../../../en/images/fields/fields-sql-edit.png)
+![Creación de Campo SQL](../../../en/images/fields/adding-custom-fields-sql-field/01-fields-sql-edit.png)
 
 **Nota:** En este ejemplo, la inclusión del tipo de campo en el Título es solo para
 fines de demostración. Omítalo en los títulos de sus propios campos.
@@ -34,14 +41,14 @@ fines de demostración. Omítalo en los títulos de sus propios campos.
 
 Simple - selecciona de la lista.
 
-![Entrada de datos de campo SQL](../../../en/images/fields/fields-sql-data-entry.png)
+![Entrada de datos de campo SQL](../../../en/images/fields/adding-custom-fields-sql-field/02-fields-sql-data-entry.png)
 
 
 ## Visualización de Datos
 
 La siguiente captura de pantalla del Sitio muestra el campo mostrado en un artículo. La opción *Visualización automática* es responsable de la posición del campo y tu plantilla es responsable del diseño del campo.
 
-![Visualización del campo SQL del sitio](../../../en/images/fields/fields-sql-site.png)
+![Visualización del campo SQL del sitio](../../../en/images/fields/adding-custom-fields-sql-field/03-fields-sql-site.png)
 
 La salida es un único elemento o una lista de elementos separados por comas (nombres de países) siguiendo la etiqueta del Campo (País de Origen).
 

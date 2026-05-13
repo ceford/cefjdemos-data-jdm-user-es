@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org / Display title: Schema.org - Organización -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Schema.org - Organización ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Propósito
 
@@ -17,7 +24,7 @@ La sección *Generic Field* permite ingresar pares de *Title* y *Value* además 
 
 A continuación se muestra un ejemplo de un esquema de Organización en un formulario de edición de Artículo.
 
-![An organisation schema edit form](../../../en/images/schemas/edit-schema-organisation.png)
+![An organisation schema edit form](../../../en/images/schemas/organisation/01-edit-schema-organisation.png)
 
 *Traducido por openai.com*
 

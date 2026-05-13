@@ -1,4 +1,11 @@
-<!-- Filename: How_do_UNIX_file_permissions_work%3F / Display title: # Permisos de Archivos UNIX -->
+<!--
+{
+  "source": "https://docs.joomla.org/How_do_UNIX_file_permissions_work%3F",
+  "title": "# Permisos de Archivos UNIX ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 Los permisos de archivos de Unix/Linux pueden ser confusos. Los permisos básicos de UNIX vienen en tres categorías:
 

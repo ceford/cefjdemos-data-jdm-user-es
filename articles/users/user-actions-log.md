@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:User_Actions_Log / Display title: Registro de Acciones del Usuario   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:User_Actions_Log",
+  "title": "Registro de Acciones del Usuario   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -12,7 +19,7 @@ Para ver la lista del Registro de Acciones de Usuarios:
 
 - Selecciona **Usuarios → Registro de Acciones de Usuarios** desde el menú de Administrador.
 
-![página de lista de registro de acciones de usuarios](../../../en/images/users/user-actions-log-list.png)
+![página de lista de registro de acciones de usuarios](../../../en/images/users/user-actions-log/01-user-actions-log-list.png)
 
 Desde esta página, un Super Usuario tiene una visión global de todas las actividades de usuario realizadas en un sitio.
 
@@ -26,7 +33,7 @@ Desde esta página, un Super Usuario tiene una visión global de todas las activ
 
 El formulario de Opciones del Registro de Acciones del Usuario permite al Super Usuario seleccionar qué eventos registrar y si incluir direcciones IP en los datos del registro.
 
-![página de opciones del registro de acciones del usuario](../../../en/images/users/user-actions-log-options.png)
+![página de opciones del registro de acciones del usuario](../../../en/images/users/user-actions-log/02-user-actions-log-options.png)
 
 ## Plugins
 
@@ -48,7 +55,7 @@ Cuando está habilitado, este plugin exporta los datos del registro de acciones 
 
 Este módulo se muestra solo para Superusuarios en el Panel de Inicio.
 
-![módulo de registro de acciones del usuario](../../../en/images/users/user-actions-log-module.png)
+![módulo de registro de acciones del usuario](../../../en/images/users/user-actions-log/03-user-actions-log-module.png)
 
 ## Cómo conectar una extensión al sistema
 

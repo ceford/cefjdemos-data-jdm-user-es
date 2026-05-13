@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=system&filename=backup.md / Display title: Respaldo -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=system&filename=backup.md",
+  "title": "Respaldo ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## ¡Los accidentes ocurren!
 

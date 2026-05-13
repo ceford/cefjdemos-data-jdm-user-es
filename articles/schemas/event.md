@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org/Type_Event_-_Using_Event_Plugin / Display title: Schema.org - Evento -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Schema.org - Evento ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Propósito
 
@@ -21,7 +28,7 @@ La sección *Campo Genérico* permite ingresar pares de *Título* y *Valor* adem
 
 A continuación se muestra un ejemplo de un esquema de Evento en un formulario de edición de Artículo.
 
-![An event schema edit form](../../../en/images/schemas/edit-schema-event.png)
+![An event schema edit form](../../../en/images/schemas/event/01-edit-schema-event.png)
 
 *Traducido por openai.com*
 

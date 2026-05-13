@@ -1,4 +1,11 @@
-<!-- Filename: Smart_Search_content_change_test_plan / Display title: Plan de Pruebas de Búsqueda Inteligente -->
+<!--
+{
+  "source": "https://docs.joomla.org/Smart_Search_content_change_test_plan",
+  "title": "Plan de Pruebas de Búsqueda Inteligente ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 El siguiente es un plan de pruebas preliminar que abarca (principalmente) la actualización del índice de Búsqueda Inteligente cuando ocurren varios tipos de actualizaciones de contenido.
 

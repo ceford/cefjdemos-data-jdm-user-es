@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Deleting_an_Article / Display title: Artículos: Eliminar  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Deleting_an_Article",
+  "title": "Artículos: Eliminar  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -20,7 +27,7 @@ Considere por qué quiere eliminar el artículo:
 - Selecciona el botón de **Acciones** en la barra de herramientas.
 - Selecciona **Papelera** en el menú desplegable.
 
-![Artículo seleccionado para enviar a la papelera](../../../en/images/articles/articles-selected-to-trash.png)
+![Artículo seleccionado para enviar a la papelera](../../../en/images/articles/articles-delete/01-articles-selected-to-trash.png)
 
 Habrá un mensaje de confirmación y el artículo desaparecerá de la lista actual 
 de artículos, ya que normalmente no se incluyen elementos en la papelera.
@@ -34,7 +41,7 @@ Para ver la lista de artículos en la papelera:
 - Selecciona el botón **Opciones de Filtro** para abrir la lista de filtros.
 - Selecciona **En papelera** de la lista *-- Seleccionar Estado --*.
 
-![Vista de artículos en la papelera](../../../en/images/articles/articles-trash-list.png)
+![Vista de artículos en la papelera](../../../en/images/articles/articles-delete/02-articles-trash-list.png)
 
 ### Para Restaurar
 

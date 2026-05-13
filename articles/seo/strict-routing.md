@@ -1,10 +1,17 @@
-<!-- Filename: J5.x:Improving_SEO_with_Strict_Routing_and_SEF_URLs / Display title: Enrutamiento Estricto SEO -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Improving_SEO_with_Strict_Routing_and_SEF_URLs",
+  "title": "Enrutamiento Estricto SEO ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
 La opción de Enrutamiento Estricto, introducida en Joomla 5.2, mejora el rendimiento SEO de la plataforma al permitir reglas de enrutamiento más estrictas mediante un interruptor en el plugin *System - SEF*. Ayuda a eliminar contenido duplicado al imponer URLs más consistentes y redirigir los duplicados a la URL correcta con una redirección 301.
 
-![system sef plugin settings](../../../en/images/seo/seo-system-sef-plugin.png)
+![system sef plugin settings](../../../en/images/seo/strict-routing/01-seo-system-sef-plugin.png)
 
 ### Imponiendo Sufijos
 

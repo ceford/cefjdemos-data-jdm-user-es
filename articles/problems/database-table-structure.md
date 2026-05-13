@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Fix_%22Database_Table_Structure_NOT_Up_to_Date%22_before_Update / Display title: Estructura de la Tabla de Base de Datos -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Fix_%22Database_Table_Structure_NOT_Up_to_Date%22_before_Update",
+  "title": "Estructura de la Tabla de Base de Datos ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Errores Reportados
 

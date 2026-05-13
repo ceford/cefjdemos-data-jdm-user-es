@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Parameters_for_all_Custom_Fields / Display title: Parámetros de Campo -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Parámetros de Campo ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Formulario de Entrada de Datos de Campo
 
@@ -9,7 +16,7 @@ Una lista de Campos estará vacía inicialmente. Para comenzar, por ejemplo, con
 
 El formulario consta de un campo de Título y cuatro pestañas.
 
-![Parámetros de campo pestaña general](../../../en/images/fields/fields-parameters-general-tab.png)
+![Parámetros de campo pestaña general](../../../en/images/fields/adding-custom-fields-parameters/01-fields-parameters-general-tab.png)
 
 ## Título
 
@@ -68,7 +75,7 @@ aparecen como pestañas separadas en el formulario de entrada de datos del artí
 
 ### Pestaña Opciones
 
-![Parámetros de campo pestaña opciones generales](../../../en/images/fields/fields-parameters-options-tab.png)
+![Parámetros de campo pestaña opciones generales](../../../en/images/fields/adding-custom-fields-parameters/02-fields-parameters-options-tab.png)
 
 #### Opciones del Formulario
 
@@ -127,13 +134,13 @@ elemento de contenido. Esto podría provocar una divulgación de información in
 
 ### Pestaña de Publicación
 
-![Parámetros de campo pestaña general](../../../en/images/fields/fields-parameters-publishing-tab.png)
+![Parámetros de campo pestaña general](../../../en/images/fields/adding-custom-fields-parameters/03-fields-parameters-publishing-tab.png)
 
 ### Pestaña de Permisos
 
 Los permisos para cada grupo de usuarios son autoexplicativos para las acciones *Eliminar*, *Editar* y *Editar estado*. Los permisos muestran quién puede hacer qué con el campo en su totalidad, como eliminarlo, modificarlo o despublicarlo.
 
-![Parámetros de campo pestaña general](../../../en/images/fields/fields-parameters-permissions-tab.png)
+![Parámetros de campo pestaña general](../../../en/images/fields/adding-custom-fields-parameters/04-fields-parameters-permissions-tab.png)
 
 La opción *Editar valor del campo personalizado* puede resultar confusa. Indica quién puede cambiar el contenido del campo. De forma predeterminada, está configurada como **No permitido (heredado)** para todos los grupos, excepto los Superusuarios. Dos ejemplos:
 

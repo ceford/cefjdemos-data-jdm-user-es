@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:User_Registration / Display title: Registro de Usuario  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:User_Registration",
+  "title": "Registro de Usuario  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Política de Registro
 
@@ -18,7 +25,7 @@ El auto-registro de usuarios no está permitido por defecto. Cualquier nuevo usu
   - Propia: El usuario recibirá un correo electrónico con un enlace de activación. La cuenta se activará cuando el usuario haga clic en el enlace de activación.
   - Administrador: El usuario recibirá un correo electrónico con un enlace de activación. Cuando el usuario haga clic en este enlace, el Administrador del Sitio será notificado por correo electrónico. Luego, el Administrador del Sitio necesita activar la cuenta del usuario.
 
-![Pestaña de opciones de configuración de usuario](../../../en/images/users/users-configuration-user-options.png)
+![Pestaña de opciones de configuración de usuario](../../../en/images/users/user-registration/01-users-configuration-user-options.png)
 
 - **Guardar y Cerrar**
 - Añadir un módulo de *Iniciar sesión*. O
@@ -36,7 +43,7 @@ Si no se permite el auto-registro, cualquier nuevo usuario debe ser creado por u
 - Selecciona **Usuarios** → **Administrar +** desde el menú del Administrador.
 - Completa el formulario **Detalles del Nuevo Usuario**. La mayoría de los campos tienen valores predeterminados adecuados.
 
-![Página de entrada de datos de nuevo usuario](../../../en/images/users/users-new-user.png)
+![Página de entrada de datos de nuevo usuario](../../../en/images/users/user-registration/02-users-new-user.png)
 
 - Selecciona la pestaña **Grupos de Usuarios Asignados** y marca la casilla correspondiente al grupo de usuarios deseado. Registrado está marcado por defecto.
 - **Guardar & Cerrar**.
@@ -52,7 +59,7 @@ Para bloquear a un usuario:
 - Busque al usuario en la lista de *Usuarios*. Utilice el filtro de texto si es necesario.
 - Seleccione el icono de Habilitado que aparece como un tick verde junto al nombre del usuario. Aparece una etiqueta **Bloquear** al pasar el ratón.
 
-![Página de entrada de datos de nuevo usuario](../../../en/images/users/users-hover-block.png)
+![Página de entrada de datos de nuevo usuario](../../../en/images/users/user-registration/03-users-hover-block.png)
 
 - Seleccione el icono de *Habilitado*. La página se recargará con el icono de Habilitado apareciendo como una cruz gris.
 

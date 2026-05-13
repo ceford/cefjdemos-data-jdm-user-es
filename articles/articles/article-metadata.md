@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:_Article_Metadata / Display title: Artículo: Editar - Metadatos  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:_Article_Metadata",
+  "title": "Artículo: Editar - Metadatos  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -45,7 +52,7 @@ el encabezado y mostrado en la pestaña del navegador. Para una página compuest
 
 El artículo *Meta Descripción* es un campo en la pestaña *Publicar* del formulario de entrada de datos del artículo:
 
-![La pestaña de la edición del formulario del artículo publicación](../../../en/images/articles/articles-edit-publishing-tab.png)
+![La pestaña de la edición del formulario del artículo publicación](../../../en/images/articles/article-metadata/01-articles-edit-publishing-tab.png)
 
 Si no hay una descripción de metadatos del artículo, se usará una descripción de metadatos de un solo artículo en el menú si está configurada. Si no hay una descripción de metadatos en el menú, se utilizará la descripción meta global del sitio si está configurada. De lo contrario, se omitirá el campo de descripción de metadatos.
 

@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/List_of_Images_Field / Display title: Lista de Campo de Imágenes -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Lista de Campo de Imágenes ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Propósito
 
@@ -13,7 +20,7 @@ Las opciones especiales dentro de este campo son:
 - **Múltiple** Permitir que se seleccionen varios valores.
 - **Clase de Imagen** La clase que se añadirá a la imagen. Por ejemplo, *w-25 p-1* limita el ancho de cada imagen al 25% de su contenedor y agrega 1 unidad de relleno.
 
-![creación de campo de lista de imágenes](../../../en/images/fields/fields-list-of-images-edit.png)
+![creación de campo de lista de imágenes](../../../en/images/fields/adding-custom-fields-list-of-images-field/01-fields-list-of-images-edit.png)
 
 **Nota:** En este ejemplo, la inclusión del tipo de campo en el Título es solo para fines de demostración. No lo incluya en los títulos de sus propios campos.
 
@@ -21,13 +28,13 @@ Las opciones especiales dentro de este campo son:
 
 Sencillo: selecciona una o más imágenes de la lista.
 
-![lista de imágenes en introducción de datos](../../../en/images/fields/fields-list-of-images-data-entry.png)
+![lista de imágenes en introducción de datos](../../../en/images/fields/adding-custom-fields-list-of-images-field/02-fields-list-of-images-data-entry.png)
 
 ## Visualización de Datos
 
 La siguiente captura de pantalla del Sitio muestra el campo visualizado en un artículo. La opción *Visualización automática* es responsable de la posición del campo y tu plantilla es responsable del diseño del campo.
 
-![lista de imágenes visualización del sitio](../../../en/images/fields/fields-list-of-images-site.png)
+![lista de imágenes visualización del sitio](../../../en/images/fields/adding-custom-fields-list-of-images-field/03-fields-list-of-images-site.png)
 
 *Traducido por openai.com*
 

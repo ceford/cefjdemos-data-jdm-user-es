@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Lists / Display title: Artículo: Editar - Listas  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Lists",
+  "title": "Artículo: Editar - Listas  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Tipos de listas
 
@@ -23,7 +30,7 @@ dos niveles.
 
 La siguiente captura de pantalla muestra una lista desordenada con dos niveles de sangría. También muestra el conjunto completo de herramientas, que se abre al seleccionar el botón de elipsis (...) al final de la primera fila de iconos de herramientas.
 
-![Listas desordenadas anidadas](../../../en/images/articles/articles-edit-lists.png)
+![Listas desordenadas anidadas](../../../en/images/articles/article-lists/01-articles-edit-lists.png)
 
 Esta captura de pantalla se utilizará para explicar cómo se creó la lista con viñetas utilizando las herramientas *Lista con viñetas* y *Aumentar sangría* o *Disminuir sangría*:
 
@@ -39,7 +46,7 @@ Hay tres estilos disponibles:
 
 El cheurón hacia abajo a la derecha del icono de lista con viñetas abre un pequeño panel que permite seleccionar el estilo preferido para un elemento de la lista seleccionado:
 
-![Herramientas para manipular listas con viñetas](../../../en/images/articles/articles-edit-list-bullets.png)
+![Herramientas para manipular listas con viñetas](../../../en/images/articles/article-lists/02-articles-edit-list-bullets.png)
 
 El icono de lista actúa como un interruptor. Si el cursor está en un párrafo y se selecciona una viñeta, el párrafo se convierte en un elemento de lista. Si se selecciona la viñeta nuevamente, el elemento de lista vuelve a ser un párrafo.
 
@@ -66,7 +73,7 @@ Hay seis estilos disponibles
 - Letras mayúsculas: A, B, C ...
 - Números romanos en mayúsculas: I, II, III ...
 
-![Herramientas para manipular listas numeradas](../../../en/images/articles/articles-edit-list-numbers.png)
+![Herramientas para manipular listas numeradas](../../../en/images/articles/article-lists/03-articles-edit-list-numbers.png)
 
 Las listas numeradas funcionan de manera un poco diferente. Cuando un elemento de la lista tiene sangría, toma el primer valor numérico y los números en el resto de la lista suben, de modo que la lista siempre esté en el orden numérico correcto.
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:FatalError / Display title: ErrorFatal  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:FatalError",
+  "title": "ErrorFatal  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -9,11 +16,11 @@ De vez en cuando, Joomla puede mostrar una página de error en lugar de la pági
 
 ### Página de Error del Sistema
 
-![Página de error fatal del sistema](../../../en/images/problems/fatal-error.png)
+![Página de error fatal del sistema](../../../en/images/problems/fatalerror/01-fatal-error.png)
 
 ### Página de Error de la Plantilla
 
-![Página de error de la plantilla](../../../en/images/problems/template-error.png)
+![Página de error de la plantilla](../../../en/images/problems/fatalerror/02-template-error.png)
 
 ## Cómo Resolver
 
@@ -39,7 +46,7 @@ Si su interfaz de Administrador **no** está funcionando, edite el archivo *conf
 
 Con los cambios realizados, recargue la página que estaba causando el error. Ahora debería ver una traza de la pila. Ejemplo:
 
-![Página de error de plantilla](../../../en/images/problems/template-error-stack-trace.png)
+![Página de error de plantilla](../../../en/images/problems/fatalerror/03-template-error-stack-trace.png)
 
 El primer elemento en la traza de la pila indica dónde se desencadenó el error. A veces eso es suficiente para identificar la extensión defectuosa. A veces la extensión defectuosa está más abajo en la traza de la pila. Puede que no signifique mucho para usted, pero la traza de la pila es invaluable para los expertos que responden preguntas en los foros de Joomla.
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Pagination / Display title: Artículo: Editar - Paginación  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Pagination",
+  "title": "Artículo: Editar - Paginación  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Artículos Largos
 
@@ -15,12 +22,12 @@ Para añadir saltos de página, primero abre un artículo en el editor de texto,
   - *Alias del Índice de Contenidos* - esto se usará como texto en el Índice de Contenidos. Ejemplo: Capítulo 2
 - Selecciona el botón **Insertar Salto de Página**.
 
-![Formulario de diálogo de salto de página](../../../en/images/articles/articles-edit-pagination.png)
+![Formulario de diálogo de salto de página](../../../en/images/articles/article-pagination/01-articles-edit-pagination.png)
 
 - Repite para cada salto de página que desees crear.
 - Guarda el artículo y echa un vistazo a la Vista Previa o a la Vista del Sitio.
 
-![Vista del sitio de paginación del artículo](../../../en/images/articles/articles-site-pagination.png)
+![Vista del sitio de paginación del artículo](../../../en/images/articles/article-pagination/02-articles-site-pagination.png)
 
 ## Editar o Mover un Salto de Página
 
@@ -39,5 +46,5 @@ Puedes seleccionar un salto de página y eliminarlo. Sin embargo, no puedes cort
 
 El editor de Código fuente se encuentra en un cuadro de diálogo emergente:
 
-![Editor de código fuente](../../../en/images/articles/articles-edit-pagination-source-code.png)
+![Editor de código fuente](../../../en/images/articles/article-pagination/03-articles-edit-pagination-source-code.png)
 

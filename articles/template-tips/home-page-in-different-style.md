@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Home_Page_in_Different_Style / Display title: Página de Inicio en Estilo Diferente  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Home_Page_in_Different_Style",
+  "title": "Página de Inicio en Estilo Diferente  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Página de Inicio del Sitio
 
@@ -16,7 +23,7 @@ Supongamos que te gustaría darle a tu página de inicio una apariencia distinti
 
 Los datos de muestra de Cassiopeia crean una página de inicio usando un tipo de elemento de menú de **Artículos Destacados**. Está diseñada con la apariencia que se muestra en la captura de pantalla a continuación (se realizaron algunos cambios menores en artículos individuales para obtener una mejor captura de pantalla aquí).
 
-![página de inicio usando cassiopeia y datos de muestra](../../../en/images/templates/templates-home-page-style-cassiopeia-sample-data.png)
+![página de inicio usando cassiopeia y datos de muestra](../../../en/images/template-tips/home-page-in-different-style/01-templates-home-page-style-cassiopeia-sample-data.png)
 
 Así es como se logra el diseño:
 
@@ -24,11 +31,11 @@ Así es como se logra el diseño:
 
 La gran imagen debajo de la barra de menú está en un módulo personalizado llamado Imagen, asignado a la posición del banner en la plantilla Cassiopeia.
 
-![módulo personalizado usado en el estilo de datos de muestra](../../../en/images/templates/templates-home-page-style-custom-module-image.png)
+![módulo personalizado usado en el estilo de datos de muestra](../../../en/images/template-tips/home-page-in-different-style/02-templates-home-page-style-custom-module-image.png)
 
 En la pestaña Asignación de Menú, el módulo está asignado solo a Inicio:
 
-![pestaña de asignación de menú del módulo personalizado](../../../en/images/templates/templates-home-page-style-custom-module-menu-assignment.png)
+![pestaña de asignación de menú del módulo personalizado](../../../en/images/template-tips/home-page-in-different-style/03-templates-home-page-style-custom-module-menu-assignment.png)
 
 La imagen de fondo se selecciona en la pestaña Opciones del formulario de edición de Módulos: Personalizado.
 
@@ -44,7 +51,7 @@ Hay artículos separados sobre Anulaciones y Diseños.
 
 Debajo de la gran Imagen hay tres pequeñas cajas, cada una con una imagen y texto debajo. Se crean usando un módulo de Artículos - Noticias Breves en la posición top-a de la plantilla. El módulo está configurado para mostrar 3 elementos. Su Asignación de Menú es solo Inicio. La pestaña Avanzado tiene el Diseño configurado en horizontal y el Estilo del Módulo configurado en noCard.
 
-![módulo de noticias breves](../../../en/images/templates/templates-home-page-style-newsflash-module-image.png)
+![módulo de noticias breves](../../../en/images/template-tips/home-page-in-different-style/04-templates-home-page-style-newsflash-module-image.png)
 
 Eso concluye la explicación de cómo se creó la página de inicio de datos de muestra de Cassiopeia.
 

@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org/Type_Organization_-_Using_Organization_Plugin / Display title: Schema.org - BlogPosting -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Schema.org - BlogPosting ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Propósito
 
@@ -30,7 +37,7 @@ La sección de *Campo Genérico* permite ingresar pares de *Título* y *Valor* a
 
 A continuación se muestra un ejemplo de un esquema de BlogPosting en un formulario de edición de artículo.
 
-![A blogposting schema edit form](../../../en/images/schemas/edit-schema-blogposting.png)
+![A blogposting schema edit form](../../../en/images/schemas/blogposting/01-edit-schema-blogposting.png)
 
 *Traducido por openai.com*
 

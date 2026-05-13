@@ -1,4 +1,11 @@
-<!-- Filename: Keyboard_Shortcuts / Display title: Atajos de Teclado  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Keyboard_Shortcuts",
+  "title": "Atajos de Teclado  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 

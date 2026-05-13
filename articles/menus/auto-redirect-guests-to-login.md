@@ -1,4 +1,11 @@
-<!-- Filename: Auto_redirect_guests_to_login / Display title: Redirección automática de invitados al inicio de sesión  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Auto_redirect_guests_to_login",
+  "title": "Redirección automática de invitados al inicio de sesión  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Funcionalidad Deseada
 

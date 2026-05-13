@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Privacy_Workflow / Display title: Flujo de trabajo de privacidad  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Privacy_Workflow",
+  "title": "Flujo de trabajo de privacidad  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Creación de una Solicitud
 
@@ -16,11 +23,11 @@ Los usuarios registrados pueden enviar una solicitud de información a través d
 
 - El tipo de solicitud: Exportar o Eliminar, seleccionado de la lista desplegable.
 
-![flujo de trabajo de privacidad solicitud de usuario](../../../en/images/privacy/privacy-workflow-user-request.png)
+![flujo de trabajo de privacidad solicitud de usuario](../../../en/images/privacy/privacy-workflow/01-privacy-workflow-user-request.png)
 
 Al enviar, un mensaje indicará ya sea que la solicitud ha sido aceptada y un correo de verificación está en camino:
 
-![flujo de trabajo de privacidad solicitud de usuario aceptada](../../../en/images/privacy/privacy-workflow-user-request-accepted.png)
+![flujo de trabajo de privacidad solicitud de usuario aceptada](../../../en/images/privacy/privacy-workflow/02-privacy-workflow-user-request-accepted.png)
 
 o que *No se pudo crear la solicitud de información. Ya hay una solicitud de información activa para esta dirección de correo electrónico y tipo de solicitud. Por favor contacta al propietario del sitio para obtener actualizaciones sobre esta solicitud.*
 
@@ -40,7 +47,7 @@ Una vez creada, la solicitud no puede ser editada. Solo puede ser Invalidada o P
 
 Una vez que se ha creado una solicitud, independientemente de cómo se haya creado, el usuario recibirá un correo electrónico que contiene un enlace a un formulario de confirmación.
 
-![flujo de trabajo de privacidad confirmación de solicitud de usuario](../../../en/images/privacy/privacy-workflow-user-request-confirm.png)
+![flujo de trabajo de privacidad confirmación de solicitud de usuario](../../../en/images/privacy/privacy-workflow/03-privacy-workflow-user-request-confirm.png)
 
 El usuario debe ingresar el token proporcionado en el correo electrónico y enviar el formulario. El token es válido por 24 horas. Si una solicitud no se confirma en ese plazo, la solicitud se marcará como **Inválida** en la lista de Solicitudes de Privacidad y se deberá enviar una nueva solicitud.
 
@@ -49,7 +56,7 @@ Una vez que el usuario confirma la solicitud, se enviará un correo electrónico
 - Seleccione **Usuarios → Privacidad → Solicitudes** desde el menú del Administrador.
 - Las solicitudes que requieren acción estarán marcadas como **Confirmadas**.
 
-![lista de solicitudes de información del flujo de trabajo de privacidad](../../../en/images/privacy/privacy-workflow-information-requests-list.png)
+![lista de solicitudes de información del flujo de trabajo de privacidad](../../../en/images/privacy/privacy-workflow/04-privacy-workflow-information-requests-list.png)
 
 ## Procesamiento de una Solicitud de Exportación
 
@@ -80,7 +87,7 @@ Una vez que la solicitud ha sido procesada, debe ser marcada como completada. Es
   - Selecciona el botón apropiado de **Exportar**, **Correo Electrónico** o **Eliminar** desde la barra de herramientas si no se ha hecho ya desde la vista de lista.
 - Selecciona el botón de **Completar** de la barra de herramientas (o el botón de **Invalidar** si se considera que es una solicitud no válida).
 
-![revisión de flujo de trabajo de privacidad de solicitud de información](../../../en/images/privacy/privacy-workflow-review-information-request.png)
+![revisión de flujo de trabajo de privacidad de solicitud de información](../../../en/images/privacy/privacy-workflow/05-privacy-workflow-review-information-request.png)
 
 ## Finalmente
 
@@ -98,7 +105,7 @@ Para eliminar los datos de Mensajes Privados y los datos de Solicitud de Privaci
   (dirección de correo electrónico) en la base de datos con phpMyAdmin y eliminar los registros
   allí. Aquí hay un ejemplo de captura de pantalla:
 
-![flujo de privacidad eliminar con phpmyadmin](../../../en/images/privacy/privacy-workflow-delete-with-phpmyadmin.png)
+![flujo de privacidad eliminar con phpmyadmin](../../../en/images/privacy/privacy-workflow/06-privacy-workflow-delete-with-phpmyadmin.png)
 
 ## Recursos Adicionales
 

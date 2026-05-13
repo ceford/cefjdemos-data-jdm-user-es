@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Managing_Mail_Template_Layout / Display title: Plantillas de Correo -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Managing_Mail_Template_Layout",
+  "title": "Plantillas de Correo ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -6,7 +13,7 @@ Las Plantillas de Correo se utilizan para enviar mensajes de correo del sistema 
 
 La siguiente captura de pantalla muestra una selección de las 26 plantillas de correo estándar disponibles. La lista está disponible seleccionando **Sistema -> Plantillas de Correo** desde el menú del Administrador.
 
-![mail templates list](../../../en/images/templates/mail-templates-list.png)
+![mail templates list](../../../en/images/templates/mail-templates/01-mail-templates-list.png)
 
 Los mensajes de correo se pueden personalizar para modificar el diseño, la apariencia y el texto según las necesidades de su sitio. Por ejemplo, podría querer usar un logotipo del sitio y un esquema de colores en esos correos electrónicos enviados a los clientes. La personalización de los correos electrónicos enviados a los administradores es menos importante.
 
@@ -16,7 +23,7 @@ Existen dos métodos de personalización: a través de las *Opciones de Plantill
 
 Seleccione el botón **Opciones** en la barra de herramientas de la lista *Plantillas de Correo* para acceder a la configuración general de plantillas de correo. Seleccione el botón *Alternar Ayuda en Línea* para ver si alguno de los campos del formulario tiene ayuda adicional.
 
-![mail templates options](../../../en/images/templates/mail-templates-options.png)
+![mail templates options](../../../en/images/templates/mail-templates/02-mail-templates-options.png)
 
 ### Formato de Correo
 
@@ -32,7 +39,7 @@ En la lista de Plantillas de Correo puedes seleccionar cualquier plantilla para 
 
 ### La pestaña Correo
 
-![edit mail template form](../../../en/images/templates/mail-template-edit.png)
+![edit mail template form](../../../en/images/templates/mail-templates/03-mail-template-edit.png)
 
 Los contenidos de las áreas de Asunto y Cuerpo se almacenan inicialmente en cadenas de texto en idioma. Esto facilita el *Restablecer Asunto Predeterminado* o *Cuerpo*. Sin embargo, una vez que se ha editado una plantilla de correo específica, sus campos de Asunto y Cuerpo se almacenan en la tabla `#__mail_templates`.
 
@@ -44,7 +51,7 @@ Las etiquetas de marcador de posición disponibles varían de correo a correo. P
 
 Esta pestaña solo está presente si la opción de *Configuración de Correo por Plantilla* está establecida en *Sí* en *Plantillas de Correo: Opciones*. La ilustración a continuación muestra una captura de pantalla con *Configuración de Correo* establecida en *No*. Si se establece en *Sí*, aparecen más campos de formulario que anulan las opciones de Correo establecidas en la Configuración Global, pestaña Servidor.
 
-![edit mail template form](../../../en/images/templates/mail-template-edit-options.png)
+![edit mail template form](../../../en/images/templates/mail-templates/04-mail-template-edit-options.png)
 
 Si desea enviar una copia oculta de un correo electrónico saliente a una dirección de correo electrónico específica, puede ingresarla en el campo *Enviar copia a correo electrónico*.
 

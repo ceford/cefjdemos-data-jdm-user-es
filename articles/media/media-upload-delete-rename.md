@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Media:_Upload_Delete_Rename / Display title: Subir Eliminar Renombrar -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Media:_Upload_Delete_Rename",
+  "title": "Subir Eliminar Renombrar ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Funciones Simples de Medios
 

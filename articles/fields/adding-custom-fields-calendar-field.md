@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Calendar_Field / Display title: Campo del Calendario -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Campo del Calendario ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Propósito
 
@@ -13,7 +20,7 @@ Los parámetros comunes de los campos se describen en un artículo separado.
 * **Mostrar Hora** Si se establece en *Sí*, la hora se agrega al campo de fecha, al selector de fecha y a la fecha de salida. **Precaución**: Incluso si no especifica la hora en la fecha predeterminada, la hora se muestra cuando la opción *Mostrar hora* está activa.
 * **Marcador de Posición** Esto se encuentra en la pestaña Opciones. Se puede establecer en un formato de fecha como *AAAA-MM-DD* para recordar a los usuarios el formato requerido y/o un recordatorio de para qué es la fecha, como *Fecha de llegada*.
 
-![creación de campo de calendario](../../../en/images/fields/fields-calendar-edit.png)
+![creación de campo de calendario](../../../en/images/fields/adding-custom-fields-calendar-field/01-fields-calendar-edit.png)
 
 **Nota:** En este ejemplo, la inclusión del tipo de campo en el Título es solo para fines de demostración. Déjelo fuera en los títulos de sus propios campos.
 
@@ -24,7 +31,7 @@ El uso del campo de calendario es sencillo. Puedes escribir la fecha en el forma
 
 La siguiente captura de pantalla muestra una fecha de Adquisición:
 
-![entrada de datos en campo de calendario](../../../en/images/fields/fields-calendar-data-entry.png)
+![entrada de datos en campo de calendario](../../../en/images/fields/adding-custom-fields-calendar-field/02-fields-calendar-data-entry.png)
 
 Los campos solo aparecen en un artículo si se completan en el formulario de entrada de datos del artículo.
 
@@ -33,7 +40,7 @@ Los campos solo aparecen en un artículo si se completan en el formulario de ent
 
 La siguiente captura de pantalla del sitio muestra el campo que se visualiza en un artículo. La opción *Visualización automática* es responsable de la posición del campo y tu plantilla es responsable del diseño del campo.
 
-![visualización del campo del calendario en el sitio](../../../en/images/fields/fields-calendar-site.png)
+![visualización del campo del calendario en el sitio](../../../en/images/fields/adding-custom-fields-calendar-field/03-fields-calendar-site.png)
 
 Los formatos de fecha se localizan utilizando cadenas de idioma.
 

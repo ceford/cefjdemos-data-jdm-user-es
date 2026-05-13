@@ -1,4 +1,11 @@
-<!-- Filename: Smart_Search_quickstart_guide / Display title: Guía Rápida de Búsqueda Inteligente  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Smart_Search_quickstart_guide",
+  "title": "Guía Rápida de Búsqueda Inteligente  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Antecedentes
 

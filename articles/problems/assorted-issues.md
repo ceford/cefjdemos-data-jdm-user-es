@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Assorted_Issues / Display title: Problemas Variados -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Assorted_Issues",
+  "title": "Problemas Variados ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Problema de Redirección Después de Actualizar a la Versión 4.0.6
 

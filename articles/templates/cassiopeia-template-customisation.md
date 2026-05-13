@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Cassiopeia_Template_Customisation / Display title: Personalización de Cassiopeia -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Cassiopeia_Template_Customisation",
+  "title": "Personalización de Cassiopeia ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -6,13 +13,13 @@ Cassiopeia es la plantilla del sitio proporcionada con Joomla 4. Es una plantill
 
 La siguiente ilustración muestra la apariencia de un sitio Joomla 4 con un artículo y algunos elementos de menú creados.
 
-![Vista de artículo único de Cassiopeia](../../../en/images/templates/cassiopeia-customisation-article-view.png)
+![Vista de artículo único de Cassiopeia](../../../en/images/templates/cassiopeia-template-customisation/01-cassiopeia-customisation-article-view.png)
 
 ## Plantillas: Editar Estilo
 
 Puedes experimentar con la apariencia del sitio abriendo el formulario Editar Estilo. Ve a **Sistema → Plantillas → Estilos de Plantillas del Sitio** y selecciona el título de la plantilla en la columna de Estilo, Cassiopeia - Predeterminado. La pestaña Avanzado contiene configuraciones que puedes ajustar:
 
-![Pestaña avanzada de edición de estilo de Cassiopeia](../../../en/images/templates/cassiopeia-customisation-edit-style.png)
+![Pestaña avanzada de edición de estilo de Cassiopeia](../../../en/images/templates/cassiopeia-template-customisation/02-cassiopeia-customisation-edit-style.png)
 
 Para probar las opciones, abre una pestaña o ventana del navegador con la interfaz de Administrador y una segunda pestaña o ventana con la interfaz del Sitio y alterna entre ellas después de cada cambio guardado.
 
@@ -38,7 +45,7 @@ Puedes configurar la Marca en No si deseas proporcionar branding en un módulo H
 
 - **Siempre a tu servicio** Si está presente, las palabras en el campo de lema aparecerán en un tamaño de fuente pequeño debajo de la imagen del logo o nombre de la Marca.
 
-![Marca de Cassiopeia con lema](../../../en/images/templates/cassiopeia-customisation-brand-with-tagline.png)
+![Marca de Cassiopeia con lema](../../../en/images/templates/cassiopeia-template-customisation/03-cassiopeia-customisation-brand-with-tagline.png)
 
 ### Esquema de Fuentes
 
@@ -50,7 +57,7 @@ Puedes configurar la Marca en No si deseas proporcionar branding en un módulo H
 - **Estándar** Un color de fondo azul oscuro para la barra de Marca y otras características como el botón de Inicio de Sesión.
 - **Alternativo** Un color de fondo marrón en lugar de azul oscuro.
 
-![Esquema de color alternativo de Cassiopeia](../../../en/images/templates/cassiopeia-customisation-alt-color-scheme.png)
+![Esquema de color alternativo de Cassiopeia](../../../en/images/templates/cassiopeia-template-customisation/04-cassiopeia-customisation-alt-color-scheme.png)
 
 ### Diseño
 
@@ -59,7 +66,7 @@ Puedes configurar la Marca en No si deseas proporcionar branding en un módulo H
 
 La vista en un dispositivo móvil de pantalla estrecha:
 
-![Vista móvil de Cassiopeia](../../../en/images/templates/cassiopeia-customisation-mobile-view.png)
+![Vista móvil de Cassiopeia](../../../en/images/templates/cassiopeia-template-customisation/05-cassiopeia-customisation-mobile-view.png)
 
 ### Encabezado Fijo
 
@@ -71,13 +78,13 @@ La vista en un dispositivo móvil de pantalla estrecha:
 - **No** el predeterminado. No hay un enlace Volver al inicio.
 - **Sí** Donde el contenido es más alto que la vista, en la parte inferior derecha de la página hay un botón marcado con un chevrón hacia arriba. Selecciónalo para desplazarte de nuevo a la parte superior de la página.
 
-![Volver al inicio de Cassiopeia](../../../en/images/templates/cassiopeia-customisation-back-to-top.png)
+![Volver al inicio de Cassiopeia](../../../en/images/templates/cassiopeia-template-customisation/06-cassiopeia-customisation-back-to-top.png)
 
 ## Posiciones de Plantilla de Cassiopeia
 
 A medida que construyes un sitio con Cassiopeia, se vuelve realmente útil conocer las ubicaciones de las posiciones que puedes usar para los módulos. Algunas son descriptivas, como *menu* y *bottom-a*, pero no es tan obvio dónde están hasta que las usas. Esta ilustración debería ayudar:
 
-![Posiciones de plantilla de Cassiopeia](../../../en/images/templates/cassiopeia-template-positions.png)
+![Posiciones de plantilla de Cassiopeia](../../../en/images/templates/cassiopeia-template-customisation/07-cassiopeia-template-positions.png)
 
 Prueba lo siguiente:
 
@@ -89,7 +96,7 @@ En la pestaña del Módulo, cambia el campo de Posición a Menú \[menu\]. Guard
 
 En el formulario de edición del menú, selecciona la pestaña Avanzado y desplázate hacia abajo hasta el campo de Distribución. Es una lista desplegable con cuatro opciones. --Desde Módulo-- / Por defecto está seleccionado por defecto. Prueba las otras opciones y observa el resultado. (Recuerda *Guardar* en el formulario de edición y recargar en la vista del Sitio). Ninguna de las opciones --Desde Módulo-- muestran los elementos secundarios del menú, pero ambas opciones --Desde Plantilla Cassiopeia-- sí lo hacen.
 
-![Posiciones del menú de Cassiopeia](../../../en/images/templates/cassiopeia-customisation-menu-position.png)
+![Posiciones del menú de Cassiopeia](../../../en/images/templates/cassiopeia-template-customisation/08-cassiopeia-customisation-menu-position.png)
 
 Entonces, ¿qué diferencia hace **Colapsible**?
 
@@ -106,7 +113,7 @@ En el formulario de edición, en la pestaña del Módulo, configura la Posición
 
 La ilustración a continuación muestra dos grupos de carpetas. El primer grupo consta de las carpetas y archivos de la plantilla que no deberías cambiar, pero a los que puedes añadir archivos. En particular, puedes agregar archivos HTML de sobreescritura de plantilla a la carpeta *html*. El segundo grupo contiene los archivos de medios de la plantilla que no deberías cambiar. Sin embargo, puedes añadir un archivo *user.css* a la carpeta *css* y/o un archivo *user.js* a la carpeta *js*. Harías esto si quisieras hacer algunos cambios simples en la apariencia del sitio.
 
-![Editar archivos de Cassiopeia](../../../en/images/templates/cassiopeia-customisation-edit-files.png)
+![Editar archivos de Cassiopeia](../../../en/images/templates/cassiopeia-template-customisation/09-cassiopeia-customisation-edit-files.png)
 
 Tenga en cuenta que en una nueva instalación de Joomla no existe ningún archivo ***user.css*** en la carpeta **css**. Este es un archivo que usted mismo crea para poder sobrescribir los estilos definidos previamente. Si ***user.css*** ya está presente, selecciónelo para abrir el formulario de edición. Si no está presente, créelo ahora:
 
@@ -137,7 +144,7 @@ Nota aquí que el punto inicial (.) es un selector de clase, por ejemplo, Dummy 
 
 En la pestaña del navegador que contiene el Sitio, abre las herramientas de desarrollador de tu navegador, Firefox en este ejemplo, y selecciona la etiqueta del encabezado.
 
-![Herramientas de desarrollador de Cassiopeia](../../../en/images/templates/cassiopeia-customisation-developer-tools.png)
+![Herramientas de desarrollador de Cassiopeia](../../../en/images/templates/cassiopeia-template-customisation/10-cassiopeia-customisation-developer-tools.png)
 
 Eso muestra los estilos utilizados. El estilo container-header es donde se establecen el fondo-color y el fondo-imagen. Necesitan ser sobrescritos en el archivo *user.css*. Intenta esto:
 ```css
@@ -158,7 +165,7 @@ Eso muestra los estilos utilizados. El estilo container-header es donde se estab
 ```
 Este es el tema verde funcionando:
 
-![Tema verde de Cassiopeia](../../../en/images/templates/cassiopeia-customisation-green-theme.png)
+![Tema verde de Cassiopeia](../../../en/images/templates/cassiopeia-template-customisation/11-cassiopeia-customisation-green-theme.png)
 
 ### Accesibilidad
 
@@ -170,7 +177,7 @@ La pestaña "Plantillas: Personalizar (Cassiopeia) en el formulario Crear Sobres
 
 Esta es la pestaña Crear Sobrescrituras:
 
-![Cassiopeia crear sobrescrituras](../../../en/images/templates/cassiopeia-customisation-create-overrides.png)
+![Cassiopeia crear sobrescrituras](../../../en/images/templates/cassiopeia-template-customisation/12-cassiopeia-customisation-create-overrides.png)
 
 Si solo estás experimentando y realmente no quieres una sobrescritura, puedes *Cerrar* el formulario de edición, seleccionar el botón Gestionar Carpetas en la Barra de herramientas y seleccionar el botón Eliminar en la parte inferior del formulario modal Gestionar Carpetas.
 
@@ -180,7 +187,7 @@ Las sobrescrituras realmente tratan sobre personalizar extensiones antes que la 
 
 Si deseas realizar cambios más significativos en la apariencia del sitio, puedes crear una plantilla hija. Esto copia solo una pequeña selección de carpetas y archivos para que puedas cambiar o agregar, pero de lo contrario sigue utilizando las carpetas y archivos de la plantilla principal. Al usar plantillas hijas, podrías tener algunas páginas con un color de tema y otras páginas con un segundo color de tema. Las plantillas hijas se abordan en otra parte. Esta es una ilustración de la estructura de archivos en un hijo de Cassiopeia:
 
-![Archivos de plantilla hija de Cassiopeia](../../../en/images/templates/cassiopeia-customisation-child-template-files.png)
+![Archivos de plantilla hija de Cassiopeia](../../../en/images/templates/cassiopeia-template-customisation/13-cassiopeia-customisation-child-template-files.png)
 
 *Traducido por openai.com*
 

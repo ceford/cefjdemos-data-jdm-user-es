@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:How_To_Use_Content_Tags_in_Joomla / Display title: Etiquetas de Contenido  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:How_To_Use_Content_Tags_in_Joomla",
+  "title": "Etiquetas de Contenido  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -22,7 +29,7 @@ Cuando se crean etiquetas, se mostrarán como enlaces en los elementos etiquetad
 
 - Selecciona **Componentes → Etiquetas** en el menú del Administrador.
 
-![la página de lista de etiquetas](../../../en/images/tags/tags-list.png)
+![la página de lista de etiquetas](../../../en/images/tags/content-tags/01-tags-list.png)
 
 Independientemente de cómo se creen las etiquetas, se pueden encontrar en esta lista.
 
@@ -32,7 +39,7 @@ Independientemente de cómo se creen las etiquetas, se pueden encontrar en esta 
 
 Selecciona el botón **Nuevo** en la Barra de herramientas de la lista de Etiquetas.
 
-![nueva etiqueta llamada depredador](../../../en/images/tags/new-tag-predator.png)
+![nueva etiqueta llamada depredador](../../../en/images/tags/content-tags/02-new-tag-predator.png)
 
 - **Título** Este es el único campo *requerido*.
 - **Alias** Este se crea a partir del Título al guardar.
@@ -84,7 +91,7 @@ Usa la lista de etiquetas para encontrar, abrir y ajustar la configuración de l
 
 ### El Filtro de la Lista de Etiquetas
 
-![filtro de lista de etiquetas por tipo](../../../en/images/tags/tags-list-filter.png)
+![filtro de lista de etiquetas por tipo](../../../en/images/tags/content-tags/03-tags-list-filter.png)
 
 Puedes manipular la lista de varias maneras:
 
@@ -118,11 +125,11 @@ En el formulario de edición de etiquetas:
 
 Una vez que se han creado etiquetas en su sitio, están disponibles para uso no solo en el contenido, sino también en algunos módulos útiles como **Etiquetas Populares** y **Etiquetas Similares**. Los siguientes ejemplos muestran cómo se ven en una instalación estándar usando la plantilla predeterminada **Cassiopeia**.
 
-![ejemplo de uso de etiquetas sitio labrador amarillo](../../../en/images/tags/tag-examples-yellow-labrador.png)
+![ejemplo de uso de etiquetas sitio labrador amarillo](../../../en/images/tags/content-tags/04-tag-examples-yellow-labrador.png)
 
 Cuando haces clic en una de las etiquetas, serás llevado a una página que lista todos los elementos asignados a esa etiqueta en particular:
 
-![ejemplo de uso de etiquetas sitio labrador negro](../../../en/images/tags/tag-examples-black-labrador.png)
+![ejemplo de uso de etiquetas sitio labrador negro](../../../en/images/tags/content-tags/05-tag-examples-black-labrador.png)
 
 Al hacer clic en una etiqueta, se te llevará a una página que muestra una lista de todos los elementos asignados a esa etiqueta en particular; en efecto, es una lista filtrada del contenido etiquetado de tu sitio web. Se proporciona una caja de filtro para facilitar la búsqueda de elementos a medida que la lista crece. También puedes establecer el número de resultados que deseas ver en una sola vista.
 

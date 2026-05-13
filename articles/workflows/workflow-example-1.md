@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:Workflow_Scenarios_Example_1 / Display title: Ejemplo de Flujo de Trabajo 1  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:Workflow_Scenarios_Example_1",
+  "title": "Ejemplo de Flujo de Trabajo 1  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -6,7 +13,7 @@ Un flujo de trabajo consiste en *etapas* y *transiciones* entre esas etapas. Par
 
 Un solo sitio puede tener muchos flujos de trabajo. Aquí se utiliza un *Flujo de Trabajo de Boletín* como ejemplo para explicar cómo tres personas con diferentes roles pueden involucrarse en la producción de un artículo de boletín. El ejemplo utiliza los grupos de usuarios predeterminados de Joomla: Autor, Editor y Publicador. Eso tiene un problema: un Autor solo puede ver los artículos Publicados, por lo que no puede volver a editar artículos No Publicados. Un método para evitar ese problema se trata en [Ejemplo 2](jdocmanual?article=user/workflows/workflow-example-2).
 
-![Lista de flujos de trabajo](../../../en/images/workflows/example-1-workflows-list.png)
+![Lista de flujos de trabajo](../../../en/images/workflows/workflow-example-1/01-example-1-workflows-list.png)
 
 Nota que el *Flujo de Trabajo Básico* está configurado como el *Predeterminado*. ¡Esto puede tener consecuencias problemáticas que se tratan más adelante en este artículo!
 
@@ -30,7 +37,7 @@ Nota que el *Flujo de Trabajo Básico* está configurado como el *Predeterminado
 
 Hay cuatro etapas en este Flujo de Trabajo:
 
-![Lista de flujos de trabajo](../../../en/images/workflows/example-1-workflow-stages.png)
+![Lista de flujos de trabajo](../../../en/images/workflows/workflow-example-1/02-example-1-workflow-stages.png)
 
 - **Borrador** es la etapa creada por Arthur para un nuevo artículo.
 - **Revisión** es la etapa donde Eddie se encarga de revisar el contenido.
@@ -43,7 +50,7 @@ Los formularios de entrada de datos de la etapa requieren poca explicación, sol
 
 Se requieren dos transiciones entre cada etapa: una para revertir la etapa si se necesita más trabajo en la etapa anterior; y una segunda para migrar a la siguiente etapa. Se requieren transiciones adicionales para gestionar la finalización de un artículo:
 
-![Lista de flujos de trabajo](../../../en/images/workflows/example-1-workflow-transitions.png)
+![Lista de flujos de trabajo](../../../en/images/workflows/workflow-example-1/03-example-1-workflow-transitions.png)
 
 - **Borrador/Revisión** para mover la etapa de Borrador a Revisión.
 - **Revisión/Borrador** para revertir la etapa de Revisión a Borrador.
@@ -61,7 +68,7 @@ Las últimas tres transiciones permiten a Pru cambiar el estado de un artículo 
 
 El formulario de entrada de datos tiene cuatro pestañas comenzando con la pestaña *Transición*:
 
-![Lista de flujos de trabajo](../../../en/images/workflows/example-1-edit-transition.png)
+![Lista de flujos de trabajo](../../../en/images/workflows/workflow-example-1/04-example-1-edit-transition.png)
 
 - **Nombre** Es mejor usar las etapas Actual y Objetivo en el nombre.
 - **Etapa Actual** La etapa antes de que ocurra la transición.
@@ -70,14 +77,14 @@ El formulario de entrada de datos tiene cuatro pestañas comenzando con la pesta
 
 #### La pestaña *Acciones de Transición*:
 
-![Lista de flujos de trabajo](../../../en/images/workflows/example-1-edit-transition-actions.png)
+![Lista de flujos de trabajo](../../../en/images/workflows/workflow-example-1/05-example-1-edit-transition-actions.png)
 
 - **Estado Destacado** Definir el estado destacado que un artículo debería tener después de ejecutar esta transición. Dejar en *-No seleccionado-* si es probable que el usuario que ejecute esta transición no tenga permiso para destacar artículos.
 - **Estado de Publicación** Definir el estado publicado que un artículo debería tener después de ejecutar esta transición. Dejar en *-No seleccionado-* si es probable que el usuario que ejecute esta transición no tenga permiso para cambiar el estado del artículo.
 
 #### La pestaña *Notificaciones*:
 
-![Lista de flujos de trabajo](../../../en/images/workflows/example-1-edit-transition-notification.png)
+![Lista de flujos de trabajo](../../../en/images/workflows/workflow-example-1/06-example-1-edit-transition-notification.png)
 
 - **Enviar Notificación** Configurar esto en *Sí* cuando sean necesarias las notificaciones, por ejemplo, cuando Arthur necesite notificar a Eddie que un artículo está listo para revisión.
 - **Texto de Mensaje Adicional** Este es un texto adicional genérico para ayudar al receptor.
@@ -96,7 +103,7 @@ Cada artículo se asigna a un flujo de trabajo en el primer guardado. Si el art�
 
 Se necesita una nueva categoría de Boletín para mostrar el Boletín como un Blog de Categoría y para asegurar que los artículos del Boletín se asignen al Flujo de Trabajo del Boletín.
 
-![Lista de flujos de trabajo](../../../en/images/workflows/example-1-newsletter-category.png)
+![Lista de flujos de trabajo](../../../en/images/workflows/workflow-example-1/07-example-1-newsletter-category.png)
 
 ## El elemento de menú del boletín
 
@@ -157,11 +164,11 @@ Puedes permitir el acceso al backend para todos los miembros de estos grupos de 
 
 Esto permitirá a Arthur, Eddie y Pru iniciar sesión en el backend con acceso a los ítems de contenido. Un panel principal de inicio mucho más reducido:
 
-![Panel principal para arthur](../../../en/images/workflows/example-1-backend-home.png)
+![Panel principal para arthur](../../../en/images/workflows/workflow-example-1/08-example-1-backend-home.png)
 
 Pero Arthur tiene acceso a sus artículos en borrador:
 
-![Lista de artículos para Arthur](../../../en/images/workflows/example-1-backend-articles.png)
+![Lista de artículos para Arthur](../../../en/images/workflows/workflow-example-1/09-example-1-backend-articles.png)
 
 Observa que Arthur no puede editar el último artículo en la lista porque no es uno de sus propios artículos. El título del artículo no está vinculado. De manera similar, Arthur no puede editar ninguna de las categorías existentes porque no tiene permiso y ellas tampoco están vinculadas. Puede crear una nueva Categoría, pero está sin publicar ¡y él no puede publicarla!   
 
@@ -179,7 +186,7 @@ Si asignas un artículo al flujo de trabajo incorrecto, hay dos métodos disponi
 - Selecciona un Flujo de Trabajo y Etapa apropiados como destino.
 - Selecciona el botón **Procesar**.
 
-![Lista de artículos para Arthur](../../../en/images/workflows/example-1-backend-batch.png)
+![Lista de artículos para Arthur](../../../en/images/workflows/workflow-example-1/10-example-1-backend-batch.png)
 
 ### Método Alternativo
 

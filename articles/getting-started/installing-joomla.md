@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Installing_Joomla / Display title: Instalando Joomla -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Installing_Joomla",
+  "title": "Instalando Joomla ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -48,7 +55,7 @@ Los archivos del paquete zip se pueden extraer directamente en el host usando va
 
 Con los requisitos anteriores cumplidos, una base de datos creada y los archivos necesarios de Joomla en su lugar, estás listo para instalar Joomla. Inicia el instalador web de Joomla abriendo tu navegador favorito y navegando al nombre de dominio del sitio. En una instalación de hosting, usarás *`https://www.yoursitename.com`*. Si estás instalando Joomla localmente, usarás *`http://localhost/`* y deberías ver la pantalla de instalación.
 
-![Joomla installer part 1, installation language and site name](../../../en/images/getting-started/installing-joomla-installer-1.png)
+![Joomla installer part 1, installation language and site name](../../../en/images/getting-started/installing-joomla/01-installing-joomla-installer-1.png)
 
 Joomla intentará identificar el campo *Seleccionar idioma* automáticamente a partir del idioma de tu navegador. Puedes cambiar esto si es necesario.
 
@@ -62,7 +69,7 @@ Cuando todo en la primera página esté completado, selecciona el botón *Setup 
 
 Ahora deberías ver la pantalla de datos de inicio de sesión.
 
-![Joomla installer part 2, login data](../../../en/images/getting-started/installing-joomla-installer-2.png)
+![Joomla installer part 2, login data](../../../en/images/getting-started/installing-joomla/02-installing-joomla-installer-2.png)
 
 Complete la siguiente información.
 
@@ -77,7 +84,7 @@ Cuando todo en la segunda página esté completado, selecciona el botón *Setup 
 
 Ingrese la información de la base de datos anotada cuando creó la base de datos para esta instalación.
 
-![Joomla installer part 3, database configuration](../../../en/images/getting-started/installing-joomla-installer-3.png)
+![Joomla installer part 3, database configuration](../../../en/images/getting-started/installing-joomla/03-installing-joomla-installer-3.png)
 
 Para simplificar, estas instrucciones son una referencia para la instalación
 con una base de datos MySQLi. Las instrucciones en la página de instalación son autoexplicativas, pero aquí están de nuevo:
@@ -96,7 +103,7 @@ Todas estas opciones y más se pueden editar en la página de Configuración Glo
 
 Después de seleccionar el botón *Install Joomla*, deberías ver la barra de progreso de la instalación de Joomla.
 
-![Joomla installer part 4, installation progress bar](../../../en/images/getting-started/installing-joomla-installer-4.png)
+![Joomla installer part 4, installation progress bar](../../../en/images/getting-started/installing-joomla/04-installing-joomla-installer-4.png)
 
 Una vez que se complete la instalación, deberías ver la página de éxito.
 
@@ -106,7 +113,7 @@ Una vez que se complete la instalación, deberías ver la página de éxito.
 
 ¡Felicidades! Tu sitio Joomla está listo.
 
-![Joomla installer part 5, your joomla site is ready](../../../en/images/getting-started/installing-joomla-installer-5.png)
+![Joomla installer part 5, your joomla site is ready](../../../en/images/getting-started/installing-joomla/05-installing-joomla-installer-5.png)
 
 La captura de pantalla de arriba muestra una instalación de desarrollador. Una instalación de producción elimina automáticamente la carpeta de Instalación.
 
@@ -126,7 +133,7 @@ Esto te llevará a una página de instalación adicional que te permitirá selec
 
 Se muestra una lista de paquetes de idiomas.
 
-![Joomla installer part 6, install additional languages](../../../en/images/getting-started/installing-joomla-installer-6.png)
+![Joomla installer part 6, install additional languages](../../../en/images/getting-started/installing-joomla/06-installing-joomla-installer-6.png)
 
 Seleccione hasta 3 idiomas que desee instalar. (Más de 3 a la vez puede causar problemas de tiempo de espera; puede instalar más posteriormente.)
 
@@ -143,7 +150,7 @@ Seleccione *Siguiente* y se mostrará una barra de progreso mientras se instala 
 
 Cuando la instalación de los idiomas se complete, ahora se te presentará una pantalla similar a *¡Felicidades! Tu sitio Joomla está listo.* La diferencia será una lista de los idiomas instalados que te permitirá seleccionar el idioma predeterminado para el Sitio y la interfaz del Administrador.
 
-![Joomla installer part 7, choose default language](../../../en/images/getting-started/installing-joomla-installer-7.png)
+![Joomla installer part 7, choose default language](../../../en/images/getting-started/installing-joomla/07-installing-joomla-installer-7.png)
 
 - Seleccione el idioma predeterminado que desea usar.
 - Cuando haya seleccionado el idioma predeterminado, seleccione el botón *Establecer idioma predeterminado* para confirmar.

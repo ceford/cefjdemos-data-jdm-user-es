@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Multi-factor_Authentication / Display title: Autenticación Multifactor  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Multi-factor_Authentication",
+  "title": "Autenticación Multifactor  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -64,7 +71,7 @@ Ten en cuenta que hay un plugin separado **Sistema - Inicio de Sesión Sin Contr
 
 El formulario de Opciones de Usuarios tiene un formulario de Autenticación Multifactor para configurar cómo funciona la Autenticación Multifactor en Joomla. Selecciona el botón Activar Ayuda en Línea para obtener información sobre cada opción.
 
-![opciones de usuarios formulario de autenticación multifactor](../../../en/images/users/users-configuration-mfa.png)
+![opciones de usuarios formulario de autenticación multifactor](../../../en/images/users/multi-factor-authentication/01-users-configuration-mfa.png)
 
 ## Perfil de Usuario
 
@@ -72,7 +79,7 @@ El formulario de Administrador / Usuarios: Editar Perfil tiene pestañas separad
 
 El formulario Sitio / Editar tu Perfil tiene las pestañas del formulario del backend dispuestas una encima de la otra, lo cual puede ser confuso porque la Autenticación Web aparece dos veces, primero para el inicio de sesión sin contraseña y, segundo, para la Autenticación Multifactor. La siguiente ilustración muestra la parte de Autenticación Multifactor del formulario después de que se ha creado un método. Eso automáticamente configura la característica como Habilitada y muestra la opción de crear Códigos de Respaldo.
 
-![vista del sitio del formulario de autenticación multifactor del usuario](../../../en/images/users/multi-factor-authentication-site-profile.jpg)
+![vista del sitio del formulario de autenticación multifactor del usuario](../../../en/images/users/multi-factor-authentication/02-multi-factor-authentication-site-profile.jpg)
 
 Como se mencionó anteriormente, puedes probar cada uno seleccionando el botón + Añadir ..., pero selecciona Cancelar en el formulario posterior si decides no continuar.
 

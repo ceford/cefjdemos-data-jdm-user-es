@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Managing_Media / Display title: Gestión de Medios -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Managing_Media",
+  "title": "Gestión de Medios ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -20,7 +27,7 @@ En los dos primeros casos, el componente de Medios aparece en una pantalla de co
 
 La siguiente imagen muestra la página de Medios justo después de la instalación de Joomla, pero con la carpeta cassiopeia/sampledata seleccionada. Se agregó una carpeta *archivos* para almacenar archivos que no son imágenes y se añadió una carpeta extra llamada *basura* para ilustrar la eliminación de carpetas:
 
-![Página de Medios mostrando datos de muestra cassiopeia](../../../en/images/media/media-sample-data-cassiopeia.png)
+![Página de Medios mostrando datos de muestra cassiopeia](../../../en/images/media/managing-media/01-media-sample-data-cassiopeia.png)
 
 ## Gestión de Carpetas
 
@@ -60,7 +67,7 @@ Si seleccionas una carpeta diferente, la carpeta anterior al mismo nivel se cerr
 
 La carpeta seleccionada para eliminación se ilustra a continuación:
 
-![Página de medios mostrando la carpeta de basura](../../../en/images/media/media-sample-data-garbage-select.png)
+![Página de medios mostrando la carpeta de basura](../../../en/images/media/managing-media/02-media-sample-data-garbage-select.png)
 
 ## Barra de Herramientas del Área de Medios
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Updating_from_an_existing_version / Display title: Actualización de Versión  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Updating_from_an_existing_version",
+  "title": "Actualización de Versión  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -16,11 +23,11 @@ Aunque Joomla te notificará cuando haya una actualización disponible, requiere
 
 Si el panel de notificaciones se muestra en el Panel de Inicio, selecciona el botón **x.y.z Disponible - ¡Actualizar Ahora!** para ir al Componente de Actualización.
 
-![notificación de actualización de joomla en el panel de inicio](../../../en/images/migration/version-update-notification-home-dashboard.png)
+![notificación de actualización de joomla en el panel de inicio](../../../en/images/migration/version-update/01-version-update-notification-home-dashboard.png)
 
 Alternativamente, para acceder al Componente de Actualización desde el menú de Administración, selecciona **Sistema** para ir a través del **Panel del Sistema**.
 
-![notificación de actualización de joomla en el panel del sistema](../../../en/images/migration/version-update-notification-system-dashboard.png)
+![notificación de actualización de joomla en el panel del sistema](../../../en/images/migration/version-update/02-version-update-notification-system-dashboard.png)
 
 El Panel del Sistema tiene un *Panel de Actualización* que incluye un enlace de Joomla que mostrará el número de versión de actualización disponible. Selecciona el enlace **Joomla** para ir al Componente de Actualización.
 
@@ -30,7 +37,7 @@ El Panel del Sistema tiene un *Panel de Actualización* que incluye un enlace de
 
 **Nota:** La pantalla de *Verificación Previa a la Actualización* no se muestra si el sitio está en la versión **Menor** actual.
 
-![verificación previa a la actualización de joomla](../../../en/images/migration/version-update-pre-update-check.png)
+![verificación previa a la actualización de joomla](../../../en/images/migration/version-update/03-version-update-pre-update-check.png)
 
 Preste mucha atención a los resultados de la verificación y tome medidas para rectificar cualquier problema resaltado antes de actualizar. Es posible que necesite actualizar, deshabilitar o desinstalar extensiones incompatibles antes de actualizar Joomla.
 
@@ -44,19 +51,19 @@ Cuando haya revisado la Verificación Previa a la Actualización y esté satisfe
 
 ### Confirmando la Actualización
 
-![página de inicio de actualización](../../../en/images/migration/version-update-start-update.png)
+![página de inicio de actualización](../../../en/images/migration/version-update/04-version-update-start-update.png)
 
 Marque la casilla para confirmar que ha realizado una copia de seguridad y comprobado que las extensiones son compatibles, luego haga clic en **Iniciar Actualización**.
 
 ### Progreso de la Actualización
 
-![página de progreso de actualización](../../../en/images/migration/version-update-progress.png)
+![página de progreso de actualización](../../../en/images/migration/version-update/05-version-update-progress.png)
 
 Una vez que la actualización comienza, aparecerá una barra de progreso mientras se actualizan los archivos de Joomla.
 
 ### Finalización
 
-![página de actualización completada](../../../en/images/migration/version-update-completion.png)
+![página de actualización completada](../../../en/images/migration/version-update/06-version-update-completion.png)
 
 Cuando la barra de progreso alcance el 100%, un mensaje del sistema confirmará que su sitio ha sido actualizado y mostrará el número de versión. El número de versión también se actualizará en la barra de herramientas superior, junto al nombre del sitio.
 
@@ -74,7 +81,7 @@ Dirígete al frontend del sitio web y verifica que funcione y se muestre como lo
 
 Desde el menú lateral, selecciona **Sistema** para dirigirte al Panel de Control del Sistema. Esto te dará una visión general del estado actual de tu sitio Joomla.
 
-![panel de control del sistema post actualización](../../../en/images/migration/version-update-after-update.png)
+![panel de control del sistema post actualización](../../../en/images/migration/version-update/07-version-update-after-update.png)
 
 En este ejemplo, podemos ver que desde la actualización tenemos dos elementos que requieren atención. Están marcados con una etiqueta que incluye un número. El número indica cuántos elementos requieren atención. Al hacer clic en cada uno de ellos, podrás solucionarlos.
 
@@ -84,11 +91,11 @@ En este ejemplo, podemos ver que desde la actualización tenemos dos elementos q
 
 Navega a **Sistema → Mantenimiento → Base de Datos**. Si tu base de datos está actualizada, deberías ver una pantalla similar a la siguiente:
 
-![comprobación de la base de datos post actualización sin problemas](../../../en/images/migration/version-update-after-update-database-check-no-problems.png)
+![comprobación de la base de datos post actualización sin problemas](../../../en/images/migration/version-update/08-version-update-after-update-database-check-no-problems.png)
 
 Si tu base de datos no está actualizada, verás una pantalla que enumera los problemas encontrados, similar a la siguiente:
 
-![comprobación de la base de datos post actualización con problemas](../../../en/images/migration/version-update-after-update-database-check-problems.png)
+![comprobación de la base de datos post actualización con problemas](../../../en/images/migration/version-update/09-version-update-after-update-database-check-problems.png)
 
 En este caso, selecciona el *Nombre* de la extensión con problema y luego el botón de Actualizar Estructura en la Barra de Herramientas. Joomla actualizará tu base de datos para corregir los problemas enumerados y luego volverá a mostrar la pantalla. Si la corrección fue exitosa, la pantalla indicará que la base de datos está actualizada.
 
@@ -98,13 +105,13 @@ En este caso, selecciona el *Nombre* de la extensión con problema y luego el bo
 
 En algunos casos, cuando actualizas a una nueva versión de Joomla, se añaden nuevas extensiones principales. Si hubo problemas con la actualización de la base de datos, es posible que estas extensiones no se hayan instalado correctamente. Para verificar esto, navega a **Sistema → Descubrir**. Luego selecciona el icono de Descubrir en la barra de herramientas. La pantalla debería mostrarse de la siguiente manera:
 
-![Pantalla de Descubrir Sin Extensiones Para Instalar](../../../en/images/migration/version-update-after-update-discover.png)
+![Pantalla de Descubrir Sin Extensiones Para Instalar](../../../en/images/migration/version-update/10-version-update-after-update-discover.png)
 
 Si es así, sabes que cualquier nueva extensión añadida durante la actualización se instaló correctamente en la base de datos.
 
 Si hay extensiones no instaladas, se mostrarán de manera similar a la siguiente pantalla:
 
-![Pantalla de Descubrir Con Extensiones Encontradas Para Instalar](../../../en/images/migration/version-update-after-update-discover-found.png)
+![Pantalla de Descubrir Con Extensiones Encontradas Para Instalar](../../../en/images/migration/version-update/11-version-update-after-update-discover-found.png)
 
 En este caso, marca las casillas y haz clic en el icono de Instalar en la barra de herramientas. Joomla instalará la(s) extensión(es) y luego mostrará la pantalla indicando que no se descubrieron extensiones. En este punto, las nuevas extensiones se han instalado en la base de datos.
 

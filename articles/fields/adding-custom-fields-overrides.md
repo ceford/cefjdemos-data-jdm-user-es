@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Overrides / Display title: Ejemplo de Anulación de  Plantilla -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Ejemplo de Anulación de  Plantilla ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Visualización Automática de Campos
 

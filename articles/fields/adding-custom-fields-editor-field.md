@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Editor_Field / Display title: Campo del Editor -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Campo del Editor ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Propósito
 
@@ -16,7 +23,7 @@ Las opciones especiales dentro de este campo son
 - **Altura** El valor para la altura define la altura (en píxeles) del editor WYSIWYG. El valor predeterminado para esto es 250px. El valor puede representarse como una fracción de la altura de la ventana gráfica, por ejemplo, 50vh.
 - **Filtro** Permitir que el sistema guarde ciertas etiquetas html o datos sin procesar.
 
-![Creación de campo de editor](../../../en/images/fields/fields-editor-edit.png)
+![Creación de campo de editor](../../../en/images/fields/adding-custom-fields-editor-field/01-fields-editor-edit.png)
 
 **Nota:** En este ejemplo, la inclusión del tipo de campo en el Título es solo para fines de demostración. Omite esta parte en los títulos de tus propios campos.
 
@@ -25,7 +32,7 @@ Las opciones especiales dentro de este campo son
 
 En el formulario de edición del artículo, el campo adicional del Editor es similar al campo del Editor del contenido principal.
 
-![entrada de datos del campo del editor](../../../en/images/fields/fields-editor-data-entry.png)
+![entrada de datos del campo del editor](../../../en/images/fields/adding-custom-fields-editor-field/02-fields-editor-data-entry.png)
 
 ## Visualización de Datos
 
@@ -35,7 +42,7 @@ En la visualización del artículo, el texto ingresado aparece debajo del encabe
 
 Busca el elemento **Notas de Cultivo**.
 
-![visualización del campo del editor del sitio](../../../en/images/fields/fields-editor-site.png)
+![visualización del campo del editor del sitio](../../../en/images/fields/adding-custom-fields-editor-field/03-fields-editor-site.png)
 
 *Traducido por openai.com*
 

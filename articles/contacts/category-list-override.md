@@ -1,4 +1,11 @@
-<!-- Filename: category-list-override.md / Display title: Anulación de la Lista de Categorías -->
+<!--
+{
+  "source": "https://docs.joomla.org/category-list-override.md",
+  "title": "Anulación de la Lista de Categorías ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## El Elemento de Menú de Lista de Contactos en una Categoría
 
@@ -36,7 +43,7 @@ La lista de viñetas de campos personalizados se puede mejorar eliminando las vi
   padding-left: 0;
 }
 ```
-![comité empresarial estilizado](../../../en/images/contacts/contact-business-committee-styled.png)
+![comité empresarial estilizado](../../../en/images/contacts/category-list-override/01-contact-business-committee-styled.png)
 
 Eso es todo lo que se puede hacer con el estilo. Mejor, pero aún no lo suficiente. Para agregar más elementos y cambiar el diseño se requerirá una anulación de diseño.  
 
@@ -150,7 +157,7 @@ a:has(.contact-thumbnail) {
 
 ### Resultado
 
-![comité de negocios en cuadrícula](../../../en/images/contacts/contact-business-committee-grid.png)
+![comité de negocios en cuadrícula](../../../en/images/contacts/category-list-override/02-contact-business-committee-grid.png)
 
 *Traducido por openai.com*
 

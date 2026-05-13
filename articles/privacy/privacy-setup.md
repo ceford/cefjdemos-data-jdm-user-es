@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Privacy_Setup / Display title: Configuración de Privacidad  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Privacy_Setup",
+  "title": "Configuración de Privacidad  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Componente de Privacidad
 
@@ -19,7 +26,7 @@ El panel de privacidad proporciona un resumen de las **Solicitudes de Privacidad
 
 - Selecciona **Usuarios → Privacidad** desde el menú del Administrador.
 
-![panel de privacidad](../../../en/images/privacy/privacy-dashboard.png)
+![panel de privacidad](../../../en/images/privacy/privacy-setup/01-privacy-dashboard.png)
 
 Hay dos módulos que se muestran de forma predeterminada en el Panel de Privacidad:
 
@@ -52,7 +59,7 @@ Para configurar los consentimientos:
 - Encuentre el complemento **Sistema - Consentimiento de Privacidad** (no confundir con el complemento Privacidad - Consentimientos).
 - Seleccione para abrir el formulario de entrada de datos del complemento.
 
-![plugin sistema consentimiento de privacidad](../../../en/images/privacy/plugin-system-privacy-consent.png)
+![plugin sistema consentimiento de privacidad](../../../en/images/privacy/privacy-setup/02-plugin-system-privacy-consent.png)
 
 - Establezca el **Estado** en **Habilitado**.
 - Opcional: Seleccione o cree un artículo para enlazarlo desde el formulario de Registro. O configure el Tipo de Privacidad en Elemento de Menú y seleccione o cree un elemento de menú.
@@ -86,7 +93,7 @@ Este plugin no está habilitado por defecto. Para habilitarlo:
 
 Juntos, los dos complementos aparecen en el formulario de Registro de Usuario como en la siguiente captura de pantalla:
 
-![vista del sitio de consentimientos de privacidad](../../../en/images/privacy/privacy-consents-site.png)
+![vista del sitio de consentimientos de privacidad](../../../en/images/privacy/privacy-setup/03-privacy-consents-site.png)
 
 ## Elemento del Menú: Solicitud de Información de Privacidad
 
@@ -122,13 +129,13 @@ Echa un vistazo a los otros elementos del menú del Componente de Privacidad.
 
 Esta pantalla es el lugar central para procesar y gestionar solicitudes de información de usuarios. Por favor, consulta el artículo relacionado sobre el Flujo de Trabajo de Privacidad para obtener orientación sobre cómo procesar las solicitudes.
 
-![solicitudes de información de privacidad](../../../en/images/privacy/privacy-information-requests.png)
+![solicitudes de información de privacidad](../../../en/images/privacy/privacy-setup/04-privacy-information-requests.png)
 
 ### Capacidades de Extensiones
 
 Esta pantalla recopila y muestra información sobre las capacidades relacionadas con la privacidad reportadas por extensiones individuales. Está destinada a ayudar en la preparación de documentación, como un artículo de política de privacidad o un artículo de términos de servicio.
 
-![capacidades de privacidad de extensiones](../../../en/images/privacy/privacy-extension-capabilities.png)
+![capacidades de privacidad de extensiones](../../../en/images/privacy/privacy-setup/05-privacy-extension-capabilities.png)
 
 El contenido de la página proviene de cadenas de idioma en el núcleo, en el componente de privacidad y en plugins que implementan el evento onPrivacyCollectAdminCapabilities. Esto incluye:
 
@@ -145,7 +152,7 @@ La información se mostrará en el idioma seleccionado para el inicio de sesión
 
 Esta pantalla muestra una lista de consentimientos, los más recientes primero. Estará en el idioma utilizado en el formulario de consentimiento, típicamente durante el registro. Puedes buscar por nombre a un usuario específico. Ten en cuenta que el consentimiento para aceptar los Términos y Condiciones del sitio no se registra aquí. Eso solo está en el Registro de Acciones de Usuario.
 
-![consentimientos de privacidad](../../../en/images/privacy/privacy-consents.png)
+![consentimientos de privacidad](../../../en/images/privacy/privacy-setup/06-privacy-consents.png)
 
 *Traducido por openai.com*
 

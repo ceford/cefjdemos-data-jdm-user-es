@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:_Article_Options / Display title: Artículo: Editar - Opciones   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:_Article_Options",
+  "title": "Artículo: Editar - Opciones   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -10,7 +17,7 @@ Este artículo trata sobre la pestaña *Opciones* en el formulario *Artículo: E
 
 La pestaña *Opciones* del formulario *Artículo: Editar* contiene una serie de paneles, la mayoría con opciones de *Usar global (Ocultar o Mostrar)*, *Ocultar* o *Mostrar*. La siguiente captura de pantalla parcial muestra el diseño general.
 
-![Pestaña de opciones de edición de artículo](../../../en/images/articles/articles-edit-options-tab.png)
+![Pestaña de opciones de edición de artículo](../../../en/images/articles/article-options/01-articles-edit-options-tab.png)
 
 ## Panel de diseño
 

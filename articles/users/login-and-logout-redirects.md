@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Login_and_Logout_Redirects / Display title: Redirecciones de Inicio y Cierre de Sesión -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Login_and_Logout_Redirects",
+  "title": "Redirecciones de Inicio y Cierre de Sesión ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Predeterminados
 
@@ -10,7 +17,7 @@ Este artículo cubre las opciones de redirección disponibles después de un ini
 
 El comportamiento predeterminado de un módulo de inicio de sesión es permanecer en la misma página después de iniciar y cerrar sesión. El único inconveniente de este comportamiento es que un usuario que cierra sesión desde una página restringida será solicitado para iniciar sesión nuevamente. Si esto resulta problemático, una solución sencilla es seleccionar la página de inicio a la que redirigir en el campo Configuraciones del Módulo de Redirección tras Cerrar Sesión.
 
-![formulario de menú de cierre de sesión restringido al acceso registrado](../../../en/images/users/login-redirects-login-form.png)
+![formulario de menú de cierre de sesión restringido al acceso registrado](../../../en/images/users/login-and-logout-redirects/01-login-redirects-login-form.png)
 
 Consejo: Podrías usar dos módulos de inicio de sesión. Uno con acceso **Invitado** titulado **Iniciar Sesión**. El segundo con acceso **Registrado** titulado **Cerrar Sesión**.
 
@@ -20,7 +27,7 @@ El tipo de elemento de menú de inicio de sesión puede utilizarse para iniciar 
 
 El tipo de elemento de menú de Inicio de Sesión permite elegir el Tipo de Redirección de Inicio de Sesión: por Elemento de Menú o por URL Interna. Por defecto, se selecciona Elemento de Menú, pero no se configura y el inicio de sesión lleva a la página de Perfil de Usuario. Puedes seleccionar un elemento de menú o proporcionar la URL de una página. Por ejemplo, podrías tener una página de Estado del Sistema con un mensaje elaborado del día.
 
-![formulario del menú de cerrar sesión restringido a acceso registrado](../../../en/images/users/login-redirects-login-menu-options.png)
+![formulario del menú de cerrar sesión restringido a acceso registrado](../../../en/images/users/login-and-logout-redirects/02-login-redirects-login-menu-options.png)
 
 El comportamiento predeterminado al Cerrar Sesión es redirigir a la página de inicio del sitio. Podrías redirigir a algo diferente, como un mensaje de Despedida enlazado por un elemento de menú o una URL interna.  
 
@@ -28,7 +35,7 @@ El comportamiento predeterminado al Cerrar Sesión es redirigir a la página de 
 
 El elemento del menú de cierre de sesión es sencillo. El valor predeterminado es permanecer en la misma página después del cierre de sesión. Si eso resulta inconveniente, selecciona la página de inicio del sitio.
 
-![formulario del menú de cierre de sesión restringido a acceso registrado](../../../en/images/users/login-redirects-logout-menu-options.png)
+![formulario del menú de cierre de sesión restringido a acceso registrado](../../../en/images/users/login-and-logout-redirects/03-login-redirects-logout-menu-options.png)
 
 *Traducido por openai.com*  
 

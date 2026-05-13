@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Logging_in_to_Joomla / Display title: Iniciar sesión en Joomla -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Logging_in_to_Joomla",
+  "title": "Iniciar sesión en Joomla ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -16,7 +23,7 @@ Lo siguiente cubre cómo iniciar y cerrar sesión tanto en el backend como en el
 
 Navega a la página de inicio de sesión del Administrador. Esta es la dirección web del sitio, seguida de /administrator, por ejemplo, my-joomla-website.com/administrator que invoca la página de inicio de sesión del Administrador de Joomla:
 
-![Formulario de inicio de sesión del administrador](../../../en/images/getting-started/logging-in-to-joomla-administrator-login-form.png)
+![Formulario de inicio de sesión del administrador](../../../en/images/getting-started/logging-in-to-joomla/01-logging-in-to-joomla-administrator-login-form.png)
 
 1. Añade tu **Nombre de Usuario**
 2. Añade tu **Contraseña**
@@ -32,7 +39,7 @@ Selecciona el botón **Iniciar sesión** para ser llevado al Panel de Control pr
 
 Para cerrar sesión, selecciona el **Menú de Usuario** y luego **Cerrar sesión**.
 
-![Enlace de cierre de sesión del administrador](../../../en/images/getting-started/logging-in-to-joomla-logout-link.png)
+![Enlace de cierre de sesión del administrador](../../../en/images/getting-started/logging-in-to-joomla/02-logging-in-to-joomla-logout-link.png)
 
 ### Inicio de Sesión del Sitio
 
@@ -40,7 +47,7 @@ Si el acceso al frontend está habilitado, se habrá añadido un formulario de i
 
 Este ejemplo utiliza un formulario de inicio de sesión ubicado en la barra lateral derecha.
 
-![Módulo de formulario de inicio de sesión del sitio](../../../en/images/getting-started/logging-in-to-joomla-site-login-form.png)
+![Módulo de formulario de inicio de sesión del sitio](../../../en/images/getting-started/logging-in-to-joomla/03-logging-in-to-joomla-site-login-form.png)
 
 En el **Formulario de Inicio de Sesión**
 
@@ -53,7 +60,7 @@ Al iniciar sesión desde el frontend del sitio web, puedes permanecer en la mism
 
 ### Cierre de Sesión del Sitio
 
-![Módulo de formulario de cierre de sesión del sitio](../../../en/images/getting-started/logging-in-to-joomla-site-logout-form.png)
+![Módulo de formulario de cierre de sesión del sitio](../../../en/images/getting-started/logging-in-to-joomla/04-logging-in-to-joomla-site-logout-form.png)
 
 Para cerrar sesión, ve al formulario de inicio de sesión y selecciona el botón **Cerrar sesión**.  
 

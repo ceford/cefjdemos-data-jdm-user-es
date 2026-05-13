@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Template_Overrides / Display title: Sobrescritura de Plantillas -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Template_Overrides",
+  "title": "Sobrescritura de Plantillas ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -10,7 +17,7 @@ Muchas de las extensiones de Joomla tienen plantillas de salida bastante complej
 
 Comienza seleccionando **Sistema → Plantillas → Plantillas del Sitio** en el menú del Administrador y luego selecciona el elemento Detalles y Archivos de Cassiopeia. Eso abrirá el formulario de Personalización de Plantillas (Cassiopeia):
 
-![personalización de plantilla cassiopeia pestaña del sitio](../../../en/images/templates/templates-customise-cassiopeia.png)
+![personalización de plantilla cassiopeia pestaña del sitio](../../../en/images/templates/template-overrides/01-templates-customise-cassiopeia.png)
 
 **Importante:** no edites ninguno de los archivos suministrados como parte de la plantilla Cassiopeia. En la próxima actualización de Joomla, esos archivos pueden ser sobrescritos y tus ediciones se perderán.
 
@@ -20,7 +27,7 @@ La carpeta html es donde se ubican las sobrescrituras. Si expandes la carpeta ht
 
 Seleccione la pestaña Crear Sobrescrituras para ver la lista de Módulos, Componentes, Plugins y Diseños para los cuales puede crear sobrescrituras:
 
-![plantillas personalizar pestaña de sobrescrituras de cassiopeia](../../../en/images/templates/cassiopeia-customisation-create-overrides.png)
+![plantillas personalizar pestaña de sobrescrituras de cassiopeia](../../../en/images/templates/template-overrides/02-cassiopeia-customisation-create-overrides.png)
 
 Seleccione el elemento mod_login. Los archivos php de la plantilla mod_login se copiarán en la carpeta html y será redirigido a la pestaña Editor. Expanda las carpetas html y mod_login. Verá default.php y default_logout.php.
 
@@ -32,7 +39,7 @@ Observe lo fácil que es eliminar archivos si cambia de opinión. Y con el botó
 
 En la pestaña del Editor, selecciona el archivo default_logout.php. Observa los botones en la parte superior derecha: Mostrar archivo original y Mostrar diferencias. Este último se ha configurado en Sí para la siguiente captura de pantalla para mostrar algunas líneas de código añadidas cerca de la parte superior del archivo. Estas líneas de código calculan cuándo expirará la sesión del usuario después de cargar la página que contiene el formulario de cierre de sesión.
 
-![modificar plantillas personalizar pestaña de sobreposiciones de Cassiopeia](../../../en/images/templates/cassiopeia-customisation-edit-logout-override.png)
+![modificar plantillas personalizar pestaña de sobreposiciones de Cassiopeia](../../../en/images/templates/template-overrides/03-cassiopeia-customisation-edit-logout-override.png)
 
 El área de diferencias muestra las líneas añadidas con un fondo verde y las líneas eliminadas con un fondo rojo. No hay líneas eliminadas en este caso. Aquí se muestra el código en caso de que desees copiarlo para probarlo tú mismo.
 
@@ -56,7 +63,7 @@ Su sesión expirará a las <br><?php echo $endTime; ?>
 
 Guarda y recarga la página del sitio que contiene el formulario de cierre de sesión.
 
-![modificar plantillas personalizar pestaña de sobreposiciones de Cassiopeia](../../../en/images/templates/cassiopeia-customisation-logout-override-result.png)
+![modificar plantillas personalizar pestaña de sobreposiciones de Cassiopeia](../../../en/images/templates/template-overrides/04-cassiopeia-customisation-logout-override-result.png)
 
 Deberías ver que el formulario de cierre de sesión cambia cada vez que la página se vuelve a cargar. Pero, ¿y si cambias de opinión? ¿O tienes opciones diferentes para distintos grupos de Usuarios? Bienvenido a Layouts, el tema de un artículo aparte.
 
@@ -64,7 +71,7 @@ Deberías ver que el formulario de cierre de sesión cambia cada vez que la pág
 
 La pestaña Crear Sobrescrituras del formulario Plantillas: Personalizar (Cassiopeia) se utiliza para crear cualquiera de los elementos de salida de Joomla para los cuales es posible crear sobrescrituras. Los nombres de las carpetas de sobrescritura generalmente comienzan con com\_, mod\_ o plg\_. Tenga en cuenta que la segunda parte de una carpeta de sobrescritura de plugin indica el grupo del plugin. Aquí hay una selección de ejemplo de carpetas de sobrescritura:
 
-![plantillas personalizar pestaña de sobrescrituras de cassiopeia](../../../en/images/templates/templates-customise-example-override-folder.png)
+![plantillas personalizar pestaña de sobrescrituras de cassiopeia](../../../en/images/templates/template-overrides/05-templates-customise-example-override-folder.png)
 
 ## Anulaciones de Diseño
 

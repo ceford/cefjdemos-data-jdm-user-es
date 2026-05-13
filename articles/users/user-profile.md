@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:User_Profile / Display title: Perfil del Usuario  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:User_Profile",
+  "title": "Perfil del Usuario  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Datos de Registro
 
@@ -10,7 +17,7 @@ La información del usuario recopilada mediante el formulario de registro de usu
 - En la segunda parte del formulario, establezca en Deshabilitado cualquier elemento que no deba aparecer en el formulario de perfil de usuario.
 - Guardar y cerrar.
 
-![complemento de perfil de usuario](../../../en/images/users/user-profile-plugin.png)
+![complemento de perfil de usuario](../../../en/images/users/user-profile/01-user-profile-plugin.png)
 
 - Si se permite el auto-registro, abra el formulario de registro de usuario para verificar que estén presentes los campos adicionales del perfil de usuario.
 - Desde el menú del administrador, cree un nuevo usuario o edite un usuario existente. Seleccione la pestaña **User Profile** y verifique que estén presentes los campos adicionales del perfil de usuario.
@@ -28,11 +35,11 @@ Desde el menú del Administrador:
 - Establece el campo **Acceso** en **Registrado**. ¡Esto es IMPORTANTE! el elemento de menú solo debe verse al haber iniciado sesión.
 - Guardar y Cerrar.
 
-![formulario de elemento de menú de perfil de usuario](../../../en/images/users/user-profile-menu-item-form.png)
+![formulario de elemento de menú de perfil de usuario](../../../en/images/users/user-profile/02-user-profile-menu-item-form.png)
 
 - Inicia sesión en el sitio y usa el enlace para verificar el Perfil de Usuario.
 
-![resumen de perfil de usuario](../../../en/images/users/user-profile-summary.png)
+![resumen de perfil de usuario](../../../en/images/users/user-profile/03-user-profile-summary.png)
 
 - Prueba el botón **Editar Perfil**.
 

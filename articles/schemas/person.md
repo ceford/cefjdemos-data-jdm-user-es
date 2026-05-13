@@ -1,4 +1,11 @@
-<!-- Filename: Localhost / Display title: Schema.org - Persona -->
+<!--
+{
+  "source": "https://docs.joomla.org/Localhost",
+  "title": "Schema.org - Persona ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Propósito
 
@@ -22,7 +29,7 @@ La sección de *Generic Field* permite ingresar pares de *Title* y *Value* adem�
 
 A continuación se muestra un ejemplo de un esquema de Persona en un formulario de edición de Artículo.
 
-![A person schema edit form](../../../en/images/schemas/edit-schema-person.png)
+![A person schema edit form](../../../en/images/schemas/person/01-edit-schema-person.png)
 
 *Traducido por openai.com*
 

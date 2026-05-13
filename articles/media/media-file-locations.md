@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:Media_File_Locations / Display title: Ubicaciones de Archivos Multimedia -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:Media_File_Locations",
+  "title": "Ubicaciones de Archivos Multimedia ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -12,7 +19,7 @@ Para configurar una ubicación para archivos que sea separada de las imágenes, 
 
 Encuentra el plugin *Sistema de Archivos - Local* en la lista de plugins y ábrelo. Añade tu recién creada carpeta *files* a la lista de lugares donde puedes mantener medios. Simplemente haz clic en el botón + y selecciona **files** de la lista de carpetas disponibles.
 
-![Plugin del Sistema de Archivos](../../../en/images/plugins/plugin-group-file-system-local.png)
+![Plugin del Sistema de Archivos](../../../en/images/media/media-file-locations/01-plugin-group-file-system-local.png)
 
 La opción **Crear Miniaturas** configurada en **Sí** provoca la creación de imágenes pequeñas con una altura o anchura máxima de 200 píxeles en media/cache/com_media/thumbs con la misma estructura de carpetas que la carpeta de medios. Debería incrementar en gran medida la velocidad de visualización de una carpeta con muchas imágenes. No es necesario para los archivos ya que son representados por iconos.
 

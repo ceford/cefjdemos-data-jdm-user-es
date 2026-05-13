@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=fields&filename=subform.md / Display title: Campo de Subformulario  -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=fields&filename=subform.md",
+  "title": "Campo de Subformulario  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Propósito
 
@@ -15,7 +22,7 @@ Opciones especiales para este campo:
 - **Título** y **Etiqueta** En este ejemplo, estos están establecidos como *Especímenes*.
 - **Campos** Añade los campos requeridos en el subformulario uno por uno. Cada fila tiene una lista desplegable de campos disponibles y un conmutador de Mostrar Valores Sí/No. El orden de los elementos puede cambiarse con el icono de arrastre.
 
-![Creación de subformulario](../../../en/images/fields/fields-subform-edit.png)
+![Creación de subformulario](../../../en/images/fields/subforms/01-fields-subform-edit.png)
 
 **Nota:** En este ejemplo, la inclusión del tipo de campo en el Título es solo para efectos de demostración. Déjalo fuera en tus propios títulos de campos.
 
@@ -23,14 +30,14 @@ Opciones especiales para este campo:
 
 En el formulario de entrada de datos, necesitas agregar filas para cada espécimen. Cada fila contiene un campo de Calendario, un campo de Texto y un campo de Color.
 
-![Entrada de datos de subformulario](../../../en/images/fields/fields-subform-data-entry.png)
+![Entrada de datos de subformulario](../../../en/images/fields/subforms/02-fields-subform-data-entry.png)
 
 ## Visualización de Datos
 
 En el artículo, el subformulario titulado Especímenes tiene una fila para cada espécimen.
 Busca el elemento **Especímenes** en esta captura de pantalla:
 
-![visualización del sitio de subformulario](../../../en/images/fields/fields-subform-site.png)
+![visualización del sitio de subformulario](../../../en/images/fields/subforms/03-fields-subform-site.png)
 
 *Traducido por openai.com*
 

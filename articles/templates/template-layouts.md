@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Template_Layouts / Display title: Plantillas de Diseño  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Template_Layouts",
+  "title": "Plantillas de Diseño  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Estructuras de Archivos de Diseño
 
@@ -72,7 +79,7 @@ Tu sesión expirará a las <br><?php echo $endTime; ?>
 
 Cierra los archivos de Cassiopeia. Selecciona **Contenido **→** Módulos del Sitio** y abre el módulo de Inicio de Sesión. En la pestaña Avanzado, en el elemento de Diseño encontrarás que tienes una opción entre **-- Del Módulo -- / Predeterminado** y **-- De la Plantilla cassiopeia -- / expires**.
 
-![módulo de inicio de sesión mostrando diseños alternativos](../../../en/images/templates/layouts-module-login.png)
+![módulo de inicio de sesión mostrando diseños alternativos](../../../en/images/templates/template-layouts/01-layouts-module-login.png)
 
 Una forma en que podrías usar esta función es tener dos formularios de Inicio de Sesión, uno con acceso Público y otro con acceso para Super Usuarios. En el último, selecciona la opción **expires** y solo los Super Usuarios verán el recordatorio de la hora de expiración de la sesión.
 
@@ -87,11 +94,11 @@ Puedes traducir el nombre del archivo usando Sobrescrituras de Idioma. Prueba el
 - Selecciona el botón **Nuevo** y completa el formulario. En este ejemplo, la clave de idioma es **TPL_CASSIOPEIA_MOD_LOGIN_LAYOUT_EXPIRES** y el texto podría ser **Inicio/Cierre de sesión con hora de expiración**
 - Guarda y cierra y vuelve al formulario del módulo de Inicio de Sesión.
 
-![formulario de edición de sobrescrituras de idiomas](../../../en/images/templates/layouts-language-override-form.png)
+![formulario de edición de sobrescrituras de idiomas](../../../en/images/templates/template-layouts/02-layouts-language-override-form.png)
 
 El campo de selección de diseño de módulo con **expires** traducido:
 
-![selección de diseños alternativos de módulo](../../../en/images/templates/layouts-example-translated.png)
+![selección de diseños alternativos de módulo](../../../en/images/templates/template-layouts/03-layouts-example-translated.png)
 
 ## Diseños Alternativos de Componentes
 
@@ -99,11 +106,11 @@ Los diseños alternativos de componentes funcionan de manera similar a los dise�
 
 Puedes establecer un valor global para los diseños de componentes en la ventana de Opciones del componente. Por ejemplo, en la ventana Opciones del Artículo, hay un parámetro *Elegir un Diseño* como se muestra a continuación:
 
-![formulario de opciones de artículos con lista de diseños alternativos](../../../en/images/templates/layouts-articles-options.png)
+![formulario de opciones de artículos con lista de diseños alternativos](../../../en/images/templates/template-layouts/04-layouts-articles-options.png)
 
 Al igual que con los diseños de módulos, los diseños de componentes se muestran como opciones de parámetro en la pantalla de edición individual del componente. Por ejemplo, para un artículo, el parámetro se muestra en la pestaña Editar Opciones de Artículos, como se muestra a continuación.
 
-![formulario de edición de artículo mostrando lista de diseños alternativos](../../../en/images/templates/layout-article-edit.png)
+![formulario de edición de artículo mostrando lista de diseños alternativos](../../../en/images/templates/template-layouts/05-layout-article-edit.png)
 
 Al igual que con otros parámetros, la configuración Usar Global usará la configuración del parámetro Opciones. La configuración Desde el Predeterminado del Componente usará el diseño predeterminado del componente. Los diseños alternativos que has creado para diferentes plantillas se muestran bajo el encabezado de cada plantilla.
 
@@ -125,11 +132,11 @@ Los diseños alternativos de categorías funcionan como los diseños de componen
 
 Puedes configurar los diseños de categoría a nivel global, en la pantalla de Opciones de cada componente. A continuación se muestra un ejemplo del formulario de Opciones / Categoría de Contactos:
 
-![formulario de opciones del componente de contactos mostrando diseños alternativos](../../../en/images/templates/layouts-contacts-options.png)
+![formulario de opciones del componente de contactos mostrando diseños alternativos](../../../en/images/templates/template-layouts/06-layouts-contacts-options.png)
 
 Los diseños alternativos de categorías se muestran cuando añades o editas una categoría en el formulario Componente: Editar Categoría / Opciones, como se muestra a continuación.
 
-![formulario de opciones del componente de contactos mostrando diseños alternativos](../../../en/images/templates/layouts-contacts-category-options.png)
+![formulario de opciones del componente de contactos mostrando diseños alternativos](../../../en/images/templates/template-layouts/07-layouts-contacts-category-options.png)
 
 Los diseños alternativos de categorías se pueden usar para artículos, banners, contactos y fuentes de noticias.
 
@@ -144,7 +151,7 @@ Si hay un elemento de menú configurado para una categoría específica, se usar
 
 Para los artículos, hay dos diseños principales de categoría disponibles: Blog y Lista. Cada uno de estos diseños aparece en el formulario de Opciones de Artículos, pestaña Categoría, bajo el encabezado "Desde Componente". También aparecen diseños alternativos en la lista, permitiendo que se seleccionen los diseños de plantilla alternativos, Blog o Lista, como el diseño de categoría predeterminado, ya sea globalmente o al editar una única categoría de artículo.
 
-![formulario de opciones del componente de contactos mostrando diseños alternativos](../../../en/images/templates/layouts-articles-options-category.png)
+![formulario de opciones del componente de contactos mostrando diseños alternativos](../../../en/images/templates/template-layouts/08-layouts-articles-options-category.png)
 
 Esto significa que, al igual que con otras opciones de diseño, puedes controlar si los enlaces de categorías de artículos usan diseños de blog o de lista. Es importante entender que, al igual que con otros parámetros de diseño, esta opción solo tendrá efecto cuando no haya un elemento de menú de categoría única para la categoría.
 
@@ -156,7 +163,7 @@ El archivo XML utiliza el mismo formato que los archivos XML de Ítems de Menú 
 
 Los Ítems de Menú Alternativos aparecen cuando seleccionas un Tipo de Ítem de Menú como se muestra a continuación.
 
-![lista de selección de ítem de menú](../../../en/images/templates/layouts-menu-blog-menu-creation.png)
+![lista de selección de ítem de menú](../../../en/images/templates/template-layouts/09-layouts-menu-blog-menu-creation.png)
 
 Los Ítems de Menú Alternativos se usan y funcionan de la misma manera que los ítems de menú estándar. Dado que ya están basados en diseños personalizados, las anulaciones de plantillas no se aplican a los ítems de menú alternativos.
 

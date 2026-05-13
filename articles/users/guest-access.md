@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Guest_Access / Display title: Acceso de Invitados  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Guest_Access",
+  "title": "Acceso de Invitados  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Niveles de Acceso
 
@@ -24,7 +31,7 @@ El uso del nivel de acceso de Invitado puede ilustrarse con un elemento de menú
 - Opcionalmente, seleccione la lista de Orden y elija el elemento **después**
   del cual le gustaría que apareciera el elemento de Iniciar Sesión.
 
-![formulario de menú de inicio de sesión restringido al acceso de invitado](../../../en/images/users/guest-access-menu-login.png)
+![formulario de menú de inicio de sesión restringido al acceso de invitado](../../../en/images/users/guest-access/01-guest-access-menu-login.png)
 
 - Guardar y Cerrar.
 - Vea el sitio. Verifique que el elemento del menú de inicio de sesión funcione. Verifique
@@ -43,7 +50,7 @@ El uso del nivel de acceso Registrado se puede ilustrar con un elemento de menú
 - Guardar.
 - Opcionalmente, selecciona el desplegable de Orden y elige el elemento **después** del cual te gustaría que aparezca el elemento de Iniciar sesión.
 
-![formulario de menú de cierre de sesión restringido a acceso registrado](../../../en/images/users/guest-access-menu-logout.png)
+![formulario de menú de cierre de sesión restringido a acceso registrado](../../../en/images/users/guest-access/02-guest-access-menu-logout.png)
 
 - Guardar y Cerrar.
 - Ve al sitio. Verifica que el elemento de menú de cierre de sesión funciona. Asegúrate de que desaparece después de cerrar sesión.

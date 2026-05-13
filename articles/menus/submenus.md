@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Submenus / Display title: Submenús  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Submenus",
+  "title": "Submenús  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Conceptos Básicos de Menús
 
@@ -26,7 +33,7 @@ Supongamos que tienes una serie de artículos sobre animales. Podría ser sobre 
 
 Las listas podrían ser bastante largas, por lo que podrías querer mostrar solo una lista de razas de gatos en las páginas sobre gatos y solo una lista de razas de perros en las páginas sobre perros. La siguiente captura de pantalla muestra la disposición objetivo que el usuario quisiera lograr:
 
-![objetivos submenús animales gatos](../../../en/images/menus/submenus-objectives-animals-cats.png)
+![objetivos submenús animales gatos](../../../en/images/menus/submenus/01-submenus-objectives-animals-cats.png)
 
 En este ejemplo, cuando el usuario selecciona el elemento de menú Animales se carga la página de Animales y el módulo de menú de Gatos desaparece (tampoco hay módulo de Perros). Selecciona el elemento de menú Gatos y el módulo de menú de Gatos aparece junto a la página de Gatos. Selecciona el elemento de menú Birmano y aparece la página de Birmano. Selecciona el elemento de menú Perros y el módulo de menú de Gatos es reemplazado por un módulo de menú de Perros junto a la página de Perros.
 
@@ -53,7 +60,7 @@ Desde el menú de Administrador:
 - En algunos casos, es posible que necesites recordar para qué es este menú. Así que completa el campo de descripción.
 - Guarda o Guarda y Cierra.
 
-![submenús nuevo menú](../../../en/images/menus/submenus-new-menu.png)
+![submenús nuevo menú](../../../en/images/menus/submenus/02-submenus-new-menu.png)
 
 ## Crear Elementos de Menú
 
@@ -97,7 +104,7 @@ Continúa hasta que tengas siete elementos de menú, uno para cada artículo.
 
 Cuando hayas creado todos tus elementos de menú, verifica que tengan las relaciones correctas de padre-hijo y que estén en el orden correcto. Puedes ordenar en la columna de Orden (la segunda columna) y usar las asas de agarre (elipsis vertical) para arrastrar los elementos al orden correcto. Si algún elemento tiene un padre incorrecto, simplemente selecciona el título del elemento y cambia el padre en el formulario de Menús: Editar Elemento.
 
-![lista de elementos del menú de submenús](../../../en/images/menus/submenus-menu-items-list.png)
+![lista de elementos del menú de submenús](../../../en/images/menus/submenus/03-submenus-menu-items-list.png)
 
 ## Módulos de Menú
 
@@ -121,7 +128,7 @@ Desde el menú del Administrador:
   - Nivel Final: 2 (esto limita los elementos a los ítems del menú de Gatos y Perros)
   - Posición: barra lateral izquierda (o donde prefieras)
 
-![módulo de submenús de animales](../../../en/images/menus/submenus-animals-module.png)
+![módulo de submenús de animales](../../../en/images/menus/submenus/04-submenus-animals-module.png)
 
 ### Asignación de Menú de Animales
 
@@ -133,7 +140,7 @@ Los submenús generalmente se muestran solo en páginas donde son pertinentes, e
 - Asegúrate de que no estén marcadas otras casillas.
 - Guardar y Cerrar
 
-![asignación de menú del módulo de submenús de animales](../../../en/images/menus/submenus-animals-module-menu-assignment.png)
+![asignación de menú del módulo de submenús de animales](../../../en/images/menus/submenus/05-submenus-animals-module-menu-assignment.png)
 
 ## Módulo de Submenú de Gatos
 
@@ -173,7 +180,7 @@ Más de lo mismo ...
   - Tipo de Elemento de Menú: Alias de Elemento del Menú
   - Elemento de Menú: Animales - seleccionado de la lista de elementos de menú existentes.
 
-![submenús alias de animales](../../../en/images/menus/submenus-animals-alias.png)
+![submenús alias de animales](../../../en/images/menus/submenus/06-submenus-animals-alias.png)
 
 - Guardar
 - Orden - después de guardar, el orden se puede cambiar. En este ejemplo se coloca primero.
@@ -182,5 +189,5 @@ Más de lo mismo ...
 
 Visualiza las páginas en tu sitio. En este ejemplo, la mayoría de las páginas no mostrarán los submenús en la posición del lado izquierdo. El enlace Animales en el menú superior abrirá la página de animales desde la cual es posible navegar a las páginas de Gatos o Perros:
 
-![objetivos de submenús animales perros](../../../en/images/menus/submenus-objectives-animals-dogs.png)
+![objetivos de submenús animales perros](../../../en/images/menus/submenus/07-submenus-objectives-animals-dogs.png)
 

@@ -1,4 +1,11 @@
-<!-- Filename: Entering_raw_HTML_in_editors / Display title: Filtros HTML  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Entering_raw_HTML_in_editors",
+  "title": "Filtros HTML  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Etiqueta HTML Textarea
 
@@ -23,7 +30,7 @@ Puedes seleccionar uno de los editores disponibles, incluyendo Ninguno, desde tu
 
 Desde el Panel de Control principal, selecciona Configuración Global y luego la pestaña de Filtros de Texto. La configuración predeterminada tiene *Sin HTML* seleccionado para los grupos de usuarios Invitado, Público y Registrado. Cualquiera de estos grupos podría tener la oportunidad de completar un campo de área de texto, por ejemplo, en un formulario de contacto que busca información adicional sobre un problema, por lo que la eliminación automática de todas las etiquetas HTML suele ser apropiada. Otros grupos, excepto los Super Usuarios, están restringidos por la Lista Prohibida Predeterminada. Los Super Usuarios no tienen filtros.
 
-![configuración global de los filtros de texto](../../../en/images/configuration/global-configuration-filters-tab.png)
+![configuración global de los filtros de texto](../../../en/images/editors/html-filters/01-global-configuration-filters-tab.png)
 
 Las notas explican qué se incluye en la lista prohibida por defecto y cómo usar las otras listas.
 

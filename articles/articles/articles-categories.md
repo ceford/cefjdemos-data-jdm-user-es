@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Create_and_Manage_Article_Categories / Display title: Artículos: Categorías  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Create_and_Manage_Article_Categories",
+  "title": "Artículos: Categorías  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -44,11 +51,11 @@ Existen varias rutas para llegar a la página *Artículos: Nueva Categoría*:
 
 La siguiente captura de pantalla muestra el enlace *Categorías de Artículos* en el Tablero de Inicio a la lista de categorías y el *Símbolo Más* adyacente que lleva al formulario *Artículos: Nueva Categoría*.
 
-![El ícono agregar categoría resaltado en el tablero de inicio](../../../en/images/articles/category-add-via-home-dashboard.png)
+![El ícono agregar categoría resaltado en el tablero de inicio](../../../en/images/articles/articles-categories/01-category-add-via-home-dashboard.png)
 
 ## Los artículos: Formulario de nueva categoría
 
-![El formulario de edición de nueva categoría de artículos](../../../en/images/getting-started/article-category-edit.png)
+![El formulario de edición de nueva categoría de artículos](../../../en/images/articles/articles-categories/02-article-category-edit.png)
 
 La captura de pantalla de arriba muestra el formulario completado. Solo hay dos campos que necesitan contenido. Todo lo demás tiene valores predeterminados o nulos que puedes dejar por ahora y completar más tarde según sea necesario.
 
@@ -81,7 +88,7 @@ Las configuraciones en esta pestaña afectan la apariencia de esta Categoría en
 
 Cerrar el formulario de edición conduce a la página de lista de **Artículos: Categorías**.
 
-![Una lista de categorías filtrada por la etiqueta Naturaleza](../../../en/images/articles/categories-list.png)
+![Una lista de categorías filtrada por la etiqueta Naturaleza](../../../en/images/articles/articles-categories/03-categories-list.png)
 
 ### Guardar en Menú como Lista
 
@@ -97,7 +104,7 @@ En la pestaña *Visualización de la Página* intenta configurar el campo *Mostr
 
 La siguiente captura de pantalla muestra la vista del sitio de una página de blog de categoría en desarrollo.
 
-![Página de blog de la categoría Mamíferos](../../../en/images/articles/article-mammals-articles-blog-site-view.png)
+![Página de blog de la categoría Mamíferos](../../../en/images/articles/articles-categories/04-article-mammals-articles-blog-site-view.png)
 
 ## Consejos
 

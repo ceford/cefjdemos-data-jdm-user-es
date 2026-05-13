@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org/Type_Organization_-_Using_Organization_Plugin / Display title: Schema.org - Libro -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Schema.org - Libro ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Propósito
 
@@ -25,7 +32,7 @@ La sección *Generic Field* permite ingresar pares de *Title* y *Value* además 
 
 A continuación se muestra un ejemplo de un esquema de Libro en un formulario de edición de Artículo.
 
-![A book schema edit form](../../../en/images/schemas/edit-schema-book.png)
+![A book schema edit form](../../../en/images/schemas/book/01-edit-schema-book.png)
 
 *Traducido por openai.com*
 

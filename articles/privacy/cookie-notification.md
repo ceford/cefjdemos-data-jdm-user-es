@@ -1,4 +1,11 @@
-<!-- Filename: Cookie_notification / Display title: Galletas -->
+<!--
+{
+  "source": "https://docs.joomla.org/Cookie_notification",
+  "title": "Galletas ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Resumen del uso de cookies en un sitio Joomla!
 

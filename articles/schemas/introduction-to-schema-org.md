@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org / Display title: Introducción a los esquemas -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Introducción a los esquemas ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Fragmentos Enriquecidos
 
@@ -18,7 +25,7 @@ En Joomla, los Rich Snippets se generan utilizando marcas de datos estructurados
 
 Para comenzar, vaya a **Sistema -> Plugins** y habilite el plugin *Sistema - Schema.org*. Si este plugin no está habilitado, no habrá una pestaña de Schema en un formulario de edición de artículo, incluso si todos los plugins individuales están habilitados.
 
-![List of schema plugins](../../../en/images/schemas/schema-plugins-list.png)
+![List of schema plugins](../../../en/images/schemas/introduction-to-schema-org/01-schema-plugins-list.png)
 
 ### Editar Sistema - Plugin Schema.org
 
@@ -28,13 +35,13 @@ Para comenzar, vaya a **Sistema -> Plugins** y habilite el plugin *Sistema - Sch
 - **Cuentas de Redes Sociales** Agregue las cuentas de redes sociales de su empresa o personales. Seleccione el botón verde de signo más para agregar filas al formulario.
 - Seleccione **Guardar y Cerrar**.
 
-![edit system schema org plugin](../../../en/images/schemas/edit-system-schema-org-plugin.png)
+![edit system schema org plugin](../../../en/images/schemas/introduction-to-schema-org/02-edit-system-schema-org-plugin.png)
 
 ### Editar un artículo
 
 Ve a cualquiera de tus artículos y completa los campos del formulario de Schema. Si el *Tipo de Schema* está establecido en *None*, el valor predeterminado, no hay campos para completar. Selecciona cualquier Schema para ver una lista de campos apropiados para ese esquema. La siguiente captura de pantalla muestra un artículo con el esquema de Artículo seleccionado:
 
-![edit article scheme form](../../../en/images/schemas/schema-form-in-an-article.png)
+![edit article scheme form](../../../en/images/schemas/introduction-to-schema-org/03-schema-form-in-an-article.png)
 
 ### Salida
 

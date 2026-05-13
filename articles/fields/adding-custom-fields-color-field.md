@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Color_Field / Display title: Campo de color -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Campo de color ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Propósito
 
@@ -10,7 +17,7 @@ Opciones especiales para este campo:
 
 - **Clase del Campo** Establecer en *w-auto* para hacer que el campo sea lo suficientemente ancho para la muestra y el valor.
 
-![Creación de campo de color](../../../en/images/fields/fields-colour-edit.png)
+![Creación de campo de color](../../../en/images/fields/adding-custom-fields-color-field/01-fields-colour-edit.png)
 
 **Nota:** En este ejemplo, la inclusión del tipo de campo en el Título es solo para propósitos de demostración. Déjalo fuera en los títulos de tus propios campos.
 
@@ -18,7 +25,7 @@ Opciones especiales para este campo:
 
 Puedes escribir un valor de color hexadecimal si sabes que los números hexadecimales van de 0 a 9 y luego de a a f, y que los pares de números representan rojo, verde y azul. Así, #00ff00 significa sin rojo, máximo verde y sin azul. O puedes usar un cursor para seleccionar un color visualmente. 
 
-![Campo de entrada de color](../../../en/images/fields/fields-colour-data-entry.png)
+![Campo de entrada de color](../../../en/images/fields/adding-custom-fields-color-field/02-fields-colour-data-entry.png)
 
 ## Visualización de Datos
 
@@ -37,5 +44,5 @@ Y el valor hexadecimal será precedido por una muestra con el color de fondo del
 
 Busca el ítem **Color de Flor**.
 
-![visualización del campo de color del sitio](../../../en/images/fields/fields-colour-site.png)
+![visualización del campo de color del sitio](../../../en/images/fields/adding-custom-fields-color-field/03-fields-colour-site.png)
 

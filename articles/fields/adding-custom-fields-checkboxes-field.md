@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Checkboxes_Field / Display title: Campo de Casillas de Verificación  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Campo de Casillas de Verificación  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Propósito
 
@@ -12,7 +19,7 @@ lista de valores seleccionados.
 aparece en la salida. El valor se utiliza en el formulario de entrada de datos y cada uno debe
 ser diferente.
 
-![Creación de campo de casillas de verificación](../../../en/images/fields/fields-checkboxes-edit.png)
+![Creación de campo de casillas de verificación](../../../en/images/fields/adding-custom-fields-checkboxes-field/01-fields-checkboxes-edit.png)
 
 **Nota:** En este ejemplo, la inclusión del tipo de campo en el Título es solo para
 fines de demostración. No lo incluya en los títulos de sus propios campos.
@@ -21,7 +28,7 @@ fines de demostración. No lo incluya en los títulos de sus propios campos.
 
 Se trata simplemente de seleccionar los elementos que deben aparecer en la salida.
 
-![Entrada de datos del campo de casillas de verificación](../../../en/images/fields/fields-checkboxes-data-entry.png)
+![Entrada de datos del campo de casillas de verificación](../../../en/images/fields/adding-custom-fields-checkboxes-field/02-fields-checkboxes-data-entry.png)
 
 Los campos solo aparecen en un artículo si han sido completados en el formulario de entrada de datos del artículo.
 
@@ -29,7 +36,7 @@ Los campos solo aparecen en un artículo si han sido completados en el formulari
 
 La siguiente captura de pantalla del sitio muestra el campo mostrado en un artículo. La opción *Visualización automática* es responsable de la posición del campo y tu plantilla es responsable del diseño del campo.
 
-![visualización del campo de casillas de verificación en el sitio](../../../en/images/fields/fields-checkboxes-site.png)
+![visualización del campo de casillas de verificación en el sitio](../../../en/images/fields/adding-custom-fields-checkboxes-field/03-fields-checkboxes-site.png)
 
 *Traducido por openai.com*
 

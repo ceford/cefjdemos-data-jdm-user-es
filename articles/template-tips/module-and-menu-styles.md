@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Module_and_Menu_Styles / Display title: Estilos de Módulo y Menú  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Module_and_Menu_Styles",
+  "title": "Estilos de Módulo y Menú  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Acerca de las Hojas de Estilo en Cascada
 
@@ -20,7 +27,7 @@ Esto funciona porque la hoja de estilo user.css se carga al final y cualquier es
 
 Este sencillo ejemplo aplica estilos personalizados al módulo de inicio de sesión y a su título. La siguiente captura de pantalla muestra los nombres de estilo ingresados en la pestaña Avanzado del formulario de edición de Módulos: Inicio de sesión. La Clase del Módulo se ha establecido como `make-me-light-green` y la Clase del Encabezado se ha establecido como `make-me-dark-green`. Ten en cuenta que puedes incluir guiones o subrayados en los nombres de clase, pero los espacios separan diferentes nombres de clase.
 
-![formulario de edición del módulo de inicio de sesión pestaña avanzada mostrando clase personalizada](../../../en/images/templates/templates-edit-module-style.png)
+![formulario de edición del módulo de inicio de sesión pestaña avanzada mostrando clase personalizada](../../../en/images/template-tips/module-and-menu-styles/01-templates-edit-module-style.png)
 
 Las siguientes declaraciones de estilo se utilizan en el archivo user.css:
 ```css
@@ -35,7 +42,7 @@ Las siguientes declaraciones de estilo se utilizan en el archivo user.css:
 ```
 Presta atención al punto (.) que se utiliza en CSS para definir una clase con ese nombre. El punto no debe usarse en el formulario de entrada de datos del módulo. El resultado en este ejemplo es el siguiente:
 
-![apariencia del sitio del módulo personalizado con herramientas de desarrollo](../../../en/images/templates/templates-edit-module-style-result.png)
+![apariencia del sitio del módulo personalizado con herramientas de desarrollo](../../../en/images/template-tips/module-and-menu-styles/02-templates-edit-module-style-result.png)
 
 La parte inferior de la imagen muestra el panel de Herramientas de Desarrollo del navegador con la etiqueta `<div>` que encierra el módulo de inicio de sesión seleccionada. Puedes ver que el estilo de Clase de Módulo personalizada se ha agregado a los estilos ya definidos en la plantilla del módulo. La siguiente línea muestra la etiqueta `<h3>` también con la Clase de Encabezado personalizada agregada a los estilos ya definidos.
 
@@ -60,7 +67,7 @@ Es el último en esta lista que se cubre en este artículo. ¿Qué sucede con `m
 ```
 La clase se añade a la etiqueta body de la página:
 
-![apariencia del sitio de la página personalizada con herramientas de desarrollador](../../../en/images/templates/templates-edit-page-class-result.png)
+![apariencia del sitio de la página personalizada con herramientas de desarrollador](../../../en/images/template-tips/module-and-menu-styles/03-templates-edit-page-class-result.png)
 
 ¡QED!
 

@@ -1,4 +1,11 @@
-<!-- Filename: Cache / Display title: Caché  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Cache",
+  "title": "Caché  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Para Administradores
 

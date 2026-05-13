@@ -1,4 +1,11 @@
-<!-- Filename: How_do_you_recover_or_reset_your_admin_password%3F / Display title: Recuperación de Contraseña de Administrador  -->
+<!--
+{
+  "source": "https://docs.joomla.org/How_do_you_recover_or_reset_your_admin_password%3F",
+  "title": "Recuperación de Contraseña de Administrador  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 

@@ -1,4 +1,11 @@
-<!-- Filename: Monitoring_SEO / Display title: Monitoreo de SEO -->
+<!--
+{
+  "source": "https://docs.joomla.org/Monitoring_SEO",
+  "title": "Monitoreo de SEO ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## ¿Por Qué Monitorear Tu Sitio?
 
@@ -44,11 +51,11 @@ El poder de los segmentos personalizados es increíble. Te permite incluir y exc
 
 Para comenzar a usar un Segmento Personalizado, simplemente haz clic en la flecha en la parte superior de la página para mostrar los segmentos personalizados disponibles (resaltados en rojo). Si no tienes ninguno disponible, puedes crear el tuyo propio o importar segmentos existentes desde la Galería de Google Analytics (resaltados en azul).
 
-![Google analytics custom segments](../../../en/images/seo/seo-google-analytics-custom-segments.png)
+![Google analytics custom segments](../../../en/images/seo/monitoring-seo/01-seo-google-analytics-custom-segments.png)
 
 Una vez que hayas elegido los segmentos que deseas usar, presiona aplicar y se aplicarán a los datos que estás viendo. A continuación, puedes ver los filtros aplicándose para mostrar una, dos, tres y más de tres palabras clave.
 
-![Google analytics custom segments keywords](../../../en/images/seo/seo-google-analytics-custom-segments-keywords.png)
+![Google analytics custom segments keywords](../../../en/images/seo/monitoring-seo/02-seo-google-analytics-custom-segments-keywords.png)
 
 ### Tableros
 
@@ -58,7 +65,7 @@ Los tableros se pueden usar para cualquier propósito y puedes crear (y comparti
 
 Para comenzar, simplemente despliega la sección de Tableros de tu perfil de Analytics.
 
-![Google analytics dashboard](../../../en/images/seo/seo-google-anaytics-dashboard.png)
+![Google analytics dashboard](../../../en/images/seo/monitoring-seo/03-seo-google-anaytics-dashboard.png)
 
 ### La Galería de Google Analytics
 

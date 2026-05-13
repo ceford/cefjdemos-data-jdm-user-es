@@ -1,10 +1,17 @@
-<!-- Filename: J4.x:Unsupported_PHP_Version / Display title: Versión de PHP no compatible   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Unsupported_PHP_Version",
+  "title": "Versión de PHP no compatible   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Error de Instalación
 
 Si ves esto al intentar instalar Joomla 4.x:
 
-![Lo siento. Versión de PHP no soportada](../../../en/images/problems/problems-unsupported-php-version.jpg)
+![Lo siento. Versión de PHP no soportada](../../../en/images/problems/unsupported-php-version/01-problems-unsupported-php-version.jpg)
 
 Joomla 4 requiere PHP 7.2.5 o superior, como se describe en nuestros
 <a href="https://manual.joomla.org/docs/next/get-started/technical-requirements/"

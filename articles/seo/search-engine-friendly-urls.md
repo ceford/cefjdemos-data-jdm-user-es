@@ -1,4 +1,11 @@
-<!-- Filename: Search_Engine_Friendly_URLs / Display title: URLs Amigables para Motores de Búsqueda -->
+<!--
+{
+  "source": "https://docs.joomla.org/Search_Engine_Friendly_URLs",
+  "title": "URLs Amigables para Motores de Búsqueda ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Rutas y Direcciones
 

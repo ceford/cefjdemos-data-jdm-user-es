@@ -1,4 +1,11 @@
-<!-- Filename: Where_are_the_web_pages%3F / Display title: ¿Dónde están las páginas web? -->
+<!--
+{
+  "source": "https://docs.joomla.org/Where_are_the_web_pages%3F",
+  "title": "¿Dónde están las páginas web? ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 Si vienes de un sitio web tradicional compuesto por páginas HTML separadas, es posible que te preguntes dónde están las páginas.
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Featured_Articles / Display title: Artículos: Destacados  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Featured_Articles",
+  "title": "Artículos: Destacados  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -20,7 +27,7 @@ Para ver los artículos seleccionados para un diseño de *Artículos Destacados*
 
 La siguiente captura de pantalla muestra una lista de artículos destacados que contiene cuatro elementos, suficiente para crear un diseño de blog interesante:
 
-![Artículos destacados](../../../en/images/articles/articles-featured.png)
+![Artículos destacados](../../../en/images/articles/articles-featured/01-articles-featured.png)
 
 ### Orden de los Artículos Destacados
 
@@ -32,7 +39,7 @@ Un diseño de blog funciona mejor si la cantidad de texto en cada artículo se l
 
 ## Apariencia del Sitio
 
-![Vista del sitio de artículos destacados](../../../en/images/articles/articles-featured-site.png)
+![Vista del sitio de artículos destacados](../../../en/images/articles/articles-featured/02-articles-featured-site.png)
 
 *Traducido por openai.com*
 

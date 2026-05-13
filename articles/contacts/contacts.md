@@ -1,4 +1,11 @@
-<!-- Filename: contacts.md / Display title: Contactos -->
+<!--
+{
+  "source": "https://docs.joomla.org/contacts.md",
+  "title": "Contactos ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -26,7 +33,7 @@ Los contactos se crean a través de la página de lista de Contactos. Seleccione
 
 En el formulario **Contactos: Editar**, introduzca los datos que tenga disponibles sobre el contacto.
 
-![captura de pantalla de entrada de datos](../../../en/images/contacts/contact-data-entry.png)
+![captura de pantalla de entrada de datos](../../../en/images/contacts/contacts/01-contact-data-entry.png)
 
 **Notas:**
 
@@ -60,13 +67,13 @@ Cámara de los Comunes
 - Comité de Negocios
 - Comité de Cultura
 ```
-![todas las categorías en un árbol de categorías](../../../en/images/contacts/contact-all-committees.png)
+![todas las categorías en un árbol de categorías](../../../en/images/contacts/contacts/02-contact-all-committees.png)
 
 La segunda línea de cada entrada proviene de la Descripción de la Categoría.
 
 Si seleccionas uno de los enlaces del Comité, la página del Comité puede verse así:
 
-![contactos en una categoría](../../../en/images/contacts/contact-culture-committee.png)
+![contactos en una categoría](../../../en/images/contacts/contacts/03-contact-culture-committee.png)
 
 El diseño no es exactamente como se desea. Habría sido bueno incluir una imagen en miniatura de cada individuo y un mejor diseño de los detalles. Eso se puede hacer con una sobrescritura de plantilla (más adelante).
 
@@ -74,7 +81,7 @@ El diseño no es exactamente como se desea. Habría sido bueno incluir una image
 
 Para el Comité de Negocios hay un elemento de menú para Listar Contactos en una Categoría. Eso hace que se use un diseño diferente:
 
-![lista de categoría de contacto](../../../en/images/contacts/contact-category-list.png)
+![lista de categoría de contacto](../../../en/images/contacts/contacts/04-contact-category-list.png)
 
 Mejor, pero aún no del todo bien. Se necesitó una sobrescritura de estilo para reducir el estilo de la imagen. Nuevamente, parece que una sobrescritura de plantilla podría ser útil.
 
@@ -82,7 +89,7 @@ Mejor, pero aún no del todo bien. Se necesitó una sobrescritura de estilo para
 
 Para este ejemplo, los Presidentes de todos los comités fueron marcados como destacados.
 
-![contactos destacados](../../../en/images/contacts/contact-featured.png)
+![contactos destacados](../../../en/images/contacts/contacts/05-contact-featured.png)
 
 ## Orden de Clasificación
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Help / Display title: Tablero de Ayuda -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Help",
+  "title": "Tablero de Ayuda ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -6,7 +13,7 @@ La pantalla de Ayuda no se titula como un Tablero, pero tiene todas las caracter
 
 ## Captura de pantalla
 
-![Panel de ayuda](../../../en/images/dashboards/help-dashboard.png)
+![Panel de ayuda](../../../en/images/dashboards/help-dashboard/01-help-dashboard.png)
 
 *Traducido por openai.com*
 

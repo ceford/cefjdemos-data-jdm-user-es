@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Usergroup_Field / Display title: Campo de Grupo de Usuarios -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Campo de Grupo de Usuarios ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Propósito
 
@@ -10,7 +17,7 @@ Las opciones especiales dentro de este campo son:
 
 - **Múltiple** Permitir que se seleccionen múltiples valores.
 
-![creación de campo de grupos de usuarios](../../../en/images/fields/fields-usergroups-edit.png)
+![creación de campo de grupos de usuarios](../../../en/images/fields/adding-custom-fields-usergroup-field/01-fields-usergroups-edit.png)
 
 **Nota:** En este ejemplo, la inclusión del tipo de campo en el Título es solo con fines de demostración. Déjalo fuera en los títulos de tus propios campos.
 
@@ -18,14 +25,14 @@ Las opciones especiales dentro de este campo son:
 
 Simple, solo selecciona uno o más grupos de la lista de grupos.
 
-![entrada de datos del campo de grupos de usuarios](../../../en/images/fields/fields-usergroups-data-entry.png)
+![entrada de datos del campo de grupos de usuarios](../../../en/images/fields/adding-custom-fields-usergroup-field/02-fields-usergroups-data-entry.png)
 
 
 ## Visualización de Datos
 
 La siguiente captura de pantalla del Sitio muestra el campo que se despliega en un artículo. La opción *Visualización automática* es responsable de la posición del campo y tu plantilla es responsable del diseño del campo.
 
-![visualización del campo de grupos de usuarios del sitio](../../../en/images/fields/fields-usergroups-site.png)
+![visualización del campo de grupos de usuarios del sitio](../../../en/images/fields/adding-custom-fields-usergroup-field/03-fields-usergroups-site.png)
 
 La etiqueta del campo es seguida por una lista separada por comas de los grupos seleccionados.
 

@@ -1,4 +1,11 @@
-<!-- Filename: Localhost / Display title: Schema.org - Artículo -->
+<!--
+{
+  "source": "https://docs.joomla.org/Localhost",
+  "title": "Schema.org - Artículo ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Propósito
 
@@ -29,7 +36,7 @@ La sección *Generic Field* permite ingresar pares de *Title* y *Value* además 
 
 A continuación se muestra un ejemplo de un esquema de Artículo en un formulario de edición de Artículo.
 
-![An article schema edit form](../../../en/images/schemas/edit-schema-article.png)
+![An article schema edit form](../../../en/images/schemas/article/01-edit-schema-article.png)
 
 *Traducido por openai.com*
 

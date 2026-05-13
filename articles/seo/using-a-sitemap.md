@@ -1,4 +1,11 @@
-<!-- Filename: Using_A_Sitemap / Display title: Usando un Mapa del Sitio -->
+<!--
+{
+  "source": "https://docs.joomla.org/Using_A_Sitemap",
+  "title": "Usando un Mapa del Sitio ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Uso de un Mapa del Sitio
 

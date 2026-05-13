@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Media_Field / Display title: Campo de Medios -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Campo de Medios ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Propósito
 
@@ -13,7 +20,7 @@ Las opciones especiales dentro de este campo son:
 - **Vista previa** Muestra u oculta la vista previa de la miniatura de la imagen seleccionada.
 - **Clase de imagen** La clase agregada a la etiqueta img en la salida. Una clase de *w-25* reducirá el ancho de la imagen al 25% de su contenedor padre.
 
-![creación de campo multimedia](../../../en/images/fields/fields-media-edit.png)
+![creación de campo multimedia](../../../en/images/fields/adding-custom-fields-media-field/01-fields-media-edit.png)
 
 **Nota:** En este ejemplo, la inclusión del tipo de campo en el título es solo para fines de demostración. Déjelo fuera en sus propios títulos de campo.
 
@@ -21,14 +28,14 @@ Las opciones especiales dentro de este campo son:
 
 El formulario de entrada de datos es una versión simple del formulario de selección de medios.
 
-![entrada de datos del campo multimedia](../../../en/images/fields/fields-media-data-entry.png)
+![entrada de datos del campo multimedia](../../../en/images/fields/adding-custom-fields-media-field/02-fields-media-data-entry.png)
 
 
 ## Visualización de Datos
 
 La siguiente captura de pantalla del Sitio muestra el campo presentado en un artículo. La opción *Visualización automática* es responsable de la posición del campo y tu plantilla es responsable del diseño del campo.
 
-![visualización del campo de medios del sitio](../../../en/images/fields/fields-media-site.png)
+![visualización del campo de medios del sitio](../../../en/images/fields/adding-custom-fields-media-field/03-fields-media-site.png)
 
 *Traducido por openai.com*  
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Menu_Dashboard / Display title: Tablero de Menú  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Menu_Dashboard",
+  "title": "Tablero de Menú  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -8,7 +15,7 @@ Puedes tener tantos menús de Sitio y Administrador como desees, en prácticamen
 
 ## Captura de pantalla
 
-![Tablero del menú](../../../en/images/dashboards/menus-dashboard.png)
+![Tablero del menú](../../../en/images/dashboards/menu-dashboard/01-menus-dashboard.png)
 
 *Traducido por openai.com*  
 

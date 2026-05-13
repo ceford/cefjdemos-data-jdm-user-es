@@ -1,4 +1,11 @@
-<!-- Filename: Changing_user_groups / Display title: Cambiando los Grupos de Usuario -->
+<!--
+{
+  "source": "https://docs.joomla.org/Changing_user_groups",
+  "title": "Cambiando los Grupos de Usuario ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Herencia de Grupo
 

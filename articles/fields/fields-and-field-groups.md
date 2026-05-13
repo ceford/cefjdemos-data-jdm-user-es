@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Fields_and_Field_Groups / Display title: Campos y Grupos de Campos -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Fields_and_Field_Groups",
+  "title": "Campos y Grupos de Campos ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -14,7 +21,7 @@ Si un campo no se asigna a un grupo, aparecerá en el formulario de edición en 
 
 Para los artículos sobre la Naturaleza, la categoría del artículo y las subcategorías para cada rama del mundo viviente podrían aparecer como en el siguiente ejemplo:
 
-![Categorías de artículos para la naturaleza](../../../en/images/fields/fields-articles-categories-list.png)
+![Categorías de artículos para la naturaleza](../../../en/images/fields/fields-and-field-groups/01-fields-articles-categories-list.png)
 
 Algunas características evidentes de la Naturaleza para tener en cuenta:
 
@@ -37,7 +44,7 @@ Crear grupos de campos para artículos es muy sencillo:
 - Ingresa una **Descripción**. Esta aparece debajo del campo en el formulario de edición del artículo cuando se selecciona *Alternar Ayuda en Línea*.
 - Selecciona **Guardar y Cerrar** desde la barra de herramientas.
 
-![Lista de grupos de campos de contenido](../../../en/images/fields/fields-field-groups-list.png)
+![Lista de grupos de campos de contenido](../../../en/images/fields/fields-and-field-groups/02-fields-field-groups-list.png)
 
 ### Ordenación
 
@@ -51,7 +58,7 @@ Para crear un nuevo Campo de artículo, selecciona **Contenido → Campos** en e
 
 Ten en cuenta que en la captura de pantalla a continuación, este campo ha sido asignado al Grupo de Campos de Naturaleza y a la categoría Naturaleza. Esto asegura que siempre aparezca en los artículos de la categoría Naturaleza y cualquier subcategoría.
 
-![Campo de texto - nombre latín en el grupo de naturaleza](../../../en/images/fields/fields-latin-name.png)
+![Campo de texto - nombre latín en el grupo de naturaleza](../../../en/images/fields/fields-and-field-groups/03-fields-latin-name.png)
 
 ### Casillas de Verificación - Temporada de Floración
 
@@ -59,13 +66,13 @@ Las casillas de verificación aparecen en el formulario de edición de artículo
 
 Ten en cuenta que en esta captura de pantalla, el Campo ha sido asignado al grupo de Flores y a la Categoría de Flores. Esto debería asegurar que el campo solo esté presente en artículos sobre flores.
 
-![Campo de casillas de verificación - temporada de floración](../../../en/images/fields/fields-flowering-season.png)
+![Campo de casillas de verificación - temporada de floración](../../../en/images/fields/fields-and-field-groups/04-fields-flowering-season.png)
 
 ### Color - Color
 
 Solo para ser confuso, el nombre del tipo de campo es Color (Ortografía de EE.UU.) pero la etiqueta en la documentación es Colour (Ortografía Británica).
 
-![Campo de color](../../../en/images/fields/fields-colour.png)
+![Campo de color](../../../en/images/fields/fields-and-field-groups/05-fields-colour.png)
 
 El campo de Color está asignado al grupo de campos de Naturaleza y a la categoría Naturaleza, ya que no es exclusivo de las flores.
 
@@ -73,7 +80,7 @@ El campo de Color está asignado al grupo de campos de Naturaleza y a la categor
 
 La resistencia de una planta se puede representar como un número entero de 1 a 7. No hay un campo para un número real, por lo que la longitud y el ancho podrían ser números enteros con una escala (cm o m o ft) incluida en la etiqueta. Hay configuraciones de *Prefijo* y *Sufijo* en la pestaña *Opciones*. Si no hay un límite superior obvio, entonces deja el campo *Último:* vacío.
 
-![Campo de resistencia](../../../en/images/fields/fields-hardiness.png)
+![Campo de resistencia](../../../en/images/fields/fields-and-field-groups/06-fields-hardiness.png)
 
 ¡La Resistencia RHS es una propiedad que generalmente se aplica a las flores!
 
@@ -85,14 +92,14 @@ Cuando se abre un formulario de Artículos: Nuevo, la categoría predeterminada 
 
 ### Pestaña de Naturaleza
 
-![pestaña de naturaleza del artículo bluebell](../../../en/images/fields/field-article-bluebell-nature-tab.png)
+![pestaña de naturaleza del artículo bluebell](../../../en/images/fields/fields-and-field-groups/07-field-article-bluebell-nature-tab.png)
 
 - **Nombre Latino** Este es un campo de entrada de texto, así que solo es cuestión de escribir el nombre latino de la forma de vida que cubre el artículo. Sin embargo, la categoría Naturaleza cubre la vida en general, así como animales o plantas específicos. Por lo tanto, este no es un campo *obligatorio*.
 - **Color** El campo de selección de color puede aceptar una entrada de teclado de un valor de color hexadecimal o un color seleccionado de la herramienta de selección de color. El número hexadecimal es xrrggbb, donde rr son valores de rojo, gg son valores de verde y bb son valores de azul. En la salida, el sitio muestra el valor hexadecimal, lo cual no es muy útil.
 
 ### Pestaña de Flores
 
-![pestaña de naturaleza del artículo bluebell](../../../en/images/fields/field-article-bluebell-flowers-tab.png)
+![pestaña de naturaleza del artículo bluebell](../../../en/images/fields/fields-and-field-groups/08-field-article-bluebell-flowers-tab.png)
 
 - **Temporada de Floración** El campo de casillas de verificación - los jacintos de los bosques son flores de primavera bien conocidas, por lo que la selección de una casilla de verificación es apropiada.
 - **Resistencia** El campo de enteros. Hay un problema aquí: no hay un método disponible para dejar este campo vacío. Por lo tanto, siempre está presente en la salida, incluso para artículos más generales sobre flores donde no es adecuado. Hay una solución alternativa que involucra una anulación de plantilla.
@@ -101,7 +108,7 @@ Cuando se abre un formulario de Artículos: Nuevo, la categoría predeterminada 
 
 Echa un vistazo al resultado visualizado en tu sitio. En este ejemplo, se creó un elemento de menú de un solo artículo:
 
-![Vista del sitio del artículo Bluebell](../../../en/images/fields/field-article-bluebell-site.png)
+![Vista del sitio del artículo Bluebell](../../../en/images/fields/fields-and-field-groups/09-field-article-bluebell-site.png)
 
 ### El Color Hexadecimal
 

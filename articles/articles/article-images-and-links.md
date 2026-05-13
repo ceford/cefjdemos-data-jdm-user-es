@@ -1,4 +1,11 @@
-<!-- Filename: Article_Images_and_Links / Display title: Artículo: Editar - Imágenes y Enlaces  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Article_Images_and_Links",
+  "title": "Artículo: Editar - Imágenes y Enlaces  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -12,7 +19,7 @@ Otros artículos han descrito cómo incrustar imágenes y enlaces en el contenid
 
 Para este artículo, comenzando con una imagen de una rana arbórea verde que tenía un ancho de 1024 píxeles, se crearon dos imágenes más pequeñas de 128 y 256 píxeles de ancho. Nota: es mejor preparar las imágenes en tu herramienta de procesamiento de imágenes favorita, como *Gimp*. Las imágenes de tamaño pequeño y mediano se han utilizado para crear las siguientes capturas de pantalla.
 
-![Formulario de edición del artículo, pestaña de imágenes y enlaces](../../../en/images/articles/articles-edit-images-and-links-tab.png)
+![Formulario de edición del artículo, pestaña de imágenes y enlaces](../../../en/images/articles/article-images-and-links/01-articles-edit-images-and-links-tab.png)
 
 ## Campos del formulario
 
@@ -49,11 +56,11 @@ Exactamente la misma entrada de datos que el Enlace A.
 
 La captura de pantalla a continuación muestra un diseño de blog de categoría con la *Imagen de Introducción*. Podría haber sido mejor usar una imagen panorámica con la misma altura pero mucho mayor ancho para ocupar el espacio en blanco disponible.
 
-![Página de blog de categoría de anfibios](../../../en/images/articles/articles-site-amphibians-blog.png)
+![Página de blog de categoría de anfibios](../../../en/images/articles/article-images-and-links/02-articles-site-amphibians-blog.png)
 
 La captura de pantalla a continuación muestra la página de un artículo individual con la *Imagen del Artículo Completo* y el Enlace A. La imagen se ha colocado flotante a la derecha y el título visible dice algo que complementa lo que dice la Descripción, de modo que suene lógico para los lectores de pantalla.
 
-![Página de artículo individual de ranas](../../../en/images/articles/articles-site-amphibians-frogs.png)
+![Página de artículo individual de ranas](../../../en/images/articles/article-images-and-links/03-articles-site-amphibians-frogs.png)
 
 *Traducido por openai.com*
 

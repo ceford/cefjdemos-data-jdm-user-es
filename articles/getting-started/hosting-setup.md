@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Hosting_Setup / Display title: Configuración de Hosting -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Hosting_Setup",
+  "title": "Configuración de Hosting ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 

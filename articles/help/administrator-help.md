@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=help&filename=administrator-help.md / Display title: Ayuda del Administrador -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=help&filename=administrator-help.md",
+  "title": "Ayuda del Administrador ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 

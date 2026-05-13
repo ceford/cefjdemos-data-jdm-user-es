@@ -1,11 +1,18 @@
-<!-- Filename: J4.x:Site_Offline / Display title: Sitio Fuera de Línea  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Site_Offline",
+  "title": "Sitio Fuera de Línea  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Solo Usuarios del Sitio
 
 Puede haber ocasiones en las que necesite hacer que su sitio web Joomla!
 esté temporalmente inaccesible para los visitantes. Hay un simple interruptor de configuración **Sitio Fuera de Línea** para este propósito, que se puede cambiar de **No** a **Sí** según se requiera. Cuando está configurado en *Sí*, todos los visitantes del sitio ven una página de mensaje de fuera de línea con un formulario de inicio de sesión. El formulario predeterminado de Fuera de Línea puede personalizarse con una imagen:
 
-![Pantalla de sitio fuera de línea](../../../en/images/configuration/site-offline.png)
+![Pantalla de sitio fuera de línea](../../../en/images/configuration/site-offline/01-site-offline.png)
 
 El interruptor de Sitio Fuera de Línea no se aplica a la interfaz de administrador y los usuarios que pueden iniciar sesión en el backend pueden seguir iniciando sesión en el frontend. El inicio de sesión en el frontend se niega solo a los usuarios en los grupos de usuario Registrado, Autor, Editor y Publicador.
 

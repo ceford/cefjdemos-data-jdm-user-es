@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Adding_a_Custom_Administrator_Menu / Display title: Menú Personalizado de Administrador  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Adding_a_Custom_Administrator_Menu",
+  "title": "Menú Personalizado de Administrador  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -73,13 +80,13 @@ En la lista de Menús, selecciona el botón de **Módulos Vinculados** en el reg
 
 ## Captura de pantalla
 
-![selección de componente de menú de administrador personalizado](../../../en/images/menus/menus-custom-administrator-menu.png)
+![selección de componente de menú de administrador personalizado](../../../en/images/menus/adding-a-custom-administrator-menu/01-menus-custom-administrator-menu.png)
 
 ## Resultado
 
 Crea un usuario en el Grupo de Ramas para que puedas probarlo. Inicia sesión en la interfaz de Administrador con ese usuario para ver el resultado:
 
-![resultado del menú de administrador personalizado](../../../en/images/menus/menus-custom-administrator-menu-result.png)
+![resultado del menú de administrador personalizado](../../../en/images/menus/adding-a-custom-administrator-menu/02-menus-custom-administrator-menu-result.png)
 
 ## Notas
 

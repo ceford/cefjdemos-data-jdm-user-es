@@ -1,4 +1,11 @@
-<!-- Filename: No_original_yet / Display title: Alojamiento Local en Linux -->
+<!--
+{
+  "source": "https://docs.joomla.org/No_original_yet",
+  "title": "Alojamiento Local en Linux ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 Este artículo cubre el alojamiento de Joomla en una computadora personal con Linux para propósitos de prueba y desarrollo. Las versiones de Linux cubiertas pertenecen a la familia Debian-Ubuntu, y específicamente a Linux Mint. Otras distribuciones son similares pero tienen diferente sintaxis de comandos y ubicaciones de archivos.
 
@@ -7,13 +14,13 @@ Necesitas instalar un conjunto de paquetes de software conocido comúnmente como
 
 Desde el Menú del sistema, marcado con el logotipo de LM, selecciona Administración / Gestor de paquetes Synaptic. Se te pedirá tu contraseña. Ingresa tu contraseña de inicio de sesión para abrir la interfaz gráfica. En la parte superior derecha hay un botón de `Buscar`. Selecciónalo, introduce **apache** y selecciona `Buscar`. Marca la casilla de `apache2` y en la etiqueta emergente selecciona `Marcar para instalar`. Otro cuadro emergente mostrará una lista de paquetes adicionales necesarios para soportar apache. Selecciona `Marcar`:
 
-![gestor de paquetes synaptic](../../../en/images/hosting-local/synaptic-package-manager-gui.png)
+![gestor de paquetes synaptic](../../../en/images/hosting-local/local-hosting-on-linux/01-synaptic-package-manager-gui.png)
 
 Selecciona el botón `Aplicar` en la barra de herramientas superior y el botón `Aplicar` en el diálogo de Resumen. Apache será instalado y configurado, y el proceso terminará con un **diálogo de Cambios Aplicados**. Selecciona `Cerrar`.
 
 Puedes confirmar que Apache está instalado y funcionando abriendo tu navegador, Firefox por defecto en una nueva instalación de Linux Mint, e ingresando **localhost** en la barra de direcciones. Deberías ver la Página predeterminada de Ubuntu Apache2:
 
-![página predeterminada de apache](../../../en/images/hosting-local/apache-default-page.png)
+![página predeterminada de apache](../../../en/images/hosting-local/local-hosting-on-linux/02-apache-default-page.png)
 
 La página contiene información útil sobre las ubicaciones de archivos que puede no estar tan fácilmente disponible más adelante, por lo que podrías querer imprimir esta página en papel o en un archivo pdf.
 

@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Radio_Field / Display title: Campo de Radio -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Campo de Radio ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Propósito
 
@@ -11,7 +18,7 @@ El campo de radio ofrece botones de opción, de los cuales solo uno puede ser se
 * Los botones de opción se añaden uno a la vez, cada uno con Texto y Valor. El Texto aparece en la salida. El valor se utiliza en el formulario de entrada de datos y cada uno debe ser diferente. El primer elemento de la lista debe tener el Texto configurado en *- Seleccionar -* y su Valor dejarlo vacío. Esto permite que el campo no esté configurado y, por lo tanto, no aparezca en la salida.
 * Utiliza los iconos de arrastre para cambiar el orden de la lista de botones de opción.
 
-![Creación de campo de opción](../../../en/images/fields/fields-radio-edit.png)
+![Creación de campo de opción](../../../en/images/fields/adding-custom-fields-radio-field/01-fields-radio-edit.png)
 
 **Nota:** En este ejemplo, la inclusión del tipo de campo en el Título es solo para fines de demostración. Omítelo en los títulos de tus propios campos.
 
@@ -19,13 +26,13 @@ El campo de radio ofrece botones de opción, de los cuales solo uno puede ser se
 
 Simple: solo selecciona el valor requerido.
 
-![Ingreso de datos en campo de opción](../../../en/images/fields/fields-radio-data-entry.png)
+![Ingreso de datos en campo de opción](../../../en/images/fields/adding-custom-fields-radio-field/02-fields-radio-data-entry.png)
 
 ## Visualización de Datos
 
 La siguiente captura de pantalla del Sitio muestra el campo mostrado en un artículo. La opción *Visualización automática* es responsable de la posición del campo y tu plantilla es responsable del diseño del campo.
 
-![visualización de campo de radio en el sitio](../../../en/images/fields/fields-radio-site.png)
+![visualización de campo de radio en el sitio](../../../en/images/fields/adding-custom-fields-radio-field/03-fields-radio-site.png)
 
 El título del campo es seguido por el texto del valor seleccionado.
 

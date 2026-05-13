@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Cassiopeia_templateDetails.xml / Display title: Cassiopeia templateDetails.xml  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Cassiopeia_templateDetails.xml",
+  "title": "Cassiopeia templateDetails.xml  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Ubicación y Propósito
 
@@ -41,11 +48,11 @@ La primera sección de los datos de plantilla generalmente define la informació
 
 Tenga en cuenta que una plantilla que puede tener plantillas secundarias tiene el valor `inheritable` establecido en 1. Las plantillas secundarias tienen este valor establecido en 0. Estos datos se utilizan en la lista Plantillas: Plantillas (Sitio) como se muestra a continuación.
 
-![lista de plantillas del sitio](../../../en/images/templates/templates-list.png)
+![lista de plantillas del sitio](../../../en/images/templates/cassiopeia-templatedetails-xml/01-templates-list.png)
 
 La descripción contiene una clave de idioma y no la cadena de texto de descripción real. La clave se reemplaza por el texto obtenido de un archivo de idioma en tiempo de ejecución. Los archivos de idioma se definen en la sección de idioma de `templateDetails.xml`.
 
-![formulario de edición de estilo de plantillas](../../../en/images/templates/templates-edit-style.png)
+![formulario de edición de estilo de plantillas](../../../en/images/templates/cassiopeia-templatedetails-xml/02-templates-edit-style.png)
 
 ### Carpetas y Archivos
 
@@ -71,7 +78,7 @@ Las carpetas y archivos para la plantilla Cassiopeia se almacenan en dos lugares
 
 Este es el patrón visto en todas las plantillas modernas de Joomla 4 y 5. La estructura se puede ver en el formulario Plantillas: Personalizar (Cassiopeia):
 
-![página de personalización de plantillas cassiopeia](../../../en/images/templates/templates-customise-cassiopeia.png)
+![página de personalización de plantillas cassiopeia](../../../en/images/templates/cassiopeia-templatedetails-xml/03-templates-customise-cassiopeia.png)
 
 ### Posiciones del Módulo
 
@@ -102,11 +109,11 @@ Cada etiqueta crea una posición de módulo que está disponible en la lista de 
 
 ¡Cassiopeia tiene suficientes posiciones de plantilla! Si cree que necesita una adicional, probablemente esté equivocado. Recuerde que cualquier cantidad de módulos se puede asignar a una sola posición y ordenarse en la página de lista de módulos. Posiciones disponibles:
 
-![diagrama de posiciones de la plantilla Cassiopeia](../../../en/images/templates/cassiopeia-template-positions.png)
+![diagrama de posiciones de la plantilla Cassiopeia](../../../en/images/templates/cassiopeia-templatedetails-xml/04-cassiopeia-template-positions.png)
 
 También puede ver las posiciones de los módulos en cualquier plantilla: en **Sistema → Plantillas del Sitio** seleccione el botón Opciones en la Barra de Herramientas. En el formulario de Opciones, configure el campo de Vista Previa de Posiciones de Módulo en Habilitado. Guarde y cierre. Vaya a su sitio y agregue ?tp=1 al final de cualquier URL (o &tp=1 si ya hay un ? en la URL). Joomla mostrará todas las posiciones de plantilla disponibles, incluso aquellas que no se han utilizado:
 
-![posiciones de la plantilla Cassiopeia](../../../en/images/templates/templates-template-positions-by-tp.png)
+![posiciones de la plantilla Cassiopeia](../../../en/images/templates/cassiopeia-templatedetails-xml/05-templates-template-positions-by-tp.png)
 
 ### Idiomas
 
@@ -125,7 +132,7 @@ Los archivos de idioma para el idioma inglés GB predeterminado se almacenan en 
 
 Una plantilla puede ofrecer opciones de visualización que pueden ser elegidas por el Administrador en el formulario de Plantilla: Editar Estilo. Por ejemplo, la pestaña Avanzado de la plantilla Cassiopeia permite a un Administrador cambiar la Marca, agregar un Logo, seleccionar un Esquema de Fuentes y más.
 
-![formulario de edición de estilo de plantillas pestaña avanzada](../../../en/images/templates/templates-edit-style-advanced.png)
+![formulario de edición de estilo de plantillas pestaña avanzada](../../../en/images/templates/cassiopeia-templatedetails-xml/06-templates-edit-style-advanced.png)
 
 Las opciones de la plantilla se definen dentro de una estructura que crea campos dentro de conjuntos de campos. Cada conjunto de campos aparece como una pestaña en el formulario de edición. Esta es la estructura que crea la pestaña Avanzado vista arriba.
 

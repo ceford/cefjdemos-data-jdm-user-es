@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Switching_Templates / Display title: Cambiando Plantillas  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Switching_Templates",
+  "title": "Cambiando Plantillas  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Plantillas de Sitio y Administrador
 
@@ -14,7 +21,7 @@ Uno de tus plantillas debe estar marcada como la predeterminada. Se utiliza para
   desde el menú de Administrador.
 - Selecciona uno de los botones en la columna Predeterminada.
 
-![página de lista de estilos de plantillas del sitio](../../../en/images/templates/switch-templates-styles-list.png)
+![página de lista de estilos de plantillas del sitio](../../../en/images/template-tips/switching-templates/01-switch-templates-styles-list.png)
 
 Echa un vistazo a tu sitio para ver que todas las páginas están utilizando la plantilla predeterminada.
 
@@ -31,7 +38,7 @@ Desde la lista de Estilos de Plantillas:
 - Seleccione elementos de menú individuales o active/desactive todos los elementos en un menú.
 - Guardar
 
-![pestaña de asignación de menú de la página de edición de estilo de plantillas](../../../en/images/templates/switch-templates-styles-edit-style-menu-assignment.png)
+![pestaña de asignación de menú de la página de edición de estilo de plantillas](../../../en/images/template-tips/switching-templates/02-switch-templates-styles-edit-style-menu-assignment.png)
 
 En este ejemplo, se han seleccionado todos los elementos del menú en el menú `Main Menu Testing`. Regrese a su sitio y seleccione cualquiera de los elementos de menú que deberían usar la plantilla seleccionada.
 
@@ -44,7 +51,7 @@ Este método se utiliza para establecer la plantilla para elementos de menú ind
 - En el campo **Estilo de Plantilla**, seleccione el estilo de plantilla deseado.
 - Guardar
 
-![formulario de edición de elementos de menú de plantillas mostrando la selección de estilo](../../../en/images/templates/switch-templates-styles-edit-menu-style.png)
+![formulario de edición de elementos de menú de plantillas mostrando la selección de estilo](../../../en/images/template-tips/switching-templates/03-switch-templates-styles-edit-menu-style.png)
 
 Regrese a su sitio y seleccione el elemento de menú cambiado para verificar que se muestra con el estilo de plantilla seleccionado.
 

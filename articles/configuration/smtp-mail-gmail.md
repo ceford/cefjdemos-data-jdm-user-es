@@ -1,4 +1,11 @@
-<!-- Filename: How_to_debug_SMTP_mail_in_Joomla_4 / Display title: Correo SMTP y Gmail -->
+<!--
+{
+  "source": "https://docs.joomla.org/How_to_debug_SMTP_mail_in_Joomla_4",
+  "title": "Correo SMTP y Gmail ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 

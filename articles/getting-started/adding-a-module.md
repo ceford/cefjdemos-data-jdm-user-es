@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Getting_Started:_Adding_a_Module / Display title: Agregar un módulo  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Module",
+  "title": "Agregar un módulo  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 

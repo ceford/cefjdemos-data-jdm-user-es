@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Language_Overrides / Display title: Anulaciones de Idioma  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Language_Overrides",
+  "title": "Anulaciones de Idioma  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Ubicaciones de Archivos de Idioma
 
@@ -70,11 +77,11 @@ La nueva clave ahora puede ser traducida a cada idioma. Las traducciones se guar
 - Guarda y cierra el formulario.
 - Repite el proceso de traducción para cada idioma.
 
-![formulario de edición de anulación de idiomas](../../../en/images/languages/language-overrides-edit.png)
+![formulario de edición de anulación de idiomas](../../../en/images/languages/language-overrides/01-language-overrides-edit.png)
 
 Finalmente, verifica que la traducción se ha implementado.
 
-![Resultado de Anulación en formulario de inicio de sesión del sitio](../../../en/images/languages/language-overrides-custom-logout.png)
+![Resultado de Anulación en formulario de inicio de sesión del sitio](../../../en/images/languages/language-overrides/02-language-overrides-custom-logout.png)
 
 *Traducido por openai.com*
 

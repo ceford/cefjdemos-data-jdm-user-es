@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Template_Basics / Display title: Conceptos Básicos de Plantillas -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Template_Basics",
+  "title": "Conceptos Básicos de Plantillas ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -6,7 +13,7 @@ En Joomla!, una plantilla es una colección de archivos que juntos definen la ap
 
 Una plantilla típica del sitio contiene archivos PHP para organizar el contenido y archivos CSS para estilizar el contenido. A menudo hay archivos adicionales como imágenes utilizadas en el diseño y archivos JavaScript utilizados para interactuar con características del sitio, como enlaces y botones. La siguiente captura de pantalla muestra las carpetas y archivos de la plantilla Cassiopeia en una nueva instalación de Joomla 4:
 
-![personalizar la página de Cassiopeia de las plantillas](../../../en/images/templates/templates-customise-cassiopeia.png)
+![personalizar la página de Cassiopeia de las plantillas](../../../en/images/templates/template-basics/01-templates-customise-cassiopeia.png)
 
 Observe que los archivos php están en la carpeta del sitio /templates y los archivos multimedia están en la carpeta del sitio /media.
 
@@ -14,7 +21,7 @@ Observe que los archivos php están en la carpeta del sitio /templates y los arc
 
 La plantilla del sitio define las posiciones del contenido principal, por ejemplo, un artículo individual o un diseño de blog con artículos destacados, y cualquier módulo para ser mostrado arriba, abajo, a la izquierda o a la derecha del contenido principal. La siguiente ilustración muestra las posiciones disponibles en Cassiopeia:
 
-![diagrama de posiciones de plantilla](../../../en/images/templates/cassiopeia-template-positions.png)
+![diagrama de posiciones de plantilla](../../../en/images/templates/template-basics/02-cassiopeia-template-positions.png)
 
 Además, puedes ver las posiciones de la plantilla en cualquier plantilla activando la opción "Vista Previa de Posiciones de Módulo" en el formulario de Opciones de la Plantilla y luego añadiendo ?tp=1 a la URL. Si ya hay una cadena de consulta añadida a la URL, entonces añade &tp=1 en su lugar.
 
@@ -33,7 +40,7 @@ Además del diseño general definido por la plantilla del sitio, cada componente
 
 A veces una de estas plantillas de *extensión* no es completamente de tu agrado. En tal caso, puedes crear una sobrescritura de plantilla. Esto es una copia del código utilizado para generar el diseño de la extensión que puedes modificar según tus propios propósitos. La siguiente captura de pantalla muestra el formulario de Sobrescrituras Personalizadas de Plantilla:
 
-![sobrescrituras de plantilla](../../../en/images/templates/cassiopeia-customisation-create-overrides.png)
+![sobrescrituras de plantilla](../../../en/images/templates/template-basics/03-cassiopeia-customisation-create-overrides.png)
 
 Cassiopeia ya tiene algunas sobrescrituras instaladas. Eso puede parecer un problema. Si cambias alguno de los archivos predeterminados de Cassiopeia, tus cambios serán sobrescritos (y por lo tanto perdidos) en la próxima actualización de Joomla. La solución son las plantillas hijas.
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Getting_Started:_Adding_an_Article / Display title: Añadiendo un Artículo  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Getting_Started:_Adding_an_Article",
+  "title": "Añadiendo un Artículo  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -17,7 +24,7 @@ que dice *No se han creado artículos todavía.*
 
 En casi todas las páginas, inmediatamente debajo de la barra de título, hay una barra que contiene botones de acción. Esta es conocida como la Barra de Herramientas. Los botones difieren de una página a otra y a veces están inactivos, apareciendo en gris, hasta que se selecciona un elemento en la lista de ítems. La siguiente captura de pantalla muestra la lista de *Artículos* con una casilla de verificación de artículo seleccionada. El botón *Acción* es una lista desplegable que se ha seleccionado para mostrar las opciones disponibles.
 
-![Lista de artículos con el botón de acciones habilitado](../../../en/images/getting-started/articles-list.png)
+![Lista de artículos con el botón de acciones habilitado](../../../en/images/getting-started/adding-an-article/01-articles-list.png)
 
 Selecciona el botón *Nuevo* en la *Barra de Herramientas* de la página de *Artículos* para abrir un formulario de edición de artículo.
 
@@ -25,7 +32,7 @@ Selecciona el botón *Nuevo* en la *Barra de Herramientas* de la página de *Art
 
 Hasta que un artículo haya sido guardado, la etiqueta de la *Barra de título* es *Artículos: Nuevo* y tiene pocos botones en la Barra de herramientas. El botón *Cancelar* se puede usar para cancelar la creación de un artículo. No hay mensaje de advertencia y cualquier contenido ingresado se descarta. Después de guardar, la etiqueta de la Barra de título es *Artículos: Editar* y la Barra de herramientas tiene muchos más botones.
 
-![Formulario de edición de artículos](../../../en/images/getting-started/article-edit-form.png)
+![Formulario de edición de artículos](../../../en/images/getting-started/adding-an-article/02-article-edit-form.png)
 
 Hay una cantidad desconcertante de campos de formulario en la página de edición, pero todos excepto dos tienen valores predeterminados razonables. Los campos a completar son:
 
@@ -39,7 +46,7 @@ Hay una cantidad desconcertante de campos de formulario en la página de edició
 
 Para ver cómo se ve, puedes seleccionar el botón *Vista previa* en la barra de herramientas.
 
-![Lista de artículos con el botón de acciones habilitado](../../../en/images/getting-started/article-edit-preview.png)
+![Lista de artículos con el botón de acciones habilitado](../../../en/images/getting-started/adding-an-article/03-article-edit-preview.png)
 
 Observa los metadatos del artículo: la información entre el título y el
 contenido. Puedes configurar qué información aparece y dónde aparece
@@ -65,7 +72,7 @@ descrito anteriormente. Tu nuevo sitio Joomla! tendrá solo el *Menú Principal*
 que muestra la misma página en muchos idiomas diferentes y tiene otro contenido
 utilizado en tutoriales posteriores.
 
-![Vista del sitio usando el diseño de blog de categoría](../../../en/images/getting-started/article-site-view.png)
+![Vista del sitio usando el diseño de blog de categoría](../../../en/images/getting-started/adding-an-article/04-article-site-view.png)
 
 ### Migas de Pan
 

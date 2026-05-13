@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=performance&filename=page-analysis.md / Display title: Análisis de Página  -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=performance&filename=page-analysis.md",
+  "title": "Análisis de Página  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Lighthouse
 
@@ -12,7 +19,7 @@ Puedes utilizar la herramienta en línea desde el sitio de PageSpeed Insights.
 
 La siguiente captura de pantalla muestra la primera parte del informe de PageSpeed Insights:
 
-![Informe de PageSpeed Insights](../../../en/images/performance/performance-pagespeed-insights.png)
+![Informe de PageSpeed Insights](../../../en/images/performance/page-analysis/01-performance-pagespeed-insights.png)
 
 ## Mejoras de Rendimiento
 

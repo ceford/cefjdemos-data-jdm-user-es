@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Module_Display_by_Menu_Item / Display title: Visualización del Módulo por Elemento de Menú  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Module_Display_by_Menu_Item",
+  "title": "Visualización del Módulo por Elemento de Menú  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -24,7 +31,7 @@ Hay cuatro opciones de asignación de menú:
 - En todas las páginas excepto en las seleccionadas
 
 Para las dos últimas opciones se muestra un panel de selección de menú. Inicialmente, los menús que contiene están completamente expandidos, pero se pueden colapsar con el botón **Expandir los Subárboles del Menú** *Ninguno*. Luego expande el menú de interés.
-![asignación de módulo de menú](../../../en/images/modules/module-display-by-menu.png)
+![asignación de módulo de menú](../../../en/images/modules/module-display-by-menu-item/01-module-display-by-menu.png)
 
 Selecciona los elementos del menú para mostrar o no mostrar el módulo según se desee.
 

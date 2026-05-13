@@ -1,4 +1,11 @@
-<!-- Filename: Visual_Studio_Code_Primer / Display title: Introducción a Visual Studio Code  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Visual_Studio_Code_Primer",
+  "title": "Introducción a Visual Studio Code  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## VS Code - Un IDE Gratuito y Popular
 
@@ -96,7 +103,7 @@ En la Configuración Global de Joomla, configura *Sistema de Depuración* a *Sí
 
 Cuando abres una página que contiene el módulo defectuoso, verás un rastro de llamadas (stack trace) que te indicará dónde se originó un error.
 
-![traza de pila de vscode](../../../en/images/test-installations/vscode-primer-stack-trace.png)
+![traza de pila de vscode](../../../en/images/test-installations/visual-studio-code-primer/01-vscode-primer-stack-trace.png)
 
 A veces el error de codificación está en la primera línea del rastro de llamadas. De lo contrario, si el error es generado en el código de la biblioteca, por ejemplo, al pasar datos inválidos a una función de base de datos, el error de codificación puede estar más abajo en la lista de llamadas a funciones.  
 
@@ -104,7 +111,7 @@ A veces el error de codificación está en la primera línea del rastro de llama
 
 En VS Code, usa el menú Archivo / Abrir carpeta para localizar y abrir la carpeta que contiene tu copia local del código de la extensión *mod_debugme*. Deberías ver algo similar a lo siguiente:
 
-![vista de carpeta de vscode](../../../en/images/test-installations/vscode-primer-screen.png)
+![vista de carpeta de vscode](../../../en/images/test-installations/visual-studio-code-primer/02-vscode-primer-screen.png)
 
 Es posible que puedas diagnosticar el problema simplemente leyendo el código. En el caso del error *Clase "DebugHelper" no encontrada*, verás que una declaración de *uso* ha sido comentada unas pocas líneas antes. ¡Olvidar insertar una declaración de *uso* es un error común durante el desarrollo inicial!
 
@@ -254,7 +261,7 @@ Algunos problemas no tan obvios:
 
 Cuando todo esté solucionado, esto es lo que podrías ver:
 
-![vista del módulo depurado en vscode](../../../en/images/test-installations/vscode-primer-debugme-fixed.png)
+![vista del módulo depurado en vscode](../../../en/images/test-installations/visual-studio-code-primer/03-vscode-primer-debugme-fixed.png)
 
 ¿Días de pastel?
 

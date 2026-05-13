@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Child_Templates / Display title: Plantillas para Niños  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Child_Templates",
+  "title": "Plantillas para Niños  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -14,7 +21,7 @@ Comenzando desde **Sistema → Panel de plantillas → Plantillas del sitio*
 - Seleccione el botón *Crear plantilla secundaria*.
 - Rellene el cuadro de diálogo emergente de Plantilla secundaria y seleccione el botón Crear plantilla secundaria:
 
-![formulario de creación de plantilla secundaria modal](../../../en/images/templates/child-templates-create-green.png)
+![formulario de creación de plantilla secundaria modal](../../../en/images/templates/child-templates/01-child-templates-create-green.png)
 
 La selección de Cassiopeia - Predeterminado en el campo de Estilos de plantillas adicionales parece innecesaria (¿es eso un error?).
 
@@ -31,7 +38,7 @@ En esta etapa hay una estructura de carpetas pero solo un archivo: templateDetai
 - Seleccione el tipo de archivo `.css`.
 - Seleccione el botón *Crear*.
 
-![formulario de creación de usuario css de plantilla secundaria](../../../en/images/templates/child-templates-create-green-user-css.png)
+![formulario de creación de usuario css de plantilla secundaria](../../../en/images/templates/child-templates/02-child-templates-create-green-user-css.png)
 
 El archivo user.css está vacío, listo para que ingrese algunos estilos personalizados. Ingrese lo siguiente para comenzar el tema verde:
 ```css
@@ -80,7 +87,7 @@ En esta etapa se necesita un elemento de menú para hacer uso de la plantilla se
 - Seleccione un tipo de elemento de menú desde el cuadro de diálogo emergente de Tipo de elemento de menú - Artículos destacados en este ejemplo.
 - Seleccione *cassiopeia_manual - Predeterminado* desde el campo de formulario de *Estilo de plantilla*.
 
-![formulario de edición de elemento de menú de plantilla secundaria](../../../en/images/templates/child-templates-create-green-menu-item.png)
+![formulario de edición de elemento de menú de plantilla secundaria](../../../en/images/templates/child-templates/03-child-templates-create-green-menu-item.png)
 
 - Para los propósitos de la siguiente captura de pantalla, el Layout del Blog se ha configurado en Artículos líderes: 0, Artículos introductorios: 3 y Dirección de múltiples columnas: A lo ancho.
 
@@ -88,7 +95,7 @@ En esta etapa se necesita un elemento de menú para hacer uso de la plantilla se
 
 - En la página de inicio de su sitio, seleccione el elemento de menú recién creado.
 
-![sitio mostrando plantilla de tema verde personalizada](../../../en/images/templates/child-templates-green-site-result.png)
+![sitio mostrando plantilla de tema verde personalizada](../../../en/images/templates/child-templates/04-child-templates-green-site-result.png)
 
 ### Editar el Estilo
 

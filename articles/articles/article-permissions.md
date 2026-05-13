@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:Access_Control / Display title: Artículo: Editar - Permisos  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:Access_Control",
+  "title": "Artículo: Editar - Permisos  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -8,7 +15,7 @@ La descripción aquí es para la pestaña de *Permisos* del formulario *Artícul
 
 ## Captura de pantalla
 
-![La pestaña de permisos del artículo con autor seleccionado](../../../en/images/articles/articles-edit-permissions-tab.png)
+![La pestaña de permisos del artículo con autor seleccionado](../../../en/images/articles/article-permissions/01-articles-edit-permissions-tab.png)
 
 ¡Puede ser sorprendente que un autor no parezca tener permiso para editar un artículo!
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Home_Dashboard / Display title: Tablero Principal -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Home_Dashboard",
+  "title": "Tablero Principal ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introducción
 
@@ -17,7 +24,7 @@ La mayoría de los elementos son enlaces autoexplicativos que duplican aquellos 
 
 ## Captura de pantalla
 
-![Tablero de inicio](../../../en/images/dashboards/home-dashboard.png)
+![Tablero de inicio](../../../en/images/dashboards/home-dashboard/01-home-dashboard.png)
 
 *Traducido por openai.com*
 
