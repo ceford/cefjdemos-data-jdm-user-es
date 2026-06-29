@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Help6.x:_Article_Accessibility_Check",
-  "title": "Artículo: Verificación de Accesibilidad  ",
+  "title": "Artículo: Verificación de Accesibilidad ",
   "description": "", 
   "author": ""
 }

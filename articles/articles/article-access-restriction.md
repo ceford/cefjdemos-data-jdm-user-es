@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J6.x:Article_Access_Restriction",
-  "title": "Artículo: Restricción de Acceso  ",
+  "title": "Artículo: Restricción de Acceso ",
   "description": "", 
   "author": ""
 }

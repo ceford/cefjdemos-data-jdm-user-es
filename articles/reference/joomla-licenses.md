@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Joomla_Licenses",
-  "title": "Licencias de Joomla ",
+  "title": "Licencias de Joomla",
   "description": "", 
   "author": ""
 }

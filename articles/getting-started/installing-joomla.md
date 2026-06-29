@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Installing_Joomla",
-  "title": "Instalando Joomla ",
+  "title": "Instalando Joomla",
   "description": "", 
   "author": ""
 }

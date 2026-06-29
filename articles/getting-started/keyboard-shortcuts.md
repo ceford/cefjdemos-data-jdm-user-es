@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Keyboard_Shortcuts",
-  "title": "Atajos de Teclado  ",
+  "title": "Atajos de Teclado ",
   "description": "", 
   "author": ""
 }

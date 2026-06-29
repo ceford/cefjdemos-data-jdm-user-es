@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Menu_Item_Types",
-  "title": "Tipos de Elementos del Menú  ",
+  "title": "Tipos de Elementos del Menú ",
   "description": "", 
   "author": ""
 }

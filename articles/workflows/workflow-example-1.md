@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J6.x:Workflow_Scenarios_Example_1",
-  "title": "Ejemplo de Flujo de Trabajo 1  ",
+  "title": "Ejemplo de Flujo de Trabajo 1 ",
   "description": "", 
   "author": ""
 }

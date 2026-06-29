@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/https:",
-  "title": "Encabezados HTTP ",
+  "title": "Encabezados HTTP",
   "description": "", 
   "author": ""
 }

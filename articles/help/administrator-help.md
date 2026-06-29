@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=help&filename=administrator-help.md",
-  "title": "Ayuda del Administrador ",
+  "title": "Ayuda del Administrador",
   "description": "", 
   "author": ""
 }

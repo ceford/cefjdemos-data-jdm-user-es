@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Site_Modules",
-  "title": "Módulos del Sitio  ",
+  "title": "Módulos del Sitio ",
   "description": "", 
   "author": ""
 }

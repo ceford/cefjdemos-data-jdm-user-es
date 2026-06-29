@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Article_Pagination",
-  "title": "Artículo: Editar - Paginación  ",
+  "title": "Artículo: Editar - Paginación ",
   "description": "", 
   "author": ""
 }

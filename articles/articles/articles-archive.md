@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:How_to_Archive_an_Article",
-  "title": "Artículos: Archivo  ",
+  "title": "Artículos: Archivo ",
   "description": "", 
   "author": ""
 }

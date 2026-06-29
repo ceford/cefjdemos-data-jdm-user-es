@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
-  "title": "Campo de Grupo de Usuarios ",
+  "title": "Campo de Grupo de Usuarios",
   "description": "", 
   "author": ""
 }

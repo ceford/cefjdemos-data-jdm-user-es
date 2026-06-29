@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:User_Actions_Log",
-  "title": "Registro de Acciones del Usuario   ",
+  "title": "Registro de Acciones del Usuario  ",
   "description": "", 
   "author": ""
 }

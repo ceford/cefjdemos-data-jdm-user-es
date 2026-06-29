@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Auto_redirect_guests_to_login",
-  "title": "Redirección automática de invitados al inicio de sesión  ",
+  "title": "Redirección automática de invitados al inicio de sesión ",
   "description": "", 
   "author": ""
 }

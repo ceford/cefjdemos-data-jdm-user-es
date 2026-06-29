@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Article_Headings",
-  "title": "Artículo: Editar - Encabezados   ",
+  "title": "Artículo: Editar - Encabezados  ",
   "description": "", 
   "author": ""
 }

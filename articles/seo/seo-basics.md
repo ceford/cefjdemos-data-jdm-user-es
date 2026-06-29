@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=seo&filename=seo-basics.md",
-  "title": "Conceptos básicos de SEO ",
+  "title": "Conceptos básicos de SEO",
   "description": "", 
   "author": ""
 }

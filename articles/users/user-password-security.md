@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J5.x:Enhancing_Password_Security_with_Symbolic_Characters",
-  "title": "Seguridad de la Contraseña del Usuario  ",
+  "title": "Seguridad de la Contraseña del Usuario ",
   "description": "", 
   "author": ""
 }

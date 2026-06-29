@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Customising_the_Smart_Search_results_page",
-  "title": "Reemplazos de Diseño de Búsqueda Inteligente  ",
+  "title": "Reemplazos de Diseño de Búsqueda Inteligente ",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J6.x:_Article_Metadata",
-  "title": "Artículo: Editar - Metadatos  ",
+  "title": "Artículo: Editar - Metadatos ",
   "description": "", 
   "author": ""
 }

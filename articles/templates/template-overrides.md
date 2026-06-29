@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Template_Overrides",
-  "title": "Sobrescritura de Plantillas ",
+  "title": "Sobrescritura de Plantillas",
   "description": "", 
   "author": ""
 }

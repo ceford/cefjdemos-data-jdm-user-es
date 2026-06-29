@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Joomla_CLI_Installation",
-  "title": "Instalación de Joomla CLI  ",
+  "title": "Instalación de Joomla CLI ",
   "description": "", 
   "author": ""
 }

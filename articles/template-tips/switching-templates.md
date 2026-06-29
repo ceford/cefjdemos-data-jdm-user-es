@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Switching_Templates",
-  "title": "Cambiando Plantillas  ",
+  "title": "Cambiando Plantillas ",
   "description": "", 
   "author": ""
 }

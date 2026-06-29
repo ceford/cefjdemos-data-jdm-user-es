@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Top_10_Stupidest_Administrator_Tricks",
-  "title": "Los 10 trucos más tontos  ",
+  "title": "Los 10 trucos más tontos ",
   "description": "", 
   "author": ""
 }

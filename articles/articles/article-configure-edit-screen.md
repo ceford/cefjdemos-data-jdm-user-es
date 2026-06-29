@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J6.x:_Article_Edit_Configure_Edit_Screen",
-  "title": "Artículo: Editar - Configurar la Pantalla de Edición ",
+  "title": "Artículo: Editar - Configurar la Pantalla de Edición",
   "description": "", 
   "author": ""
 }

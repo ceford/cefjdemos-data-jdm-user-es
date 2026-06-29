@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Module_and_Menu_Styles",
-  "title": "Estilos de Módulo y Menú  ",
+  "title": "Estilos de Módulo y Menú ",
   "description": "", 
   "author": ""
 }

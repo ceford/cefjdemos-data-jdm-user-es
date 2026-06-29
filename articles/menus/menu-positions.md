@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Menu_Positions",
-  "title": "Posiciones del Menú ",
+  "title": "Posiciones del Menú",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Using_A_Sitemap",
-  "title": "Usando un Mapa del Sitio ",
+  "title": "Usando un Mapa del Sitio",
   "description": "", 
   "author": ""
 }

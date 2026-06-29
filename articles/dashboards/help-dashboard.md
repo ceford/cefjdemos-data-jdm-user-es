@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Help",
-  "title": "Tablero de Ayuda ",
+  "title": "Tablero de Ayuda",
   "description": "", 
   "author": ""
 }

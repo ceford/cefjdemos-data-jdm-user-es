@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Enabling_the_Login_Form_module",
-  "title": "Formulario de Inicio de Sesión  ",
+  "title": "Formulario de Inicio de Sesión ",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/WebAuthn_Passwordless_Login",
-  "title": "Inicio de sesión con WebAuthn  ",
+  "title": "Inicio de sesión con WebAuthn ",
   "description": "", 
   "author": ""
 }

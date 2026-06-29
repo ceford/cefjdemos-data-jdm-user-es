@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Moving_the_site_among_directories",
-  "title": "Mover el Directorio de Instalación ",
+  "title": "Mover el Directorio de Instalación",
   "description": "", 
   "author": ""
 }

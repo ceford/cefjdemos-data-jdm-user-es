@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Help4.x:Components_Privacy_Outline",
-  "title": "Esquema de Privacidad  ",
+  "title": "Esquema de Privacidad ",
   "description": "", 
   "author": ""
 }

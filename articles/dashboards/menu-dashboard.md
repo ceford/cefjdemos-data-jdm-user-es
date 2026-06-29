@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Menu_Dashboard",
-  "title": "Tablero de Menú  ",
+  "title": "Tablero de Menú ",
   "description": "", 
   "author": ""
 }

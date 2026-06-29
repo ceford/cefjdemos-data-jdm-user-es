@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/category-list-override.md",
-  "title": "Anulación de la Lista de Categorías ",
+  "title": "Anulación de la Lista de Categorías",
   "description": "", 
   "author": ""
 }

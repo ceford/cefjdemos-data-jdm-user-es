@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Workflow",
-  "title": "Flujo de Publicación  ",
+  "title": "Flujo de Publicación ",
   "description": "", 
   "author": ""
 }

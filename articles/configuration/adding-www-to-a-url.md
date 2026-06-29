@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Adding_www_to_a_url",
-  "title": "Agregar www a una URL  ",
+  "title": "Agregar www a una URL ",
   "description": "", 
   "author": ""
 }

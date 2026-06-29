@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Managing_Media",
-  "title": "Gestión de Medios ",
+  "title": "Gestión de Medios",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Template_Basics",
-  "title": "Conceptos Básicos de Plantillas ",
+  "title": "Conceptos Básicos de Plantillas",
   "description": "", 
   "author": ""
 }

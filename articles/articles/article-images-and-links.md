@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Article_Images_and_Links",
-  "title": "Artículo: Editar - Imágenes y Enlaces  ",
+  "title": "Artículo: Editar - Imágenes y Enlaces ",
   "description": "", 
   "author": ""
 }

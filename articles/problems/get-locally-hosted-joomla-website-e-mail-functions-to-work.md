@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Get_locally_hosted_Joomla!_website_e-mail_functions_to_work",
-  "title": "Correo Electrónico del Host Local  ",
+  "title": "Correo Electrónico del Host Local ",
   "description": "", 
   "author": ""
 }

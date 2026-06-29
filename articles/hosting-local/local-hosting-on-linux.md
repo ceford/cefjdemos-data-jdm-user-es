@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/No_original_yet",
-  "title": "Alojamiento Local en Linux ",
+  "title": "Alojamiento Local en Linux",
   "description": "", 
   "author": ""
 }
