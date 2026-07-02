@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Integer_Field / Display title: Campo Entero -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields/Integer_Field ",
+  "title": "Campo Entero",
+  "description": "", 
+  "author": ""
+}
+-->
 
 
 ## Propósito
