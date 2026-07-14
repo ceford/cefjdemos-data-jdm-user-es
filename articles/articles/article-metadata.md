@@ -44,9 +44,16 @@ Hay varias herramientas para webmasters que pueden utilizarse para identificar s
 
 [Artículo de soporte de Google sobre el uso de títulos para tus páginas web](http://support.google.com/webmasters/bin/answer.py?hl=en&amp;answer=35624)
 
-En Joomla, para una sola página, el título del artículo se convierte en el título de la página usado en 
-el encabezado y mostrado en la pestaña del navegador. Para una página compuesta, como 
-*Artículos Destacados* o un *Blog de Categoría*, el título del ítem de menú se convierte en el título de la página. Por lo tanto, es necesario reflexionar sobre la composición de buenos títulos descriptivos tanto para los artículos como para los ítems de menú.
+### Prioridades para el título de la página
+
+En Joomla, el título de página (metadato) que se utiliza en la sección `<head>` y se muestra en la pestaña del navegador se obtiene de una de las siguientes fuentes, siguiendo este orden de prioridad:
+
+1. Elemento de menú > Visualización de la página > Título de página del navegador (si se ha definido en el formulario)
+2. Artículo > Opciones > Título de página del navegador (si se ha definido en el formulario)
+3. Título del artículo (para un artículo individual sin elemento de menú asociado)
+4. Título del elemento de menú (para una página compuesta, como *Artículos destacados* o un *Blog de categoría*)
+
+Por ello, es importante dedicar tiempo a elaborar títulos y títulos de página descriptivos y adecuados, tanto para los artículos como para los elementos de menú.
 
 ## La Descripción de la Página
 
