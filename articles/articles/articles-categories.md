@@ -104,7 +104,7 @@ En la pestaña *Visualización de la Página* intenta configurar el campo *Mostr
 
 La siguiente captura de pantalla muestra la vista del sitio de una página de blog de categoría en desarrollo.
 
-![Página de blog de la categoría Mamíferos](../../../en/images/articles/articles-categories/04-article-mammals-articles-blog-site-view.png)
+![Página de blog de la categoría Mamíferos](../../../en/images/articles/articles-categories/04-category-blog-site-view.png)
 
 ## Consejos
 

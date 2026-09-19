@@ -21,7 +21,7 @@ Si un campo no se asigna a un grupo, aparecerá en el formulario de edición en 
 
 Para los artículos sobre la Naturaleza, la categoría del artículo y las subcategorías para cada rama del mundo viviente podrían aparecer como en el siguiente ejemplo:
 
-![Categorías de artículos para la naturaleza](../../../en/images/fields/fields-and-field-groups/01-fields-articles-categories-list.png)
+![Categorías de artículos para la naturaleza](../../../en/images/fields/fields-and-field-groups/01-categories-list.png)
 
 Algunas características evidentes de la Naturaleza para tener en cuenta:
 
@@ -44,7 +44,7 @@ Crear grupos de campos para artículos es muy sencillo:
 - Ingresa una **Descripción**. Esta aparece debajo del campo en el formulario de edición del artículo cuando se selecciona *Alternar Ayuda en Línea*.
 - Selecciona **Guardar y Cerrar** desde la barra de herramientas.
 
-![Lista de grupos de campos de contenido](../../../en/images/fields/fields-and-field-groups/02-fields-field-groups-list.png)
+![Lista de grupos de campos de contenido](../../../en/images/fields/fields-and-field-groups/02-field-groups-list.png)
 
 ### Ordenación
 
@@ -58,7 +58,7 @@ Para crear un nuevo Campo de artículo, selecciona **Contenido → Campos** en e
 
 Ten en cuenta que en la captura de pantalla a continuación, este campo ha sido asignado al Grupo de Campos de Naturaleza y a la categoría Naturaleza. Esto asegura que siempre aparezca en los artículos de la categoría Naturaleza y cualquier subcategoría.
 
-![Campo de texto - nombre latín en el grupo de naturaleza](../../../en/images/fields/fields-and-field-groups/03-fields-latin-name.png)
+![Campo de texto - nombre latín en el grupo de naturaleza](../../../en/images/fields/fields-and-field-groups/03-latin-name.png)
 
 ### Casillas de Verificación - Temporada de Floración
 
@@ -66,13 +66,13 @@ Las casillas de verificación aparecen en el formulario de edición de artículo
 
 Ten en cuenta que en esta captura de pantalla, el Campo ha sido asignado al grupo de Flores y a la Categoría de Flores. Esto debería asegurar que el campo solo esté presente en artículos sobre flores.
 
-![Campo de casillas de verificación - temporada de floración](../../../en/images/fields/fields-and-field-groups/04-fields-flowering-season.png)
+![Campo de casillas de verificación - temporada de floración](../../../en/images/fields/fields-and-field-groups/04-propagation.png)
 
 ### Color - Color
 
 Solo para ser confuso, el nombre del tipo de campo es Color (Ortografía de EE.UU.) pero la etiqueta en la documentación es Colour (Ortografía Británica).
 
-![Campo de color](../../../en/images/fields/fields-and-field-groups/05-fields-colour.png)
+![Campo de color](../../../en/images/fields/fields-and-field-groups/05-colour.png)
 
 El campo de Color está asignado al grupo de campos de Naturaleza y a la categoría Naturaleza, ya que no es exclusivo de las flores.
 
@@ -80,7 +80,7 @@ El campo de Color está asignado al grupo de campos de Naturaleza y a la categor
 
 La resistencia de una planta se puede representar como un número entero de 1 a 7. No hay un campo para un número real, por lo que la longitud y el ancho podrían ser números enteros con una escala (cm o m o ft) incluida en la etiqueta. Hay configuraciones de *Prefijo* y *Sufijo* en la pestaña *Opciones*. Si no hay un límite superior obvio, entonces deja el campo *Último:* vacío.
 
-![Campo de resistencia](../../../en/images/fields/fields-and-field-groups/06-fields-hardiness.png)
+![Campo de resistencia](../../../en/images/fields/fields-and-field-groups/06-hardiness.png)
 
 ¡La Resistencia RHS es una propiedad que generalmente se aplica a las flores!
 

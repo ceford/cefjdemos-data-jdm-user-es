@@ -1,149 +1,156 @@
 <!--
 {
-  "source": "https://docs.joomla.org/J4.x:How_To_Use_Content_Tags_in_Joomla",
-  "title": "Etiquetas de Contenido ",
-  "description": "", 
-  "author": ""
+    "source": "https://docs.joomla.org/J4.x:How_To_Use_Content_Tags_in_Joomla",
+    "title": "Etiquetas de contenido",
+    "description": " ",
+    "author": ""
 }
 -->
 
 ## Introducción
 
-Las etiquetas ofrecen una forma fácil y eficiente de organizar y mostrar contenido. El **Componente de Etiquetas** permite que las etiquetas se utilicen en diferentes tipos de contenido, incluidos artículos, categorías, contactos y canales de noticias. También permite la creación de etiquetas de padres e hijos.
+Las etiquetas proporcionan una forma fácil de usar y eficaz de organizar y mostrar contenido. 
+El **componente Etiquetas** permite utilizar etiquetas individuales en distintos tipos de 
+contenido, incluidos artículos, categorías, contactos y fuentes de noticias. También permite crear etiquetas principales y secundarias.
 
-A diferencia de las **Categorías** de Joomla, donde solo se puede asignar una categoría a un elemento, se pueden asignar múltiples etiquetas a un solo elemento, aunque no es obligatorio asignar etiquetas a los elementos.
+A diferencia de las **categorías** de Joomla, donde solo se puede asignar una categoría a
+un elemento, se pueden asignar varias etiquetas a un solo elemento, aunque no es 
+obligatorio asignar etiquetas a los elementos.
 
-Una vez que un elemento está etiquetado con una etiqueta específica, al hacer clic en el botón de etiqueta en el contenido que muestra las etiquetas, se dirigirá a una página que muestra una lista de todos los elementos que han sido etiquetados con esa etiqueta en particular. Por esta razón, las etiquetas se usan a menudo como una forma de presentar listas *filtradas* de contenido.
+Una vez que un elemento se etiqueta con una etiqueta específica, al hacer clic en el botón de la etiqueta en
+el contenido que muestra etiquetas, se accede a una página que muestra una lista de
+todos los elementos que se han etiquetado con esa etiqueta concreta. Por este
+motivo, las etiquetas se utilizan a menudo como una forma de presentar listas de contenido
+*filtradas*.
 
-Las etiquetas se pueden añadir en varios lugares, ofreciendo flexibilidad en la creación de etiquetas.
+Las etiquetas se pueden añadir en varios lugares, lo que proporciona flexibilidad en su creación.
 
 ## Consideraciones
 
-Antes de comenzar, considera el propósito de las etiquetas en el sitio web, especialmente si otros van a añadir contenido. A menos que se gestionen y añadan correctamente, las etiquetas pueden volverse contraproducentes. Los problemas comunes incluyen que los redactores de contenido añaden etiquetas nuevas e innecesarias y nombres de etiquetas mal escritos. Algunos administradores del sitio pueden optar por cambiar los permisos de acceso para que solo usuarios específicos puedan añadir nuevas etiquetas.
+Antes de empezar, considere el propósito de las etiquetas en el sitio web, especialmente
+si otras personas van a añadir contenido. Si no se añaden y gestionan
+correctamente, las etiquetas pueden resultar contraproducentes. Entre los problemas habituales se incluyen
+que los redactores de contenido añadan etiquetas nuevas e innecesarias y nombres de etiquetas
+mal escritos. Algunos administradores del sitio pueden optar por cambiar los permisos de acceso para que 
+solo determinados usuarios puedan añadir etiquetas nuevas.
 
-Cuando se crean etiquetas, se mostrarán como enlaces en los elementos etiquetados. Los estilos y posiciones de las etiquetas están definidos por la plantilla del sitio. A menudo se estilizan como botones o etiquetas.
+La siguiente captura de pantalla muestra etiquetas utilizadas en un sitio que contiene artículos sobre 
+sitios del Patrimonio Mundial de la UNESCO. En este caso, cada etiqueta tiene un color distintivo. 
 
-¡La visualización de etiquetas puede estar desactivada! Esto puede parecer ilógico, pero es una característica útil donde se usan las etiquetas, por ejemplo, para filtrar contenido para casos de uso específicos.
+![página de lista de etiquetas](../../../en/images/tags/content-tags/01-tags-example.png)
+
+Cuando se crean etiquetas, se muestran como enlaces en los elementos etiquetados. 
+Los estilos y las posiciones de las etiquetas los define la plantilla del sitio. A menudo 
+se muestran como botones o etiquetas.
+
+La visualización de etiquetas se puede desactivar para artículos individuales o para todos los artículos. 
+Esto puede parecer ilógico, pero es una función útil cuando las etiquetas se utilizan, por 
+ejemplo, para filtrar contenido para casos de uso específicos.
 
 ## La lista de etiquetas
 
-- Selecciona **Componentes → Etiquetas** en el menú del Administrador.
+- Seleccione **Componentes → Etiquetas** en el menú de administración.
 
-![la página de lista de etiquetas](../../../en/images/tags/content-tags/01-tags-list.png)
+Esta captura de pantalla muestra etiquetas en una estructura utilizada para un sitio multilingüe.
+Cada idioma tiene una lista de etiquetas con una etiqueta de idioma como elemento principal. 
+La etiqueta principal se utiliza en los módulos *Etiquetas populares* y *Etiquetas similares*.
+
+![página de lista de etiquetas](../../../en/images/tags/content-tags/02-tags-list.png)
 
 Independientemente de cómo se creen las etiquetas, se pueden encontrar en esta lista.
 
-## Añadiendo Etiquetas
+- Seleccione el botón **Nuevo** de la barra de herramientas para crear una etiqueta nueva.
+- Seleccione el **Título** de una etiqueta para editar una etiqueta existente.
 
-### A través de la Lista de Etiquetas
+### La pestaña Detalles de la etiqueta
 
-Selecciona el botón **Nuevo** en la Barra de herramientas de la lista de Etiquetas.
+![pestaña de opciones del formulario de edición de etiquetas que muestra clases CSS de Bootstrap](../../../en/images/tags/content-tags/03-edit-tag-details-tab.png)
 
-![nueva etiqueta llamada depredador](../../../en/images/tags/content-tags/02-new-tag-predator.png)
+- **Título** Este es el único campo *obligatorio*. 
+- **Alias** Se crea a partir del título al guardar.
+- **Descripción** Siempre es recomendable añadir una descripción. Se muestra en 
+  los formularios de administración y puede ser útil cuando se utilizan muchas etiquetas.
+- **Principal** Déjelo establecido en *Ninguno* si se trata de una etiqueta que no tiene una etiqueta principal. O elija una 
+  etiqueta principal de la lista para convertirla en una etiqueta secundaria.
+- **Estado** Este campo está establecido en *Publicado* de forma predeterminada. Se puede establecer como 
+  *Despublicado*, *Archivado* o *En la papelera*.
+- **Acceso** El nivel de acceso es Público de forma predeterminada.
+- **Nota** y **Nota de versión:** Si es necesario, puede añadir notas.
+- **Guardar y cerrar** Si está creando varias etiquetas, puede seleccionar **Guardar y nuevo** para crear una etiqueta nueva.
 
-- **Título** Este es el único campo *requerido*.
-- **Alias** Este se crea a partir del Título al guardar.
-- **Descripción** Siempre es mejor añadir una Descripción. Se muestra en los 
-  formularios del Administrador y puede ser útil cuando se usan muchas etiquetas.
-- **Padre** Déjalo configurado como *Ninguno* si esta es una etiqueta padre raíz. O elige 
-  una etiqueta padre de la lista si esta es una etiqueta hija.
-- **Estado** Este campo está configurado como *Publicado* por defecto. Puede configurarse 
-  como *No Publicado*, *Archivado* o *En la papelera*.
-- **Acceso** El nivel de Acceso es Público por defecto.
-- **Nota** y **Nota de Versión:** Si es necesario, puedes añadir notas.
-- **Guardar & Cerrar** La nueva etiqueta aparecerá en la Lista de Etiquetas. Si estás 
-  creando múltiples etiquetas, puedes optar por hacer clic en **Guardar & Nuevo** en su lugar para 
-  crear otra.
+### La pestaña Opciones
 
-Una vez guardada, la etiqueta estará disponible para su uso en los diferentes tipos de contenido 
-que las usan.
+- **Diseño** Puede haber varios diseños entre los que elegir, y puede crear su propio diseño con una anulación de plantilla.
+- **Clase CSS para el enlace de la etiqueta** De forma predeterminada, las etiquetas se muestran como un botón azul. Puede introducir aquí declaraciones de clase para personalizar el aspecto de las etiquetas y asignar distintos colores a diferentes etiquetas. Ejemplo: `bg-danger-subtle border border-danger` son clases de Bootstrap que producen un botón rosa con un borde rojo.
+- **Imagen de avance e imagen completa** Establezca imágenes para la etiqueta: una imagen de avance para la lista de etiquetas o una imagen completa para la página de la etiqueta, o ambas.
 
-### Desde un Artículo
+![pestaña de opciones del formulario de edición de etiquetas que muestra clases CSS de Bootstrap](../../../en/images/tags/content-tags/04-edit-tag-options-tab.png)
 
-Es posible añadir nuevas etiquetas mientras se crea o edita un artículo. En la 
-pestaña de Contenido del artículo, en el **Campo de Etiquetas**, ingresa el nombre de 
-la nueva etiqueta y presiona **Enter** para guardar y asignar la etiqueta al artículo.
+### La pestaña Publicación
 
-### Desde una Categoría
+- Establezca los metadatos de la página de la etiqueta para la optimización para motores de búsqueda (SEO).
 
-Las etiquetas pueden añadirse cuando se crea o edita una categoría. En la pestaña 
-**Categoría**, ingresa el nombre de la etiqueta en el **Campo de Etiquetas** y presiona 
-**Enter** para crear y asignar la nueva etiqueta.
+## Métodos de creación alternativos
 
-### Desde un Contacto
+### Desde un artículo
 
-Las etiquetas pueden añadirse cuando se crea o edita un Contacto. En la pestaña 
-**Nuevo/Editar Contacto**, ingresa el nombre de la etiqueta en el **Campo de Etiquetas** 
-y presiona **Enter** para crear y asignar la nueva etiqueta. También puedes añadir nuevas 
-etiquetas al crear Categorías de Contacto.
+Es posible añadir etiquetas nuevas mientras se crea o edita un artículo. En
+la pestaña Contenido del artículo, en el **campo Etiquetas**, introduzca el nombre de la etiqueta nueva y
+pulse **Intro** para guardar y asignar la etiqueta al artículo.
 
-### Desde un Canal de Noticias
+### Desde una categoría
 
-Las etiquetas pueden añadirse al crear o editar un nuevo Canal de Noticias. En la 
-pestaña **Nuevo/Editar Canal de Noticias**, ingresa el nombre de la etiqueta en el **Campo 
-de Etiquetas** y presiona **Enter** para crear y asignar la nueva etiqueta. También puedes 
-añadir nuevas etiquetas al crear Categorías de Canales de Noticias.
+Las etiquetas se pueden añadir al crear o editar una categoría. En la pestaña **Categoría**,
+introduzca el nombre de la etiqueta en el **campo Etiquetas** y pulse **Intro** para crear
+y asignar la etiqueta nueva.
 
-## Gestión de Etiquetas
+### Desde un contacto
 
-Dondequiera que agregues nuevas etiquetas dentro de Joomla, todas aparecerán en la lista de etiquetas.
-Usa la lista de etiquetas para encontrar, abrir y ajustar la configuración de las etiquetas.
+Las etiquetas se pueden añadir al crear o editar un contacto. En la pestaña 
+**Nuevo/Editar contacto**, introduzca el nombre de la etiqueta en el **campo Etiquetas** y pulse 
+**Intro** para crear y asignar la etiqueta nueva. También puede añadir etiquetas nuevas al crear categorías de contactos.
 
-### El Filtro de la Lista de Etiquetas
+### Desde un canal de noticias
 
-![filtro de lista de etiquetas por tipo](../../../en/images/tags/content-tags/03-tags-list-filter.png)
+Se pueden añadir etiquetas al crear o editar un nuevo canal de noticias. En la pestaña **Nuevo/Editar canal de noticias**, introduzca el nombre de la etiqueta en el **campo Etiquetas** y pulse **Intro** para crear y asignar la nueva etiqueta. También puede añadir nuevas etiquetas al crear categorías de canales de noticias.
 
-Puedes manipular la lista de varias maneras:
+## Gestión de etiquetas
 
-- Busca una etiqueta usando una parte o todo su título en el campo de búsqueda.
-- Reordena la lista usando arrastrar y soltar para optimizar el orden de salida.
-- Publica o despublica etiquetas usando el botón de la columna de estado.
-- Selecciona una o más etiquetas y utiliza el botón **Acciones** para Publicar, Despublicar, 
-  Archivar, Registrar o Enviar a la Papelera las etiquetas seleccionadas.
-- Selecciona una o más etiquetas y usa el botón **Acciones → Lote** para establecer el
-  idioma o nivel de acceso.
+Siempre que añada nuevas etiquetas en Joomla, aparecerán en la lista de etiquetas.
+Use la lista de etiquetas para buscar, abrir y ajustar la configuración de las etiquetas.
 
-### Configuración de Etiquetas
+Puede manipular la lista de varias maneras:
 
-- Selecciona un **Título** de etiqueta para hacer cambios en su configuración.
+- Busque una etiqueta utilizando parte o todo su título o alias en el campo de búsqueda.
+- Reordene la lista mediante arrastrar y soltar para optimizar el orden de salida.
+- Publique o deje de publicar etiquetas utilizando el botón de la columna Estado.
+- Seleccione una o más etiquetas y utilice el botón **Acciones** para publicar, dejar de publicar, archivar, registrar o enviar a la papelera las etiquetas seleccionadas.
+- Seleccione una o más etiquetas y utilice el botón **Acciones → Procesar por lotes** para establecer el idioma o el nivel de acceso.
 
-En el formulario de edición de etiquetas:
+## Salidas de etiquetas
 
-- Las configuraciones de la pestaña **Detalles de la etiqueta** se cubrieron anteriormente.
-- La pestaña **Opciones**:
-  - Cambia el diseño de la página de la etiqueta (la página que aparece cuando
-    haces clic en el enlace de la etiqueta - por ejemplo, misitio.com/etiquetas/mi-etiqueta). 
-    Este diseño normalmente es la configuración predeterminada y depende de la plantilla.
-  - Añade una Clase CSS para aplicar un estilo diferente (apariencia) al enlace
-    para la etiqueta. Esto suele ser usado solo por el Administrador del Sitio.
-  - Establece imágenes para la etiqueta: una imagen de adelanto para la lista de etiquetas 
-    y/o una imagen completa para la página de la etiqueta.
-- La pestaña **Publicación**: establece metadatos para la página de la etiqueta para 
-  la optimización de motores de búsqueda (SEO).
+Una vez creadas las etiquetas en su sitio, estarán disponibles para utilizarlas en el contenido y en módulos como **Etiquetas populares** y **Etiquetas similares**. Los siguientes ejemplos muestran cómo podrían verse en un sitio que utiliza la plantilla predeterminada **Cassiopeia**.
 
-## Cómo Joomla Muestra las Etiquetas
+![etiquetas mostradas en un artículo y en los módulos de etiquetas populares y etiquetas similares](../../../en/images/tags/content-tags/05-tag-modules-site-view.png)
 
-Una vez que se han creado etiquetas en su sitio, están disponibles para uso no solo en el contenido, sino también en algunos módulos útiles como **Etiquetas Populares** y **Etiquetas Similares**. Los siguientes ejemplos muestran cómo se ven en una instalación estándar usando la plantilla predeterminada **Cassiopeia**.
+Al seleccionar una de las etiquetas, accederá a una página que muestra una lista de todos los elementos asignados a esa etiqueta concreta:
 
-![ejemplo de uso de etiquetas sitio labrador amarillo](../../../en/images/tags/content-tags/04-tag-examples-yellow-labrador.png)
+![ejemplo de uso de etiquetas en el sitio, labrador negro](../../../en/images/tags/content-tags/06-items-with-cultural-site-tag.png)
 
-Cuando haces clic en una de las etiquetas, serás llevado a una página que lista todos los elementos asignados a esa etiqueta en particular:
+La lista de elementos es una lista filtrada del contenido del sitio web que tiene la etiqueta seleccionada.
+Se proporciona un cuadro de filtro para facilitar la búsqueda de elementos a medida que crece la lista. 
+También puede establecer el número de resultados que desea ver en una sola vista.
 
-![ejemplo de uso de etiquetas sitio labrador negro](../../../en/images/tags/content-tags/05-tag-examples-black-labrador.png)
+## Configuración de etiquetas
 
-Al hacer clic en una etiqueta, se te llevará a una página que muestra una lista de todos los elementos asignados a esa etiqueta en particular; en efecto, es una lista filtrada del contenido etiquetado de tu sitio web. Se proporciona una caja de filtro para facilitar la búsqueda de elementos a medida que la lista crece. También puedes establecer el número de resultados que deseas ver en una sola vista.
+Las etiquetas individuales heredan la configuración de las opciones del componente Etiquetas. Seleccione el botón **Opciones** en la barra de herramientas de la página de la lista de etiquetas para ver las opciones de etiquetas predeterminadas disponibles.
 
-## Configuración de Etiquetas
-
-Las etiquetas individuales heredan configuraciones de las opciones del componente de Etiquetas. Esto se trata en un tutorial aparte. [Pendiente] Selecciona el botón de **Opciones** en la barra de herramientas de la página de la lista de Etiquetas.
-
-La configuración del componente de Etiquetas se puede anular a nivel de elemento de menú.
+Las opciones de configuración del componente Etiquetas se pueden sustituir en los niveles del elemento de contenido o del elemento de menú.
 
 ## Consejos
 
-- Recuerda que las Etiquetas se utilizan en múltiples tipos de contenido
-- Puedes añadir más de una Etiqueta a un elemento
-- Utiliza el botón de Ayuda cuando tengas dudas
+- Recuerde que las etiquetas se utilizan en varios tipos de contenido.
+- Puede añadir más de una etiqueta a un elemento.
+- Utilice el botón Ayuda de la barra de herramientas cuando tenga dudas.
 
 *Traducido por openai.com*
-

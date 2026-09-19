@@ -56,11 +56,11 @@ Exactamente la misma entrada de datos que el Enlace A.
 
 La captura de pantalla a continuación muestra un diseño de blog de categoría con la *Imagen de Introducción*. Podría haber sido mejor usar una imagen panorámica con la misma altura pero mucho mayor ancho para ocupar el espacio en blanco disponible.
 
-![Página de blog de categoría de anfibios](../../../en/images/articles/article-images-and-links/02-articles-site-amphibians-blog.png)
+![Ejemplo de imagen de introducción en la página de categoría del blog](../../../en/images/articles/article-images-and-links/02-site-intro-image.png)
 
 La captura de pantalla a continuación muestra la página de un artículo individual con la *Imagen del Artículo Completo* y el Enlace A. La imagen se ha colocado flotante a la derecha y el título visible dice algo que complementa lo que dice la Descripción, de modo que suene lógico para los lectores de pantalla.
 
-![Página de artículo individual de ranas](../../../en/images/articles/article-images-and-links/03-articles-site-amphibians-frogs.png)
+![Ejemplo de imagen completa en la página del artículo](../../../en/images/articles/article-images-and-links/03-site-full-article-image.png)
 
 *Traducido por openai.com*
 
