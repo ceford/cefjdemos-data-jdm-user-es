@@ -49,4 +49,6 @@ En el formulario de introducción de datos, el campo de nota aparece entre los d
 
 Si *Mostrar en la interfaz pública* está establecido en *Sí*, el campo de nota aparece entre los demás campos en la interfaz pública. Allí puede contener información general común a un grupo de artículos.
 
+![Note field site display](../../../en/images/fields/adding-custom-fields-note-field/03-fields-note-site.png)
+
 *Traducido por openai.com*

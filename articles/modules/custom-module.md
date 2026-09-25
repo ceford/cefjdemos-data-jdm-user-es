@@ -56,7 +56,7 @@ Cuando estés listo, selecciona el botón **Guardar y Cerrar**.
 El módulo se publicará en la barra lateral del sitio web y mostrará
 el texto que hayas introducido.
 
-![Ejemplo de Módulo Personalizado](../../../en/images/modules/how-do-you-create-a-custom-module-3f/01-modules-custom-display.png)
+![Ejemplo de Módulo Personalizado](../../../en/images/modules/custom-module/01-modules-site-message.png)
 
 *Traducido por openai.com*
 

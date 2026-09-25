@@ -39,7 +39,7 @@ Desde el menú del Administrador:
 
 - Inicia sesión en el sitio y usa el enlace para verificar el Perfil de Usuario.
 
-![resumen de perfil de usuario](../../../en/images/users/user-profile/03-user-profile-summary.png)
+![resumen de perfil de usuario](../../../en/images/users/user-profile/03-user-profile-edit.png.png)
 
 - Prueba el botón **Editar Perfil**.
 
