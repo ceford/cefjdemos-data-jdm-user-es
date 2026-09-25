@@ -40,4 +40,3 @@ Busca el elemento **Especímenes** en esta captura de pantalla:
 ![visualización del sitio de subformulario](../../../en/images/fields/subforms/03-fields-subform-site.png)
 
 *Traducido por openai.com*
-
