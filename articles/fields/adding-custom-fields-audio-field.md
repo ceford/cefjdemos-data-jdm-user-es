@@ -19,7 +19,7 @@ Los parámetros comunes de los campos se describen en un artículo separado.
 * **Etiqueta** Esto es lo que se muestra en la salida. Si se deja vacío, se establece
 a partir del contenido del campo Título, pero se puede cambiar.
 
-![creación del campo de audio](../../../en/images/fields/adding-custom-fields-audio-field/01-fields-audio-edit.png)
+![creación del campo de audio](../../../es/images/fields/adding-custom-fields-audio-field/01-fields-audio-edit.png)
 
 **Nota:** En este ejemplo, la inclusión del tipo de campo en el Título es solo para
 fines de demostración. Omítalo en los títulos de sus propios campos.
@@ -31,7 +31,7 @@ selector multimedia.
 
 La siguiente captura de pantalla muestra un archivo de audio seleccionado:
 
-![introducción de datos del campo de audio](../../../en/images/fields/adding-custom-fields-audio-field/02-fields-audio-data-entry.png)
+![introducción de datos del campo de audio](../../../es/images/fields/adding-custom-fields-audio-field/02-fields-audio-data-entry.png)
 
 Los campos solo aparecen en un artículo si se han rellenado en el formulario de introducción de datos del artículo.
 
@@ -41,6 +41,6 @@ La siguiente captura de pantalla del sitio muestra el campo en un artículo. La
 opción *Visualización automática* determina la posición del campo y
 la plantilla determina el diseño del campo.
 
-![visualización del campo de audio en el sitio](../../../en/images/fields/adding-custom-fields-audio-field/03-fields-audio-site.png)
+![visualización del campo de audio en el sitio](../../../es/images/fields/adding-custom-fields-audio-field/03-fields-audio-site.png)
 
 *Traducido por openai.com*

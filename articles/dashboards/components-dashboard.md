@@ -13,7 +13,7 @@ Para abrir el Panel de Componentes, selecciona el ícono del panel que se encuen
 
 ## Captura de Pantalla
 
-![Tablero de Componentes](../../../en/images/dashboards/components-dashboard/01-components-dashboard.png)
+![Tablero de Componentes](../../../es/images/dashboards/components-dashboard/01-components-dashboard.png)
 
 *Traducido por openai.com*
 

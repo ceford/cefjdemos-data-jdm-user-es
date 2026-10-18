@@ -24,7 +24,7 @@ La mayoría de los elementos son enlaces autoexplicativos que duplican aquellos 
 
 ## Captura de pantalla
 
-![Tablero de inicio](../../../en/images/dashboards/home-dashboard/01-home-dashboard.png)
+![Tablero de inicio](../../../es/images/dashboards/home-dashboard/01-home-dashboard.png)
 
 *Traducido por openai.com*
 

@@ -77,7 +77,7 @@ La nueva clave ahora puede ser traducida a cada idioma. Las traducciones se guar
 - Guarda y cierra el formulario.
 - Repite el proceso de traducción para cada idioma.
 
-![formulario de edición de anulación de idiomas](../../../en/images/languages/language-overrides/01-language-overrides-edit.png)
+![formulario de edición de anulación de idiomas](../../../es/images/languages/language-overrides/01-language-overrides-edit.png)
 
 Finalmente, verifica que la traducción se ha implementado.
 

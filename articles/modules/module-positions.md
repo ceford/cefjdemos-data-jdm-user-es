@@ -27,11 +27,11 @@ Para ver las posiciones de los módulos necesitas añadir ?tp=1 o &tp=1 al final
 
 ### Posiciones de la plantilla de administrador Atum
 
-![posiciones de plantilla de Atum](../../../en/images/modules/module-positions/01-template-positions-templates-page.png)
+![posiciones de plantilla de Atum](../../../es/images/modules/module-positions/01-template-positions-templates-page.png)
 
 ### Posiciones de la plantilla de sitio Cassiopeia
 
-![posiciones de plantilla de Cassiopeia](../../../en/images/modules/module-positions/02-template-positions-site-page.png)
+![posiciones de plantilla de Cassiopeia](../../../es/images/modules/module-positions/02-template-positions-site-page.png)
 
 También puedes encontrar útil este diagrama de posiciones de módulos:
 

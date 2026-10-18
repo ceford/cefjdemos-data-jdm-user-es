@@ -13,7 +13,7 @@
 
 La siguiente captura de pantalla muestra el formulario de edición con un artículo que ya ha sido guardado.
 
-![El formulario de edición de contenido](../../../en/images/articles/article-content/01-articles-edit-content.png)
+![El formulario de edición de contenido](../../../es/images/articles/article-content/01-articles-edit-content.png)
 
 ## Entrada de Datos
 

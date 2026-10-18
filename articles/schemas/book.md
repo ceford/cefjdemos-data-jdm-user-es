@@ -32,7 +32,7 @@ La sección *Generic Field* permite ingresar pares de *Title* y *Value* además 
 
 A continuación se muestra un ejemplo de un esquema de Libro en un formulario de edición de Artículo.
 
-![A book schema edit form](../../../en/images/schemas/book/01-edit-schema-book.png)
+![A book schema edit form](../../../es/images/schemas/book/01-edit-schema-book.png)
 
 *Traducido por openai.com*
 

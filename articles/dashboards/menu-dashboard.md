@@ -15,7 +15,7 @@ Puedes tener tantos menús de Sitio y Administrador como desees, en prácticamen
 
 ## Captura de pantalla
 
-![Tablero del menú](../../../en/images/dashboards/menu-dashboard/01-menus-dashboard.png)
+![Tablero del menú](../../../es/images/dashboards/menu-dashboard/01-menus-dashboard.png)
 
 *Traducido por openai.com*  
 

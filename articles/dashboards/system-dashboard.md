@@ -24,7 +24,7 @@ Los artículos individuales se cubren en otros tutoriales.
 
 ## Captura de pantalla
 
-![Tablero del sistema](../../../en/images/dashboards/system-dashboard/01-system-dashboard.png)
+![Tablero del sistema](../../../es/images/dashboards/system-dashboard/01-system-dashboard.png)
 
 *Traducido por openai.com*
 

@@ -19,7 +19,7 @@ El formulario de Configuración Global tiene seis pestañas, algunas de las cual
 de parámetros. Usa el botón *Alternar Ayuda en Línea* en la Barra de Herramientas para ver 
 más o menos información sobre cada parámetro.
 
-![Pestaña del sitio de configuración global](../../../en/images/configuration/global-configuration/01-site-tab.png)
+![Pestaña del sitio de configuración global](../../../es/images/configuration/global-configuration/01-site-tab.png)
 
 Algunos parámetros muestran u ocultan otros parámetros cuando se seleccionan. Por
 ejemplo, el botón **Sitio Fuera de Línea** muestra más campos cuando se configura en *Sí*
@@ -57,7 +57,7 @@ SEO es un acrónimo de *Optimización para Motores de Búsqueda*. Las configurac
 
 ## Pestaña del sistema
 
-![Pestaña de configuración global del sistema](../../../en/images/configuration/global-configuration/02-system-tab.png)
+![Pestaña de configuración global del sistema](../../../es/images/configuration/global-configuration/02-system-tab.png)
 
 ### Panel de depuración
 
@@ -65,7 +65,7 @@ Los elementos de este panel están bien explicados por la ayuda en línea. Sin e
 
 ## Pestaña del servidor
 
-![Pestaña del servidor de configuración global](../../../en/images/configuration/global-configuration/03-server-tab.png)
+![Pestaña del servidor de configuración global](../../../es/images/configuration/global-configuration/03-server-tab.png)
 
 ### Panel de correo
 
@@ -108,7 +108,7 @@ Las siguientes también son combinaciones funcionales:
 #### Notas
 
 - El módulo SSL no necesita estar habilitado en Apache.
-- La extensión OpenSSL necesita estar habilitada en PHP. Los detalles se pueden encontrar en la [página de instalación de php.net](https://www.php.net/manual/en/openssl.installation.php).
+- La extensión OpenSSL necesita estar habilitada en PHP. Los detalles se pueden encontrar en la [página de instalación de php.net](https://www.php.net/manual/es/openssl.installation.php).
 - Si estás usando WAMP en Windows, el módulo openssl no está habilitado por defecto y necesitas habilitarlo. Para hacerlo:
   - Abre el archivo php.ini y descomenta la línea `extension=php_openssl.dll` eliminando el punto y coma ; al principio de la línea.
   - Guarda el archivo php.ini y reinicia el servicio Apache.
@@ -119,19 +119,19 @@ Las siguientes también son combinaciones funcionales:
 
 ## Pestaña de registro
 
-![Pestaña del sitio de configuración global](../../../en/images/configuration/global-configuration/04-logging-tab.png)
+![Pestaña del sitio de configuración global](../../../es/images/configuration/global-configuration/04-logging-tab.png)
 
 En el funcionamiento normal, un sitio de Joomla debería tener el registro desactivado. Si hay problemas, puedes habilitar el registro configurando el campo **Registrar Casi Todo** en `Sí`. El campo **Registrar API Obsoleta** es realmente solo para desarrolladores. El campo **Ruta a la Carpeta de Registros** te muestra dónde buscar registros si has configurado el registro para ayudar con la depuración. Los registros de errores que encuentres allí son solo aquellos atrapados por Joomla. Puede haber otros errores que solo aparecerán en los registros de errores de tu servidor.
 
 ## La pestaña Filtros de Texto
 
-![Pestaña del sitio de configuración global](../../../en/images/configuration/global-configuration/06-permissions-tab.png)
+![Pestaña del sitio de configuración global](../../../es/images/configuration/global-configuration/05-filters-tab.png)
 
 Los ajustes de filtros de texto se aplicarán a todos los campos del editor de texto enviados por usuarios en los grupos seleccionados. Estas opciones de filtrado ofrecen más control sobre el HTML que envían tus proveedores de contenido. Puedes ser tan estricto o tan liberal como necesites para satisfacer las necesidades de tu sitio. El filtrado es voluntario y la configuración predeterminada ofrece buena protección contra el marcado comúnmente asociado con ataques a sitios web.
 
 ## Pestaña de Permisos
 
-![Pestaña de configuración global del sitio](../../../en/images/configuration/global-configuration/05-filters-tab.png)
+![Pestaña de configuración global del sitio](../../../es/images/configuration/global-configuration/06-permissions-tab.png)
 
 Los permisos controlan lo que los usuarios de cada Grupo de Usuarios pueden ver y hacer. Las entradas en la pestaña de Permisos establecen los permisos predeterminados para el sitio.
 

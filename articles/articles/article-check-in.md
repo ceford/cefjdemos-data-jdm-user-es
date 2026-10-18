@@ -45,7 +45,7 @@ Desde el menú de Administrador:
   **Sistema → Panel de mantenimiento → Registro global**.
 - La lista muestra el número de elementos registrados.
 
-![Página de registro global](../../../en/images/articles/article-check-in/01-global-checkin.png)
+![Página de registro global](../../../es/images/articles/article-check-in/01-global-checkin.png)
 
 - Desde la lista de tablas de la base de datos, selecciona la casilla para el tipo de elemento que se debe registrar.
 - Selecciona *Registrar* desde la barra de herramientas.

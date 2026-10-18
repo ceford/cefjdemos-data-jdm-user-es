@@ -52,7 +52,7 @@ Puede hacer que el módulo de formulario de inicio de sesión aparezca en una o 
   se pueden seleccionar uno o más. Este campo solo se usa si el
   campo **Menús** está configurado para **Seleccionar elemento(s) del menú de la lista**.
 
-  ![asignación de menú de módulo](../../../en/images/modules/enabling-the-login-form-module/01-modules-login-menu-assignment.png)
+  ![asignación de menú de módulo](../../../es/images/modules/enabling-the-login-form-module/01-modules-login-menu-assignment.png)
 
 ## Para personalizar el módulo de formulario de inicio de sesión
 

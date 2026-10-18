@@ -13,7 +13,7 @@ El Panel de Usuario se accede mediante el ícono a la derecha del elemento del m
 
 ## Captura de pantalla
 
-![Panel de usuarios](../../../en/images/dashboards/users-dashboard/01-users-dashboard.png)
+![Panel de usuarios](../../../es/images/dashboards/users-dashboard/01-users-dashboard.png)
 
 *Traducido por openai.com*
 

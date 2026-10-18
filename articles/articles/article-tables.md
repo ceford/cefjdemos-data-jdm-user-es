@@ -107,7 +107,7 @@ Aquí, las clases de Bootstrap tienen los siguientes efectos:
 
 La siguiente captura de pantalla del sitio muestra una tabla para un programa de conferencias con los estilos en línea predeterminados de TinyMCE y una tabla similar con estilos de Bootstrap:
 
-![Ejemplo de tablas](../../../en/images/articles/article-tables/01-articles-site-tables.png)
+![Ejemplo de tablas](../../../es/images/articles/article-tables/01-articles-site-tables.png)
 
 Consulta la documentación de Bootstrap sobre [Tablas](https://getbootstrap.com/docs/5.3/content/tables/) para más opciones.
 

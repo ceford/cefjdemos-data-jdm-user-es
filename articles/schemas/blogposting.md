@@ -37,7 +37,7 @@ La sección de *Campo Genérico* permite ingresar pares de *Título* y *Valor* a
 
 A continuación se muestra un ejemplo de un esquema de BlogPosting en un formulario de edición de artículo.
 
-![A blogposting schema edit form](../../../en/images/schemas/blogposting/01-edit-schema-blogposting.png)
+![A blogposting schema edit form](../../../es/images/schemas/blogposting/01-edit-schema-blogposting.png)
 
 *Traducido por openai.com*
 

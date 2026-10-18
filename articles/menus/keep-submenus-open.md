@@ -13,7 +13,7 @@ Un módulo de menú se puede utilizar para mostrar un menú horizontal (normalme
 
 Sin embargo, en un menú vertical (de barra lateral), a menudo es deseable dejar abierto un submenú cuando contiene el elemento de menú activo. En Joomla 6.0 se introdujo una nueva clase CSS, `nav-active-open`, específicamente para permitir controlar si los submenús se abren automáticamente al cargar la página para el elemento de menú activo. Al establecer esta clase ahora es posible lograrlo. La clase se establece en el módulo mediante el panel de administración.
 
-![configuración de la clase del menú en el panel de administración para nav-active-open para mantener abierto el alternador en el menú activo](../../../en/images/menus/keep-submenus-open/01-menu-class-setting.png)
+![configuración de la clase del menú en el panel de administración para nav-active-open para mantener abierto el alternador en el menú activo](../../../es/images/menus/keep-submenus-open/01-menu-class-setting.png)
 
 ## Cómo crear un menú de barra lateral sin alternador desplegable
 
@@ -25,7 +25,7 @@ Así se realiza esta anulación de plantilla específica:
 
 2. Cambie a la pestaña Crear anulaciones y seleccione mod_menu:
 
-![selección de anulación de plantilla del menú del módulo](../../../en/images/menus/keep-submenus-open/02-create-override-select-mod-menu.png)
+![selección de anulación de plantilla del menú del módulo](../../../es/images/menus/keep-submenus-open/02-create-override-select-mod-menu.png)
 
 Esto copiará todos los archivos de diseño del menú del módulo en la anulación. A continuación, volverá a la pestaña Editor.
 
@@ -33,7 +33,7 @@ Esto copiará todos los archivos de diseño del menú del módulo en la anulaci�
 
 4. Cree un archivo nuevo en la carpeta html → mod_menu. Debe tener un nombre que no incluya un guion bajo. En este ejemplo, el archivo nuevo se denomina `treedefault.php`. Esto permite seleccionar el diseño de menú predeterminado o este diseño de menú alternativo en cualquiera de sus módulos de menú. En la siguiente lista de archivos de anulación, el original está marcado en rojo y la nueva alternativa está marcada en verde.
 
-![pestaña de edición de anulación de mod_menu: abrir default.php](../../../en/images/menus/keep-submenus-open/03-edit-mod-menu.png)
+![pestaña de edición de anulación de mod_menu: abrir default.php](../../../es/images/menus/keep-submenus-open/03-edit-mod-menu.png)
 
 4. Edite el archivo de diseño nuevo. Los siguientes pasos se enumeran en orden inverso para
 preservar los números de línea durante el proceso de edición:
@@ -187,6 +187,6 @@ $startLevel = (int) $params->get('startLevel', 1);
 
 El resultado es una lista simple, sin funcionalidad de alternancia para el módulo de menú lateral, que se muestra aquí a la izquierda:
 
-![resultado con anulación de plantilla: lista simple sin botones ni funcionalidad de alternancia](../../../en/images/menus/keep-submenus-open/05-site-result.png)
+![resultado con anulación de plantilla: lista simple sin botones ni funcionalidad de alternancia](../../../es/images/menus/keep-submenus-open/05-site-result.png)
 
 *Traducido por openai.com*

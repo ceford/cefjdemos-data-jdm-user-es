@@ -35,7 +35,7 @@ Después de iniciar sesión en la interfaz de Administrador:
 - Si recibe un mensaje de *La página solicitada no se puede encontrar*, inicie sesión en el Frontend y vuelva a intentarlo.
 - Para cerrar la ventana de Vista Previa seleccione el botón *X* en la esquina superior derecha.
 
-![La ventana de vista previa](../../../en/images/articles/article-preview/01-article-edit-preview.png)
+![La ventana de vista previa](../../../es/images/articles/article-preview/01-article-edit-preview.png)
 
 *Traducido por openai.com*
 

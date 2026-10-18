@@ -59,7 +59,7 @@ Por ello, es importante dedicar tiempo a elaborar títulos y títulos de página
 
 El artículo *Meta Descripción* es un campo en la pestaña *Publicar* del formulario de entrada de datos del artículo:
 
-![La pestaña de la edición del formulario del artículo publicación](../../../en/images/articles/article-metadata/01-articles-edit-publishing-tab.png)
+![La pestaña de la edición del formulario del artículo publicación](../../../es/images/articles/article-metadata/01-articles-edit-publishing-tab.png)
 
 Si no hay una descripción de metadatos del artículo, se usará una descripción de metadatos de un solo artículo en el menú si está configurada. Si no hay una descripción de metadatos en el menú, se utilizará la descripción meta global del sitio si está configurada. De lo contrario, se omitirá el campo de descripción de metadatos.
 

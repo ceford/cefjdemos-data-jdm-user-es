@@ -31,7 +31,7 @@ La propiedad *timeRequired* representa el tiempo de lectura estimado en el forma
 
 A continuación se muestra un ejemplo de un campo de esquema personalizado en un formulario de edición de artículo.
 
-![A custom schema edit form](../../../en/images/schemas/custom/01-edit-schema-custom.png)
+![A custom schema edit form](../../../es/images/schemas/custom/01-edit-schema-custom.png)
 
 *Traducido por openai.com*
 

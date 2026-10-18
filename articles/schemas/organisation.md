@@ -24,7 +24,7 @@ La sección *Generic Field* permite ingresar pares de *Title* y *Value* además 
 
 A continuación se muestra un ejemplo de un esquema de Organización en un formulario de edición de Artículo.
 
-![An organisation schema edit form](../../../en/images/schemas/organisation/01-edit-schema-organisation.png)
+![An organisation schema edit form](../../../es/images/schemas/organisation/01-edit-schema-organisation.png)
 
 *Traducido por openai.com*
 

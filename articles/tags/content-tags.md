@@ -37,7 +37,7 @@ solo determinados usuarios puedan añadir etiquetas nuevas.
 La siguiente captura de pantalla muestra etiquetas utilizadas en un sitio que contiene artículos sobre 
 sitios del Patrimonio Mundial de la UNESCO. En este caso, cada etiqueta tiene un color distintivo. 
 
-![página de lista de etiquetas](../../../en/images/tags/content-tags/01-tags-example.png)
+![página de lista de etiquetas](../../../es/images/tags/content-tags/01-tags-example.png)
 
 Cuando se crean etiquetas, se muestran como enlaces en los elementos etiquetados. 
 Los estilos y las posiciones de las etiquetas los define la plantilla del sitio. A menudo 
@@ -55,7 +55,7 @@ Esta captura de pantalla muestra etiquetas en una estructura utilizada para un s
 Cada idioma tiene una lista de etiquetas con una etiqueta de idioma como elemento principal. 
 La etiqueta principal se utiliza en los módulos *Etiquetas populares* y *Etiquetas similares*.
 
-![página de lista de etiquetas](../../../en/images/tags/content-tags/02-tags-list.png)
+![página de lista de etiquetas](../../../es/images/tags/content-tags/02-tags-list.png)
 
 Independientemente de cómo se creen las etiquetas, se pueden encontrar en esta lista.
 
@@ -64,7 +64,7 @@ Independientemente de cómo se creen las etiquetas, se pueden encontrar en esta 
 
 ### La pestaña Detalles de la etiqueta
 
-![pestaña de opciones del formulario de edición de etiquetas que muestra clases CSS de Bootstrap](../../../en/images/tags/content-tags/03-edit-tag-details-tab.png)
+![pestaña de opciones del formulario de edición de etiquetas que muestra clases CSS de Bootstrap](../../../es/images/tags/content-tags/03-edit-tag-details-tab.png)
 
 - **Título** Este es el único campo *obligatorio*. 
 - **Alias** Se crea a partir del título al guardar.
@@ -84,7 +84,7 @@ Independientemente de cómo se creen las etiquetas, se pueden encontrar en esta 
 - **Clase CSS para el enlace de la etiqueta** De forma predeterminada, las etiquetas se muestran como un botón azul. Puede introducir aquí declaraciones de clase para personalizar el aspecto de las etiquetas y asignar distintos colores a diferentes etiquetas. Ejemplo: `bg-danger-subtle border border-danger` son clases de Bootstrap que producen un botón rosa con un borde rojo.
 - **Imagen de avance e imagen completa** Establezca imágenes para la etiqueta: una imagen de avance para la lista de etiquetas o una imagen completa para la página de la etiqueta, o ambas.
 
-![pestaña de opciones del formulario de edición de etiquetas que muestra clases CSS de Bootstrap](../../../en/images/tags/content-tags/04-edit-tag-options-tab.png)
+![pestaña de opciones del formulario de edición de etiquetas que muestra clases CSS de Bootstrap](../../../es/images/tags/content-tags/04-edit-tag-options-tab.png)
 
 ### La pestaña Publicación
 
@@ -131,11 +131,11 @@ Puede manipular la lista de varias maneras:
 
 Una vez creadas las etiquetas en su sitio, estarán disponibles para utilizarlas en el contenido y en módulos como **Etiquetas populares** y **Etiquetas similares**. Los siguientes ejemplos muestran cómo podrían verse en un sitio que utiliza la plantilla predeterminada **Cassiopeia**.
 
-![etiquetas mostradas en un artículo y en los módulos de etiquetas populares y etiquetas similares](../../../en/images/tags/content-tags/05-tag-modules-site-view.png)
+![etiquetas mostradas en un artículo y en los módulos de etiquetas populares y etiquetas similares](../../../es/images/tags/content-tags/05-tag-modules-site-view.png)
 
 Al seleccionar una de las etiquetas, accederá a una página que muestra una lista de todos los elementos asignados a esa etiqueta concreta:
 
-![ejemplo de uso de etiquetas en el sitio, labrador negro](../../../en/images/tags/content-tags/06-items-with-cultural-site-tag.png)
+![ejemplo de uso de etiquetas en el sitio, labrador negro](../../../es/images/tags/content-tags/06-items-with-cultural-site-tag.png)
 
 La lista de elementos es una lista filtrada del contenido del sitio web que tiene la etiqueta seleccionada.
 Se proporciona un cuadro de filtro para facilitar la búsqueda de elementos a medida que crece la lista. 

@@ -13,7 +13,7 @@ Las pantallas de edición de artículos tienen diseños diferentes en el backend
 
 ## Captura de pantalla
 
-![La pestaña de edición de configuración](../../../en/images/articles/article-configure-edit-screen/01-articles-edit-configure-edit-screen-tab.png)
+![La pestaña de edición de configuración](../../../es/images/articles/article-configure-edit-screen/01-articles-edit-configure-edit-screen-tab.png)
 
 ## Configurar el panel de edición de pantalla
 

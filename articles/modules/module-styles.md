@@ -67,7 +67,7 @@ El encabezado del módulo ahora está en azul oscuro. Hay varias maneras de espe
 * Cambia también el borde inferior del encabezado.
 * Aplica este estilo a varios módulos en lugar de uno a la vez
 
-![Ejemplo de Módulo de Artículos Archivados](../../../en/images/modules/module-styles/01-modules-site-message.png)
+![Ejemplo de Módulo de Artículos Archivados](../../../es/images/modules/module-styles/01-modules-site-message.png)
 
 *Traducido por openai.com*
 

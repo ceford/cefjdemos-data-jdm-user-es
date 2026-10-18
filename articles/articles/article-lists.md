@@ -40,7 +40,7 @@ Hay tres estilos disponibles:
 
 El cheurón hacia abajo a la derecha del icono de lista con viñetas abre un pequeño panel que permite seleccionar el estilo preferido para un elemento de la lista seleccionado:
 
-![Herramientas para manipular listas con viñetas](../../../en/images/articles/article-lists/01-articles-edit-list-bullets.png)
+![Herramientas para manipular listas con viñetas](../../../es/images/articles/article-lists/01-articles-edit-list-bullets.png)
 
 El icono de lista actúa como un interruptor. Si el cursor está en un párrafo y se selecciona una viñeta, el párrafo se convierte en un elemento de lista. Si se selecciona la viñeta nuevamente, el elemento de lista vuelve a ser un párrafo.
 
@@ -67,7 +67,7 @@ Hay seis estilos disponibles
 - Letras mayúsculas: A, B, C ...
 - Números romanos en mayúsculas: I, II, III ...
 
-![Herramientas para manipular listas numeradas](../../../en/images/articles/article-lists/02-articles-edit-list-numbers.png)
+![Herramientas para manipular listas numeradas](../../../es/images/articles/article-lists/02-articles-edit-list-numbers.png)
 
 Las listas numeradas funcionan de manera un poco diferente. Cuando un elemento de la lista tiene sangría, toma el primer valor numérico y los números en el resto de la lista suben, de modo que la lista siempre esté en el orden numérico correcto.
 

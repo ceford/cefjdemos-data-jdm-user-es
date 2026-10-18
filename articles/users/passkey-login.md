@@ -35,7 +35,7 @@ La siguiente imagen muestra un dispositivo de hardware insertado en el puerto US
 
 El inicio de sesión con clave de acceso utiliza un complemento del sistema que está habilitado de forma predeterminada. En las pantallas de inicio de sesión predeterminadas de Joomla 4 y posteriores aparecerá un botón **Iniciar sesión con clave de acceso**, como se muestra en la pantalla de inicio de sesión del administrador:
 
-![formulario de inicio de sesión seguro del administrador](../../../en/images/users/passkey-login/02-login-form.png)
+![formulario de inicio de sesión seguro del administrador](../../../es/images/users/passkey-login/02-login-form.png)
 
 ## Configuración del usuario
 
@@ -50,7 +50,7 @@ La presentación exacta del siguiente paso depende de su navegador. Normalmente,
 
 Una vez que desbloquee su autenticador —tocando un botón, escaneando su huella dactilar o rostro, introduciendo un PIN o una combinación de lo anterior, según su autenticador—, el mensaje desaparecerá, el autenticador se registrará y la pantalla aparecerá de la siguiente manera:
 
-![autenticador registrado del inicio de sesión seguro del administrador](../../../en/images/users/passkey-login/04-registered-authenticator.png)
+![autenticador registrado del inicio de sesión seguro del administrador](../../../es/images/users/passkey-login/04-registered-authenticator.png)
 
 Es muy importante tener en cuenta que solo puede registrar o eliminar autenticadores en su propia cuenta de usuario. Por motivos de seguridad, ni siquiera un superusuario puede registrar, editar o añadir autenticadores en las cuentas de otros usuarios.
 

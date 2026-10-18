@@ -56,7 +56,7 @@ Cuando estés listo, selecciona el botón **Guardar y Cerrar**.
 El módulo se publicará en la barra lateral del sitio web y mostrará una
 lista de enlaces según el número de meses a mostrar establecido en el módulo.
 
-![Ejemplo de Módulo de Artículos Archivados](../../../en/images/modules/articles-archived-module/01-modules-archived-articles.png)
+![Ejemplo de Módulo de Artículos Archivados](../../../es/images/modules/articles-archived-module/01-modules-archived-articles.png)
 
 ## Consejos
 

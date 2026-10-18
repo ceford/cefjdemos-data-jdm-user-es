@@ -21,7 +21,7 @@ Los parámetros comunes de los campos se describen en un artículo separado.
 * **Etiqueta** Esto es lo que se muestra en la salida. Si se deja vacío, se establece
 a partir del contenido del campo Título, pero se puede cambiar.
 
-![creación del campo de vídeo](../../../en/images/fields/adding-custom-fields-video-field/01-fields-video-edit.png)
+![creación del campo de vídeo](../../../es/images/fields/adding-custom-fields-video-field/01-fields-video-edit.png)
 
 **Nota:** En este ejemplo, la inclusión del tipo de campo en el Título es solo para
 fines demostrativos. No lo incluya en los títulos de sus propios campos.
@@ -33,7 +33,7 @@ selector de archivos multimedia.
 
 La siguiente captura de pantalla muestra un archivo de audio seleccionado:
 
-![introducción de datos del campo de vídeo](../../../en/images/fields/adding-custom-fields-video-field/02-fields-video-data-entry.png)
+![introducción de datos del campo de vídeo](../../../es/images/fields/adding-custom-fields-video-field/02-fields-video-data-entry.png)
 
 Los campos solo aparecen en un artículo si se han rellenado en el formulario de introducción de datos del artículo.
 
@@ -43,6 +43,6 @@ La siguiente captura de pantalla del sitio muestra el campo en un artículo. La
 opción *Visualización automática* es responsable de la posición del campo y
 su plantilla es responsable del diseño del campo.
 
-![visualización del campo de vídeo en el sitio](../../../en/images/fields/adding-custom-fields-video-field/03-fields-video-site.png)
+![visualización del campo de vídeo en el sitio](../../../es/images/fields/adding-custom-fields-video-field/03-fields-video-site.png)
 
 *Traducido por openai.com*

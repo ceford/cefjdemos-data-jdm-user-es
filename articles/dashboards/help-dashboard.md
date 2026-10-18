@@ -13,7 +13,7 @@ La pantalla de Ayuda no se titula como un Tablero, pero tiene todas las caracter
 
 ## Captura de pantalla
 
-![Panel de ayuda](../../../en/images/dashboards/help-dashboard/01-help-dashboard.png)
+![Panel de ayuda](../../../es/images/dashboards/help-dashboard/01-help-dashboard.png)
 
 *Traducido por openai.com*
 

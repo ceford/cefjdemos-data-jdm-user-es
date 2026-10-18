@@ -15,7 +15,7 @@ El campo numérico proporciona un método para introducir un número real con la
 
 ### Pestaña General
 
-![Creación de campo numérico](../../../en/images/fields/adding-custom-fields-number-field/01-fields-number-edit.png
+![Creación de campo numérico](../../../es/images/fields/adding-custom-fields-number-field/01-fields-number-edit.png
 )
 
 - **Tipo** Número, que no se puede cambiar después de seleccionarlo.
@@ -65,7 +65,7 @@ El contenido de estas pestañas es evidente y se trata en otra sección.## Entra
 
 Entrada de datos: simplemente escriba el valor que desee. Este ejemplo muestra el punto de ebullición del argón:
 
-![Entrada de datos del campo numérico](../../../en/images/fields/adding-custom-fields-number-field/02-fields-number-data-entry.png
+![Entrada de datos del campo numérico](../../../es/images/fields/adding-custom-fields-number-field/02-fields-number-data-entry.png
 )
 
 **Advertencia:** si el número que introduce está fuera del rango mínimo y máximo establecido en las opciones de creación del campo, una etiqueta flotante del navegador se lo indicará, pero la información proporcionada no se aplica de forma obligatoria. Puede introducir un número fuera del rango y se aceptará.
@@ -74,7 +74,7 @@ Entrada de datos: simplemente escriba el valor que desee. Este ejemplo muestra e
 
 La siguiente imagen muestra la visualización de un elemento con un valor negativo:
 
-![Visualización del campo numérico en el sitio](../../../en/images/fields/adding-custom-fields-number-field/03-fields-number-site.png
+![Visualización del campo numérico en el sitio](../../../es/images/fields/adding-custom-fields-number-field/03-fields-number-site.png
 )
 
 *Traducido por openai.com*

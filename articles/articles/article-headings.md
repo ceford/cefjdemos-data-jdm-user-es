@@ -45,7 +45,7 @@ Abre el artículo que deseas editar. Observa que el contenedor de texto predeter
 - En la parte inferior de la pantalla, el indicador de contenedor mostrará HX.
 - Puedes hacer doble clic en cualquier texto seleccionado para realizar un cambio rápido, por ejemplo, de P a H2 (alternar) o de H2 a H3 usando una barra emergente como en la captura de pantalla a continuación:
 
-![formulario de edición de artículos con h3 seleccionado](../../../en/images/articles/article-headings/01-articles-edit-headings.png)
+![formulario de edición de artículos con h3 seleccionado](../../../es/images/articles/article-headings/01-articles-edit-headings.png)
 
 Nota: por convención, todas las etiquetas HTML utilizan letras minúsculas. Si seleccionas el botón *Editor de Alternancia* para ver el código fuente, verás los párrafos y títulos establecidos en etiquetas con letras minúsculas.
 

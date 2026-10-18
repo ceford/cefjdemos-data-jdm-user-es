@@ -13,7 +13,7 @@ El Panel de Control de Contenidos se accede a través del icono a la derecha del
 
 ## Captura de pantalla
 
-![Tablero de contenido](../../../en/images/dashboards/content-dashboard/01-content-dashboard.png)
+![Tablero de contenido](../../../es/images/dashboards/content-dashboard/01-content-dashboard.png)
 
 *Traducido por openai.com*
 

@@ -37,7 +37,7 @@ La sección *Campo Genérico* permite ingresar pares de *Título* y *Valor* adem
 
 A continuación se muestra un ejemplo de un esquema de Receta en un formulario de edición de Artículo.
 
-![A recipe schema edit form](../../../en/images/schemas/recipe/01-edit-schema-recipe.png)
+![A recipe schema edit form](../../../es/images/schemas/recipe/01-edit-schema-recipe.png)
 
 *Traducido por openai.com*
 
