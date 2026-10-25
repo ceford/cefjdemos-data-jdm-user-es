@@ -11,11 +11,11 @@
 
 Hay un módulo *Feed Display* central disponible para mostrar noticias de otros sitios. La siguiente captura de pantalla muestra el formulario de entrada de datos con la URL del feed de noticias de Anuncios de Joomla. Observe que el Contador de Palabras está establecido en 100. De lo contrario, la longitud de un anuncio podría ser excesiva para un módulo de barra lateral.
 
-![Entrada de datos del módulo de visualización de feeds](../../../en/images/news-feeds/news-display/01-news-joomla-news-form.png)
+![Entrada de datos del módulo de visualización de feeds](../../../es/images/news-feeds/news-display/01-news-joomla-news-form.png)
 
 El resultado puede ser poco atractivo, pero se puede mejorar con algunos estilos personalizados en user.css:
 
-![Entrada de datos del módulo de visualización de feeds](../../../en/images/news-feeds/news-display/02-news-joomla-news-display.png)
+![Entrada de datos del módulo de visualización de feeds](../../../es/images/news-feeds/news-display/02-news-joomla-news-display.png)
 
 ## Páginas de Visualización de Fuentes
 
@@ -29,7 +29,7 @@ Como alternativa a la visualización de noticias en un módulo, puedes crear un 
   - La pestaña **Opciones** tiene elementos para controlar la *Visualización* de la fuente.
 * **Guardar & Cerrar**
 
-![Entrada de datos del componente de fuente de noticias](../../../en/images/news-feeds/news-display/03-news-feed-data-entry.png)
+![Entrada de datos del componente de fuente de noticias](../../../es/images/news-feeds/news-display/03-news-feed-data-entry.png)
 
 Crea un elemento de menú comenzando desde el menú del Administrador:
 
@@ -39,7 +39,7 @@ Crea un elemento de menú comenzando desde el menú del Administrador:
 * Completa el resto del formulario según sea apropiado.
 * **Guardar & Cerrar**
 
-![Entrada de datos del elemento de menú de fuente de noticias](../../../en/images/news-feeds/news-display/04-news-feed-menu-form.png)
+![Entrada de datos del elemento de menú de fuente de noticias](../../../es/images/news-feeds/news-display/04-news-feed-menu-form.png)
 
 Pruébalo: ve al menú del Sitio y selecciona el elemento de menú de la Fuente.
 
@@ -61,13 +61,13 @@ ul.com-newsfeeds-newsfeed__items > li {
 ```
 Que aparecerá así:
 
-![Visualización personalizada de la fuente de noticias](../../../en/images/news-feeds/news-display/06-news-feed-custom-display.png)
+![Visualización personalizada de la fuente de noticias](../../../es/images/news-feeds/news-display/06-news-feed-custom-display.png)
 
 ## Listar fuentes de noticias en una categoría
 
 La página *Fuentes de noticias RSS de Joomla!* enumera ocho fuentes de noticias separadas. Podrías crear una fuente para algunas o todas ellas y asignarlas a una categoría, digamos *Noticias de Joomla*. Luego, puedes crear un elemento de menú con el *Tipo de elemento de menú* configurado en *Listar fuentes de noticias en una categoría* y la categoría configurada en *Noticias de Joomla*.
 
-![Formulario de menú de fuente de noticias por categoría](../../../en/images/news-feeds/news-display/07-news-feed-menu-category-form.png)
+![Formulario de menú de fuente de noticias por categoría](../../../es/images/news-feeds/news-display/07-news-feed-menu-category-form.png)
 
 ¡Inténtalo para ver el resultado!
 *Traducido por openai.com*
